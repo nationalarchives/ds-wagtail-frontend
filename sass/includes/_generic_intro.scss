@@ -1,13 +1,13 @@
-.explorer-header {
+.generic-intro {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: $very-dark-grey;
     color: $white;
-    .explorer-header__title {
+    &__title {
         margin-top: 0;
         font-size: 4em;
         font-weight: 400;
-        @media (max-width: $screen-sm) {
+        @media (max-width: $screen-md) {
             font-size: 2.5em;
         }
     }

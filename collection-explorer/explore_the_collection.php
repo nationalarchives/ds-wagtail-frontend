@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php $page_title = "Explore the collection" ?>
+<?php
+
+$content = array(
+    "page_title" => "Explore the collection",
+    "generic_intro_text" => "The National Archives holds over 24 million records relating to Britain and British history."
+);
+
+?>
 
 <?php require '../includes/head.php' ?>
 
@@ -10,21 +17,7 @@
 <?php require '../includes/header.php' ?>
 
 <main>
-    <div class="explorer-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumbs">
-                        <a class="breadcrumbs__link" href="/">Home</a>
-                        <span class="breadcrumbs__seperator"> > </span>
-                        <span class="breadcrumbs__current"><?php echo $page_title ?></span>
-                    </div>
-                    <h1 class="explorer-header__title"><?php echo $page_title ?></h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <?php require '../includes/generic_intro.php' ?>
     <div class="container">
         <div class="row">
             <div class="col-md-10" id="content">
