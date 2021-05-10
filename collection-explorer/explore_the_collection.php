@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php
-
-$content = array(
-    "page_title" => "Explore the collection",
-    "generic_intro_text" => "The National Archives holds over 24 million records relating to Britain and British history."
-);
-
-$breadcrumbs = [["Home", "/"], [$content['page_title'], null]];
-$breadcrumbs_modifier = '--white';
-
-?>
+<?php require '../data/explore_the_collection_data.php' ?>
 
 <?php require '../includes/head.php' ?>
 
 <body class="template-homepage">
 
 <?php require '../includes/header.php' ?>
-<?php require '../includes/functions.php' ?>
-
 
 <main>
     <?php require '../includes/generic_intro.php' ?>

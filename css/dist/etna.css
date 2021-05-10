@@ -6,7 +6,8 @@
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0; }
+  border: 0;
+}
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
@@ -14,62 +15,76 @@
   height: auto;
   margin: 0;
   overflow: visible;
-  clip: auto; }
+  clip: auto;
+}
 
 .generic-intro {
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #26262a;
-  color: #fff; }
+  color: #fff;
+}
+.generic-intro__title {
+  margin-top: 0;
+  font-size: 4em;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
   .generic-intro__title {
-    margin-top: 0;
-    font-size: 4em;
-    font-weight: 400; }
-    @media (max-width: 768px) {
-      .generic-intro__title {
-        font-size: 2.5em; } }
+    font-size: 2.5em;
+  }
+}
 
 .breadcrumbs .breadcrumbs__list {
   list-style-type: none;
-  padding-left: 0; }
-  .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item {
-    display: inline-block;
-    position: relative;
-    margin-left: 12px; }
-    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child {
-      margin-left: 0; }
-      .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child::before {
-        content: none; }
-    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 3px;
-      bottom: 0px;
-      left: -13px;
-      width: 7px;
-      height: 7px;
-      margin: auto 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-      border: solid;
-      border-top-color: currentcolor;
-      border-top-width: medium;
-      border-right-color: currentcolor;
-      border-right-width: medium;
-      border-bottom-color: currentcolor;
-      border-bottom-width: medium;
-      border-left-color: currentcolor;
-      border-left-width: medium;
-      border-width: 1px 1px 0 0; }
-    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white:hover {
-      text-decoration: underline; }
-    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white {
-      color: #fff; }
-    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
-      text-decoration: none; }
-      .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
-        color: #fff; }
+  padding-left: 0;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item {
+  display: inline-block;
+  position: relative;
+  margin-left: 12px;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child {
+  margin-left: 0;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child::before {
+  content: none;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  bottom: 0px;
+  left: -13px;
+  width: 7px;
+  height: 7px;
+  margin: auto 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border: solid;
+  border-top-color: currentcolor;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-width: medium;
+  border-width: 1px 1px 0 0;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white:hover {
+  text-decoration: underline;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white {
+  color: #fff;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
+  text-decoration: none;
+}
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
+  color: #fff;
+}
 
 /*# sourceMappingURL=etna.css.map */
