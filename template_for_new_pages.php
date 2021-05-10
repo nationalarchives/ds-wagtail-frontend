@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php $page_title = "Provide a page title" ?>
+<?php
+
+$content = array(
+    "page_title" => "Explore the collection",
+    "generic_intro_text" => "The National Archives holds over 24 million records relating to Britain and British history."
+);
+
+?>
 
 <?php require 'includes/head.php' ?>
 
@@ -13,7 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10" id="content">
-                <h1><?php echo $page_title ?></h1>
+                <h1><?php echo $content['page_title'] ?></h1>
             </div>
         </div>
     </div>
