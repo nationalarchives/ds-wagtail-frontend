@@ -15,6 +15,7 @@ All developers should follow these principles when working with this repository:
     <dt>Follow the <a href="https://github.com/nationalarchives/front-end-development-guide">development guide</a></dt>
     <dd>
         <p>Keep the development guide in mind, including the <a href="https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna">practical application of progressive enhancement</a> - journeys being met with reliance upon only HTML and HTTP. Once this is in place we apply design, layout and other enhancements as non-breaking changes to the underlying journey.</p>
+        <p>All code must have been tested for <strong>WCAG 2.1 compliance at Level AA</strong> before it is merged.</p>
         </dd>
     <dt>The main branch is for production ready code only<dt>
     <dd>
