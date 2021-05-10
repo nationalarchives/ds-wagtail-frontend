@@ -20,18 +20,14 @@
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #26262a;
-  color: #fff;
-}
-.generic-intro__title {
-  margin-top: 0;
-  font-size: 4em;
-  font-weight: 400;
-}
-@media (max-width: 768px) {
+  color: #fff; }
   .generic-intro__title {
-    font-size: 2.5em;
-  }
-}
+    margin-top: 0;
+    font-size: 4em;
+    font-weight: 400; }
+    @media (max-width: 768px) {
+      .generic-intro__title {
+        font-size: 2.5em; } }
 
 .breadcrumbs .breadcrumbs__list {
   list-style-type: none;

@@ -8,6 +8,9 @@ $content = array(
     "generic_intro_text" => "The National Archives holds over 24 million records relating to Britain and British history."
 );
 
+$breadcrumbs = [["Home", "/"], [$content['page_title'], null]];
+$breadcrumbs_modifier = '--white';
+
 ?>
 
 <?php require '../includes/head.php' ?>
