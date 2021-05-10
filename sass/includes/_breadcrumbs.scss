@@ -1,6 +1,6 @@
 .breadcrumbs {
     .breadcrumbs__link, .breadcrumbs__separator, .breadcrumbs__current {
-        color: #fff;
+        color: $white;
     }
     .breadcrumbs__link:hover {
         text-decoration: underline;
