@@ -8,8 +8,7 @@
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
-}
+  border: 0; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
@@ -17,86 +16,74 @@
   height: auto;
   margin: 0;
   overflow: visible;
-  clip: auto;
-}
+  clip: auto; }
 
 .skip-to-content-link {
   background-color: #ffffff;
-  padding: 0.2em;
-}
+  padding: .2em; }
 
 .generic-intro {
   padding-top: 1em;
-  padding-bottom: 1em;
-}
-.generic-intro--dark {
-  background-color: #26262a;
-  color: #ffffff;
-}
-.generic-intro--dark a {
-  color: #ffffff;
-}
-.generic-intro__title {
-  margin-top: 0;
-  font-size: 4em;
-  font-weight: 400;
-}
-@media (max-width: 768px) {
+  padding-bottom: 1em; }
+  .generic-intro--dark {
+    background-color: #26262a;
+    color: #ffffff; }
+    .generic-intro--dark a {
+      color: #ffffff; }
   .generic-intro__title {
-    font-size: 2.5em;
-  }
-}
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4em; }
+    @media (max-width: 768px) {
+      .generic-intro__title {
+        font-size: 2.5em; } }
 
 .breadcrumbs .breadcrumbs__list {
   list-style-type: none;
-  padding-left: 0;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item {
-  display: inline-block;
-  position: relative;
-  margin-left: 12px;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child {
-  margin-left: 0;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child::before {
-  content: none;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 3px;
-  bottom: 0;
-  left: -13px;
-  width: 7px;
-  height: 7px;
-  margin: auto 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border: 1px solid currentcolor;
-  border-bottom-width: 0;
-  border-left-width: 0;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover {
-  text-decoration: underline;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current {
-  text-decoration: none;
-}
+  padding-left: 0; }
+  .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item {
+    display: inline-block;
+    position: relative;
+    margin-left: 12px; }
+    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child {
+      margin-left: 0; }
+      .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item:first-child::before {
+        content: none; }
+    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 3px;
+      bottom: 0;
+      left: -13px;
+      width: 7px;
+      height: 7px;
+      margin: auto 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      border: 1px solid currentcolor;
+      border-bottom-width: 0;
+      border-left-width: 0; }
+    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover {
+      text-decoration: underline; }
+    .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current {
+      text-decoration: none; }
 
 .tna-header__logo--beta {
-  max-width: 143px;
-}
+  max-width: 143px; }
 
 a:focus {
   outline: 5px solid #1d70b8;
-  outline-offset: 0.2em;
-}
+  outline-offset: 0.2em; }
 
 [class*="--dark"] a:focus {
-  outline: 5px solid #8EC0EC;
-}
+  outline: 5px solid #8EC0EC; }
+
+h1, h2 {
+  font-weight: 400; }
+
+h2 {
+  font-size: 2em; }
 
 /*# sourceMappingURL=etna.css.map */
