@@ -22,8 +22,6 @@
 
 <?php require '../includes/footer.php' ?>
 
-<script type="text/javascript" src="/static/js/etna.js"></script>
-
 </body>
 </html>
 
