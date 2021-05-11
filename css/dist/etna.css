@@ -21,7 +21,12 @@
 .generic-intro {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+.generic-intro--dark {
   background-color: #26262a;
+  color: #fff;
+}
+.generic-intro--dark a {
   color: #fff;
 }
 .generic-intro__title {
@@ -70,14 +75,8 @@
 .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover {
   text-decoration: underline;
 }
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white {
-  color: #fff;
-}
 .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current {
   text-decoration: none;
-}
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
-  color: #fff;
 }
 
 /*# sourceMappingURL=etna.css.map */

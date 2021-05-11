@@ -1,14 +1,22 @@
 .generic-intro {
-    padding-top: 1em;
-    padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  &--dark {
     background-color: $very-dark-grey;
     color: $white;
-    &__title {
-        margin-top: 0;
-        font-size: 4em;
-        font-weight: 400;
-        @media (max-width: $screen-md) {
-            font-size: 2.5em;
-        }
+
+    a {
+      color: $white;
     }
+  }
+
+  &__title {
+    margin-top: 0;
+    font-size: 4em;
+    font-weight: 400;
+    @media (max-width: $screen-md) {
+      font-size: 2.5em;
+    }
+  }
 }

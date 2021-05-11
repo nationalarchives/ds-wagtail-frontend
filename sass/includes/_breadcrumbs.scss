@@ -39,17 +39,10 @@
                 &:hover {
                     text-decoration: underline;
                 }
-
-                &--white {
-                    color: $white;
-                }
             }
 
             .breadcrumbs__current {
                 text-decoration: none;
-                &--white {
-                    color: $white;
-                }
             }
 
         }

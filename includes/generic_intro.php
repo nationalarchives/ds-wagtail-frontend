@@ -1,4 +1,4 @@
-<div class="generic-intro">
+<div class="generic-intro generic-intro--dark">
     <div class="container">
         <div class="row">
             <div class="col-12">
