@@ -14,6 +14,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10" id="content">
+                <h2>Explore by topic</h2>
+                <p>Discover highlights of The National Archives collections.</p>
             </div>
         </div>
     </div>
