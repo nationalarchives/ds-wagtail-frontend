@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-12">
                 <?php require '../includes/breadcrumbs.php' ?>
-                <h1 class="generic-intro__title"><?= $content['page_title'] ?></h1>
-                <p><?= $content['generic_intro_text'] ?></p>
+                <h1 class="generic-intro__title"><?= $generic_intro['heading'] ?></h1>
+                <p><?= $generic_intro['text']  ?></p>
             </div>
         </div>
     </div>
