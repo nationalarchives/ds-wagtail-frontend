@@ -5,6 +5,9 @@
 
 <?php require '../includes/head.php' ?>
 
+<?php require '../includes/functions.php' ?>
+
+
 <body>
 
 <?php require '../includes/header.php' ?>
@@ -16,6 +19,11 @@
             <div class="col-md-10" id="content">
                 <h2>Explore by topic</h2>
                 <p>Discover highlights of The National Archives collections.</p>
+                <?php render_nav_cards($topic_card_data); ?>
+
+                <h2>Explore by time</h2>
+                <p>Discover highlights of The National Archives collections.</p>
+                <?php render_nav_cards($time_card_data); ?>
             </div>
         </div>
     </div>
