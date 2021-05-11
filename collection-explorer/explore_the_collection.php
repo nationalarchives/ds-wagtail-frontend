@@ -5,7 +5,7 @@
 
 <?php require '../includes/head.php' ?>
 
-<body class="template-homepage">
+<body>
 
 <?php require '../includes/header.php' ?>
 
