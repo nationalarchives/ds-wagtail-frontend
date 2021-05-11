@@ -1,3 +1,5 @@
+/* Fonts */
+/* Colours */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -18,16 +20,21 @@
   clip: auto;
 }
 
+.skip-to-content-link {
+  background-color: #ffffff;
+  padding: 0.2em;
+}
+
 .generic-intro {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 .generic-intro--dark {
   background-color: #26262a;
-  color: #fff;
+  color: #ffffff;
 }
 .generic-intro--dark a {
-  color: #fff;
+  color: #ffffff;
 }
 .generic-intro__title {
   margin-top: 0;
@@ -81,6 +88,15 @@
 
 .tna-header__logo--beta {
   max-width: 143px;
+}
+
+a:focus {
+  outline: 5px solid #1d70b8;
+  outline-offset: 0.2em;
+}
+
+[class*="--dark"] a:focus {
+  outline: 5px solid #8EC0EC;
 }
 
 /*# sourceMappingURL=etna.css.map */

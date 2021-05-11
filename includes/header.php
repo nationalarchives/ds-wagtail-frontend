@@ -1,3 +1,4 @@
+<a href="#maincontent" class="skip-to-content-link sr-only sr-only-focusable">Skip to main content</a>
 <header class="tna-header">
     <div class="container">
         <div class="row">

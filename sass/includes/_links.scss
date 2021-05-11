@@ -1,0 +1,14 @@
+a {
+  &:focus {
+    outline: 5px solid $color__focus-blue-outline-light-bg;
+    outline-offset: 0.2em;
+  }
+}
+
+[class*="--dark"] {
+  a {
+    &:focus {
+      outline: 5px solid $color__focus-blue-outline-dark-bg;
+    }
+  }
+}

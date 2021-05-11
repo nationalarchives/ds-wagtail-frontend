@@ -3,11 +3,11 @@
   padding-bottom: 1em;
 
   &--dark {
-    background-color: $very-dark-grey;
-    color: $white;
+    background-color: $color__grey-dark;
+    color: $color__white;
 
     a {
-      color: $white;
+      color: $color__white;
     }
   }
 
@@ -15,7 +15,7 @@
     margin-top: 0;
     font-size: 4em;
     font-weight: 400;
-    @media (max-width: $screen-md) {
+    @media (max-width: $screen__md) {
       font-size: 2.5em;
     }
   }

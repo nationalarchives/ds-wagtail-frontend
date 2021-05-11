@@ -9,7 +9,7 @@
 
 <?php require '../includes/header.php' ?>
 
-<main>
+<main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
     <div class="container">
         <div class="row">
