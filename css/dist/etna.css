@@ -55,7 +55,7 @@
   display: block;
   position: absolute;
   top: 3px;
-  bottom: 0px;
+  bottom: 0;
   left: -13px;
   width: 7px;
   height: 7px;
@@ -63,24 +63,17 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  border: solid;
-  border-top-color: currentcolor;
-  border-top-width: medium;
-  border-right-color: currentcolor;
-  border-right-width: medium;
-  border-bottom-color: currentcolor;
-  border-bottom-width: medium;
-  border-left-color: currentcolor;
-  border-left-width: medium;
-  border-width: 1px 1px 0 0;
+  border: 1px solid currentcolor;
+  border-bottom-width: 0;
+  border-left-width: 0;
 }
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white:hover {
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link:hover {
   text-decoration: underline;
 }
 .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__link--white {
   color: #fff;
 }
-.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current, .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current {
   text-decoration: none;
 }
 .breadcrumbs .breadcrumbs__list .breadcrumbs__list-item .breadcrumbs__current--white {

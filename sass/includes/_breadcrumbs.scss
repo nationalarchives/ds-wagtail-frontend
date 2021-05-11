@@ -21,7 +21,7 @@
                 display: block;
                 position: absolute;
                 top: 3px;
-                bottom: 0px;
+                bottom: 0;
                 left: -13px;
                 width: 7px;
                 height: 7px;
@@ -29,16 +29,9 @@
                 -webkit-transform: rotate(45deg);
                 -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-                border: solid;
-                border-top-color: currentcolor;
-                border-top-width: medium;
-                border-right-color: currentcolor;
-                border-right-width: medium;
-                border-bottom-color: currentcolor;
-                border-bottom-width: medium;
-                border-left-color: currentcolor;
-                border-left-width: medium;
-                border-width: 1px 1px 0 0;
+                border: 1px solid currentcolor;
+                border-bottom-width: 0;
+                border-left-width: 0;
             }
 
             .breadcrumbs__link {
@@ -46,18 +39,16 @@
                 &:hover {
                     text-decoration: underline;
                 }
-        
+
                 &--white {
-                    @extend .breadcrumbs__link;
-                    color: #fff;
+                    color: $white;
                 }
             }
-        
+
             .breadcrumbs__current {
                 text-decoration: none;
                 &--white {
-                    @extend .breadcrumbs__current;
-                    color: #fff;
+                    color: $white;
                 }
             }
 
