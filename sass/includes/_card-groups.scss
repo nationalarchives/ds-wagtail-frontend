@@ -28,6 +28,7 @@
 
       &__image {
         @extend .tna-card__image;
+        border: 1px solid #000;
       }
 
       display: inline-block;

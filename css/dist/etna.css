@@ -115,6 +115,8 @@ h2 {
         text-decoration: none; }
     .card-group-secondary-nav__link:hover, .card-group-secondary-nav__link:focus {
       color: #fff; }
+  .card-group-secondary-nav__image {
+    border: 1px solid #000; }
   @media only screen and (min-width: 992px) {
     .card-group-secondary-nav {
       display: block; } }
