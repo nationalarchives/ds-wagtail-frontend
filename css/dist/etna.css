@@ -86,26 +86,37 @@ h1, h2 {
 h2 {
   font-size: 2em; }
 
+.tna-card__link, .card-group-secondary-nav__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-decoration: none; }
+  .tna-card__link h2, .card-group-secondary-nav__link h2, .tna-card__link h3, .card-group-secondary-nav__link h3, .tna-card__link h4, .card-group-secondary-nav__link h4 {
+    text-decoration: underline; }
+  .tna-card__link:hover h2, .card-group-secondary-nav__link:hover h2, .tna-card__link:hover h3, .card-group-secondary-nav__link:hover h3, .tna-card__link:hover h4, .card-group-secondary-nav__link:hover h4 {
+    text-decoration: none; }
+.tna-card__image, .card-group-secondary-nav__image {
+  overflow: hidden;
+  max-height: 164px; }
+
 .card-group-secondary-nav {
   display: inline-block; }
+  .card-group-secondary-nav__link {
+    color: #000;
+    max-width: 272px; }
+    .card-group-secondary-nav__link:visited {
+      color: #000; }
+    .card-group-secondary-nav__link:hover {
+      outline: 5px solid #134571;
+      background: #134571; }
+    .card-group-secondary-nav__link:focus {
+      background: #1d70b8; }
+      .card-group-secondary-nav__link:focus h2, .card-group-secondary-nav__link:focus h3, .card-group-secondary-nav__link:focus h4 {
+        text-decoration: none; }
+    .card-group-secondary-nav__link:hover, .card-group-secondary-nav__link:focus {
+      color: #fff; }
   @media only screen and (min-width: 992px) {
     .card-group-secondary-nav {
       display: block; } }
-  .card-group-secondary-nav__link {
-    position: relative;
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    color: #000; }
-    .card-group-secondary-nav__link h2, .card-group-secondary-nav__link h3, .card-group-secondary-nav__link h4 {
-      text-decoration: underline; }
-    .card-group-secondary-nav__link:hover p, .card-group-secondary-nav__link:visited p {
-      color: #000; }
-    .card-group-secondary-nav__link:hover h2, .card-group-secondary-nav__link:hover h3, .card-group-secondary-nav__link:hover h4, .card-group-secondary-nav__link:visited h2, .card-group-secondary-nav__link:visited h3, .card-group-secondary-nav__link:visited h4 {
-      color: #000;
-      text-decoration: underline; }
-  .card-group-secondary-nav__image {
-    overflow: hidden;
-    max-height: 164px; }
 
 /*# sourceMappingURL=etna.css.map */
