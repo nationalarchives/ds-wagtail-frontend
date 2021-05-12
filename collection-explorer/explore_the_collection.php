@@ -5,8 +5,35 @@
 
 <?php require '../includes/head.php' ?>
 
-<?php require '../includes/functions.php' ?>
+<?php
+function render_nav_cards($card_list) {
+    $amount_of_cards = count($card_list);
+    $card_number = 0;
 
+    foreach ($card_list as $card_title => $card_values) {
+
+        // These are used by the include below.
+        $card_description = $card_values["description"];
+        $card_url = $card_values["url"];
+        $card_image = $card_values["image"];
+
+        $card_number++;
+
+        if($card_number == 1) {
+            echo "<div class='row'>";
+        }
+
+        include "../includes/card-group-secondary-nav.php";
+
+        // End the row on the last card.
+        if($card_number == $amount_of_cards) {
+            echo"</div>" ;
+        }
+
+    }
+}
+
+?>
 
 <body>
 
