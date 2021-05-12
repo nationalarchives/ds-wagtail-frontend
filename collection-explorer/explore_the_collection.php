@@ -19,6 +19,7 @@ function render_nav_cards($card_list) {
 
         $card_number++;
 
+        // Open row on first card
         if($card_number == 1) {
             echo "<div class='row'>";
         }
