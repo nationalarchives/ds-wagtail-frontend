@@ -21,7 +21,7 @@ function render_nav_cards($card_list) {
         }
 
         $output = $output . <<<HTML
-                            <div class="col-md-12 col-lg-4">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
                                 <article class="card-group-secondary-nav">
                                     <a href="$card_url" class="card-group-secondary-nav__link">
                                         <div class="card-group-secondary-nav__image">
@@ -39,14 +39,10 @@ function render_nav_cards($card_list) {
 
 
         // End the row every 3 cards, or on the last card.                    
-        if($card_number % 3 == 0 || $card_number == $amount_of_cards) {
+        if($card_number == $amount_of_cards) {
             $output = $output . $row_end_html ;
         }
 
-        // If not the last card, start a new row.
-        if($card_number % 3 == 0 && $card_number != $amount_of_cards)  {
-            $output = $output . $row_start_html ;
-        }
 
 
     }
