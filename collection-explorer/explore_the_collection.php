@@ -44,12 +44,12 @@ function render_nav_cards($card_list) {
     <div class="container">
         <div class="row">
             <div class="col-md-10" id="content">
-                <h2>Explore by topic</h2>
-                <p>Discover highlights of The National Archives collections.</p>
+                <h2><?php echo $page["topic_heading"] ?></h2>
+                <p><?php echo $page["topic_description"] ?></p>
                 <?php render_nav_cards($topic_card_data); ?>
 
-                <h2>Explore by time</h2>
-                <p>Discover highlights of The National Archives collections.</p>
+                <h2><?php echo $page["time_heading"] ?></h2>
+                <p><?php echo $page["time_description"] ?></p>
                 <?php render_nav_cards($time_card_data); ?>
             </div>
         </div>

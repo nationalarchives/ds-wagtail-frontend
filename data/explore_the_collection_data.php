@@ -2,6 +2,10 @@
 
 $page = [
     "title" => "Explore the collection",
+    "topic_heading" => "Explore by topic",
+    "topic_description" => "Discover highlights of The National Archives’ collections.",
+    "time_heading" => "Explore by heading",
+    "time_description" => "The National Archives contains over 1,000 years of British historical records. Select a time period to start exploring."
 ];
 
 $generic_intro = [
