@@ -1,9 +1,11 @@
 <?php require '../data/explore_the_collection_data.php' ?>
-<?php require '../includes/head.php' ?>
 <?php require '../functions.php' ?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
+<?php require '../includes/head.php' ?>
+
 <body>
 
 <?php require '../includes/header.php' ?>
