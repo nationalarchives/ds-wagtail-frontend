@@ -8,12 +8,12 @@
     width: 100%;
     text-decoration: none;
 
-    h2, h3, h4 {
+    .tna-card__heading {
       text-decoration: underline;
     }
 
     &:hover {
-      h2, h3, h4 {
+      .tna-card__heading {
         text-decoration: none;
       }
     }
@@ -21,6 +21,6 @@
 
   &__image {
     overflow: hidden;
-    max-height: 164px;
+    max-height: 10.25rem;
   }
 }

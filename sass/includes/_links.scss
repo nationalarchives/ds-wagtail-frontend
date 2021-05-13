@@ -1,14 +1,14 @@
 a {
+  transition: background-color $transition_duration, color $transition_duration;
   &:focus {
-    outline: 5px solid $color__focus-blue-outline-light-bg;
-    outline-offset: 0.2em;
+    outline: 0.313rem solid $color__focus-blue-outline-light-bg;
   }
 }
 
 [class*="--dark"] {
   a {
     &:focus {
-      outline: 5px solid $color__focus-blue-outline-dark-bg;
+      outline: 0.313rem solid $color__focus-blue-outline-dark-bg;
     }
   }
 }

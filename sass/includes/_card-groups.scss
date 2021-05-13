@@ -1,37 +1,37 @@
-
 .card-group {
     &-secondary-nav {
 
+      display: inline-block;
+
       &__link {
         @extend .tna-card__link;
-        color: #000;
+        color: $color__black;
 
-        max-width: 272px;
+        max-width: 17em;
 
         &:visited {
-          color: #000;
+          color: $color__black;
         }
         &:hover {
-          outline: 5px solid #134571;
-          background: #134571;
+          outline: 5px solid $color__link-hover;
+          background: $color__link-hover;
+          color: $color__white;
         }
         &:focus {
-          background: #1d70b8;
+          background: $color__focus-blue-outline-light-bg;
           h2,h3,h4 {
             text-decoration: none;
           }
         }
         &:hover, &:focus {
-          color: #fff;
+          color: $color__white;
         }
       }
 
       &__image {
         @extend .tna-card__image;
-        border: 1px solid #000;
+        border: 1px solid $color__black;
       }
-
-      display: inline-block;
 
       @media only screen and (min-width: $screen__lg) {
         display: block;

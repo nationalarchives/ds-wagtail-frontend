@@ -1,9 +1,8 @@
 // Screen sizes
-
-$screen__sm: 480px;
-$screen__md: 768px;
-$screen__lg: 992px;
-$screen__xl: 1200px;
+$screen__sm: 30rem;
+$screen__md: 48rem;
+$screen__lg: 62rem;
+$screen__xl: 75rem;
 
 /* Fonts */
 $font__open-sans: 'Open Sans', sans-serif;
@@ -21,24 +20,31 @@ $color__white: #ffffff;
 $color__yellow: #fbe2bc;
 $color__green: #dde5d5;
 $color__pink: #fad3d4;
+$color__blue_2: #1e1e2a;
+$color__blue_3: #134571;
+$color__blue_4: #1d70b8;
+$color__blue_5: #8EC0EC;;
+$color__purple: #4c2c92;
 
-$color__grey-light: #efefef;
-$color__grey-mid-light: #dddddd;
-$color__grey-mid-dark: #6f777b;
-$color__grey-dark: #26262a;
+$color__grey-5: #efefef;
+$color__grey-4: #dddddd;
+$color__grey-3: #6f777b;
+$color__grey-2: #26262a;
 
 $color__alert: $color__yellow;
 $color__success: $color__green;
 $color__error: $color__pink;
 
-$color__link-blue: #1d70b8;
-$color__link-blue-hover: #003078;
-$color__link-blue-visited: #4c2c92;
-$color__link-blue-active: #1e1e2a;
+$color__link: $color__blue_4;
+$color__link-hover: $color__blue_3;
+$color__link-visited: $color__purple;
+$color__link-active: $color__blue_2;
 
-$color__focus-blue-outline-light-bg: #1d70b8;
-$color__focus-blue-outline-dark-bg: #8EC0EC;
+$color__focus-blue-outline-light-bg: $color__link;
+$color__focus-blue-outline-dark-bg: $color__blue_5;
 
-$default__border: 2px solid $color__black;
+$default__border: 0.125rem solid $color__black;
+
+$transition_duration: 0.5s;
 
 

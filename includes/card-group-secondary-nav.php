@@ -5,8 +5,8 @@
                 <img <?php echo "src='/images/collection-explorer/$card_image' alt='$card_title'"?> />
             </div>
             <div class="card-group-secondary-nav__body">
-                <h3><?php echo $card_title ?></h3>
-                <p><?php echo $card_description ?></p>
+                <h3 class="tna-card__heading"><?= $card_title ?></h3>
+                <p><?= $card_values["description"] ?></p>
             </div>
         </a>
     </article>
