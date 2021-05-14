@@ -1,7 +1,7 @@
 <footer class="tna-footer">
     <h2 class="sr-only">Footer</h2>
-    <div class="cta-banner-newsletter tna-bg--grey py-3">
-        <div class="container">
+    <div class="cta-banner-newsletter tna-bg--grey">
+        <div class="container py-3">
             <div class="row justify-content-md-center text-center">
                 <div class="col-sm-12 col-lg-2">
                 <i class="far fa-envelope cta-banner-newsletter__icon"></i>
@@ -27,8 +27,8 @@
         </div>
     </div>
 
-    <div class="tna-footer__body tna-bg--dark pb-3">
-        <div class="container">
+    <div class="tna-footer__body tna-bg--dark">
+        <div class="container pb-3">
             <div class="row">
                 <div class="col-6 col-md-3">
                     <h3 class="tna-footer__body-heading">Find out more</h3>
@@ -68,8 +68,8 @@
             </div>
         </div>
     </div>
-    <div class="tna-footer__social-media-links tna-bg--dark pb-3">
-        <div class="container">
+    <div class="tna-footer__social-media-links tna-bg--dark">
+        <div class="container pb-3">
             <div class="row justify-content-md-center text-center">
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://twitter.com/UKNatArchives" class="d-inline-block" title="Follow us on Twitter - Opens a new window" target="_blank" rel="noopener noreferrer">
@@ -110,8 +110,8 @@
             </div>
         </div>
     </div>
-    <div class="tna-footer__base tna-bg--dark pb-3">
-        <div class="container">
+    <div class="tna-footer__base tna-bg--dark">
+        <div class="container pb-3">
             <div class="row justify-content-md-center">
                 <div class="col-md-2 text-center">
                     <img src="/images/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
