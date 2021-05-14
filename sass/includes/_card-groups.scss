@@ -7,14 +7,12 @@
         @extend .tna-card__link;
         color: $color__black;
 
-        max-width: 17em;
-
         &:visited {
           color: $color__black;
         }
         &:hover {
-          outline: 5px solid $color__link-hover;
-          background: $color__link-hover;
+          outline: 5px solid $color__card-hover;
+          background: $color__card-hover;
           color: $color__white;
         }
         &:focus {
