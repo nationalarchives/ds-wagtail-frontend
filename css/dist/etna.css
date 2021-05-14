@@ -129,19 +129,20 @@ h2 {
   padding: .5rem; }
 .tna-footer__heading-main-title {
   font-size: 1.6em; }
-.tna-footer__subscribe-heading {
+
+.cta-banner-newsletter__heading {
   font-size: 1.55em;
   margin-top: 0;
   font-weight: 400; }
   @media only screen and (max-width: 48rem) {
-    .tna-footer__subscribe-heading {
+    .cta-banner-newsletter__heading {
       font-size: 1.4em; } }
-.tna-footer__subscribe-heading, .tna-footer__subscribe-description {
+.cta-banner-newsletter__heading, .cta-banner-newsletter__description {
   margin-bottom: .5em; }
-.tna-footer__subscribe-icon {
+.cta-banner-newsletter__icon {
   font-size: 3em; }
   @media only screen and (max-width: 62rem) {
-    .tna-footer__subscribe-icon {
+    .cta-banner-newsletter__icon {
       display: none; } }
 
 .tna-button, .tna-button--no-underline {

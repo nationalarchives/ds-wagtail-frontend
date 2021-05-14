@@ -20,25 +20,5 @@
             font-size: 1.6em;
         }
     }
-
-    &__subscribe {
-        &-heading {
-            font-size: 1.55em;
-            @media only screen and (max-width: $screen__md) {
-                font-size: 1.4em;
-            }
-            margin-top: 0;
-            font-weight: 400;
-        }
-        &-heading, &-description {
-            margin-bottom: .5em;
-        }
-        &-icon {
-            @media only screen and (max-width: $screen__lg) {
-                display: none;
-            }
-            font-size: 3em;
-        }
-    }
 }
 

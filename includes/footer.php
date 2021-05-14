@@ -1,14 +1,14 @@
 <footer class="tna-footer">
     <h2 class="sr-only">Footer</h2>
-    <div class="tna-footer__subscribe tna-bg--grey py-3">
+    <div class="cta-banner-newsletter tna-bg--grey py-3">
         <div class="container">
             <div class="row justify-content-md-center text-center">
                 <div class="col-sm-12 col-lg-2">
-                <i class="far fa-envelope tna-footer__subscribe-icon"></i>
+                <i class="far fa-envelope cta-banner-newsletter__icon"></i>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <h3 class="tna-footer__subscribe-heading">Sign me up to The National Archives' mailing list</h3>
-                    <p class="tna-footer__subscribe-description">Subscribe now for regular news, updates, and priority booking events.</p>
+                    <h3 class="cta-banner-newsletter__heading">Sign me up to The National Archives' mailing list</h3>
+                    <p class="cta-banner-newsletter__description">Subscribe now for regular news, updates, and priority booking events.</p>
                 </div>
                 <div class="col-sm-12 col-lg-2">
                     <a class="tna-button--no-underline" href="https://www.nationalarchives.gov.uk/contact-us/email-updates/">Sign up</a>
