@@ -56,22 +56,40 @@
         <div class="container">
             <div class="row justify-content-md-center text-center">
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fab fa-twitter"></i>
+                    <a href="https://twitter.com/UKNatArchives" class="d-inline-block" title="Follow us on Twitter - Opens a new window" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter p-2"></i>
+                            <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fab fa-youtube"></i>
+                    <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" title="Follow us on YouTube - Opens a new window" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-youtube p-2"></i>
+                        <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fab fa-flickr"></i>
+                    <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" title="Follow us on Flickr - Opens a new window" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-flickr p-2"></i>
+                        <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fab fa-facebook-square"></i>
+                    <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" title="Follow us on Facebook - Opens a new window" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-square p-2"></i>
+                        <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" title="Follow us on Instagram - Opens a new window" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram p-2"></i>
+                        <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <i class="fas fa-rss"></i>
+                    <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" title="Follow us via RSS">
+                        <i class="fas fa-rss p-2"></i>
+                        <span class="sr-only">Opens a new window</span>
+                    </a>
                 </div>
             </div>
         </div>
