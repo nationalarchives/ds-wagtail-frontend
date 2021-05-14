@@ -1,7 +1,6 @@
 <footer class="tna-footer">
     <h2 class="sr-only">Footer</h2>
     <div class="tna-footer__subscribe tna-bg--grey py-3">
-        <h3 class="sr-only">Newsletter</h3>
         <div class="container">
             <div class="row justify-content-md-center text-center">
                 <div class="col-sm-12 col-lg-2">
