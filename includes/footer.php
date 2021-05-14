@@ -1,10 +1,10 @@
 <footer class="tna-footer">
-
+    <h2 class="sr-only">Footer</h2>
     <div class="tna-footer__heading tna-bg--dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2 class="h2">The National Archives</h2>
+                    <h3 class="tna-footer__heading-main-title"><span class="sr-only">Address for </span>The National Archives</h3>
                     <p>Kew, Richmond TW9 4DU</p>
                 </div>
             </div>
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-3">
-                    <h4>Find out more</h4>
+                    <h3 class="tna-footer__body-heading">Find out more</h3>
                     <ul class="tna-ul--no-bullet">
                         <li class="tna-footer__list-item"><a  href="https://nationalarchives.gov.uk/contact-us/">Contact us</a></li>
                         <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/about/press-room/">Press room</a></li>
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h4>Site help</h4>
+                    <h3 class="tna-footer__body-heading">Site help</h3>
                     <ul class="tna-ul--no-bullet">
                         <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/help/">Help</a></li>
                         <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
@@ -32,7 +32,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h4>Websites</h4>
+                    <h3 class="tna-footer__body-heading">Websites</h3>
                     <ul class="tna-ul--no-bullet">
                         <li class="tna-footer__list-item"><a href="https://blog.nationalarchives.gov.uk/">Blog</a></li>
                         <li class="tna-footer__list-item"><a href="https://media.nationalarchives.gov.uk/">Podcasts and videos</a></li>
@@ -41,7 +41,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h4>Legal</h4>
+                    <h3 class="tna-footer__body-heading">Legal</h3>
                     <ul class="tna-ul--no-bullet">
                         <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/">Terms of use</a></li>
                         <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/privacy.htm">Privacy policy</a></li>
@@ -96,7 +96,6 @@
     </div>
     <div class="tna-footer__base tna-bg--dark pb-3">
         <div class="container">
-
             <div class="row justify-content-md-center">
                 <div class="col-md-2 text-center">
                     <img src="/images/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
