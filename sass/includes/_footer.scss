@@ -1,0 +1,16 @@
+.tna-footer {
+
+    &__body {
+        transition: none;
+        .tna-footer__list-item {
+            margin-bottom: .25rem;
+        }
+    }
+
+    &__social-media-links {
+        .tna-footer__social-media-icon {
+            padding: .5rem;
+        }
+    }
+}
+

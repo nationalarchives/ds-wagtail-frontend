@@ -121,4 +121,11 @@ h2 {
     .card-group-secondary-nav {
       display: block; } }
 
+.tna-footer__body {
+  transition: none; }
+  .tna-footer__body .tna-footer__list-item {
+    margin-bottom: .25rem; }
+.tna-footer__social-media-links .tna-footer__social-media-icon {
+  padding: .5rem; }
+
 /*# sourceMappingURL=etna.css.map */

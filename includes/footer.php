@@ -17,36 +17,36 @@
                 <div class="col-6 col-md-3">
                     <h4>Find out more</h4>
                     <ul class="tna-ul--no-bullet">
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Press room</a></li>
-                        <li><a href="">Jobs and careers</a></li>
-                        <li><a href="">Friends of The National Archives</a></li>
+                        <li class="tna-footer__list-item"><a  href="https://nationalarchives.gov.uk/contact-us/">Contact us</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/about/press-room/">Press room</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/about/jobs/">Jobs and careers</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/">Friends of The National Archives</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
                     <h4>Site help</h4>
                     <ul class="tna-ul--no-bullet">
-                        <li><a href="">Help</a></li>
-                        <li><a href="">Website A-Z index</a></li>
-                        <li><a href="">Accessibility</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/help/">Help</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/help/web-accessibility/">Accessibility</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
                     <h4>Websites</h4>
                     <ul class="tna-ul--no-bullet">
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Podcasts and videos</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Image library</a></li>
+                        <li class="tna-footer__list-item"><a href="https://blog.nationalarchives.gov.uk/">Blog</a></li>
+                        <li class="tna-footer__list-item"><a href="https://media.nationalarchives.gov.uk/">Podcasts and videos</a></li>
+                        <li class="tna-footer__list-item"><a href="https://shop.nationalarchives.gov.uk/">Shop</a></li>
+                        <li class="tna-footer__list-item"><a href="https://images.nationalarchives.gov.uk/">Image library</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
                     <h4>Legal</h4>
                     <ul class="tna-ul--no-bullet">
-                        <li><a href="">Terms of use</a></li>
-                        <li><a href="">Privacy policy</a></li>
-                        <li><a href="">Cookies</a></li>
-                        <li><a href="">Our fees</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/">Terms of use</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/privacy.htm">Privacy policy</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/cookies/">Cookies</a></li>
+                        <li class="tna-footer__list-item"><a href="https://nationalarchives.gov.uk/legal/our-fees.htm">Our fees</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,37 +57,37 @@
             <div class="row justify-content-md-center text-center">
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://twitter.com/UKNatArchives" class="d-inline-block" title="Follow us on Twitter - Opens a new window" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-twitter p-2"></i>
+                            <i class="fab fa-twitter tna-footer__social-media-icon"></i>
                             <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" title="Follow us on YouTube - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube p-2"></i>
+                        <i class="fab fa-youtube tna-footer__social-media-icon"></i>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" title="Follow us on Flickr - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-flickr p-2"></i>
+                        <i class="fab fa-flickr tna-footer__social-media-icon"></i>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" title="Follow us on Facebook - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-square p-2"></i>
+                        <i class="fab fa-facebook-square tna-footer__social-media-icon"></i>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" title="Follow us on Instagram - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram p-2"></i>
+                        <i class="fab fa-instagram tna-footer__social-media-icon"></i>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
                     <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" title="Follow us via RSS">
-                        <i class="fas fa-rss p-2"></i>
+                        <i class="fas fa-rss tna-footer__social-media-icon"></i>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
