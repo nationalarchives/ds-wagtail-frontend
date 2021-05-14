@@ -129,5 +129,73 @@ h2 {
   padding: .5rem; }
 .tna-footer__heading-main-title {
   font-size: 1.6em; }
+.tna-footer__subscribe-heading {
+  font-size: 1.55em;
+  margin-top: 0;
+  font-weight: 400; }
+  @media only screen and (max-width: 48rem) {
+    .tna-footer__subscribe-heading {
+      font-size: 1.4em; } }
+.tna-footer__subscribe-heading, .tna-footer__subscribe-description {
+  margin-bottom: .5em; }
+.tna-footer__subscribe-icon {
+  font-size: 3em; }
+  @media only screen and (max-width: 62rem) {
+    .tna-footer__subscribe-icon {
+      display: none; } }
+
+.tna-button, .tna-button--no-underline {
+  background-color: #26262a !important;
+  color: #ffffff !important;
+  border: 2px solid #000000;
+  padding: 0.5em 0.9em;
+  display: inline-block;
+  min-width: 24px;
+  text-align: center; }
+
+.tna-button:visited, .tna-button--no-underline:visited, .tna-button:active, .tna-button--no-underline:active {
+  background-color: #26262a !important;
+  color: #ffffff !important; }
+
+.tna-button:hover, .tna-button--no-underline:hover {
+  background-color: #ffffff !important;
+  color: #26262a !important;
+  text-decoration: none; }
+
+.tna-button:focus, .tna-button--no-underline:focus {
+  outline: 5px solid #1d70b8;
+  outline-offset: 0;
+  z-index: 999; }
+
+.tna-button--primary {
+  background-color: #ffffff !important;
+  color: #26262a !important; }
+
+.tna-button--primary:visited, .tna-button--primary:active {
+  background-color: #ffffff !important;
+  color: #26262a !important; }
+
+.tna-button--primary:hover {
+  background-color: #26262a !important;
+  color: #ffffff !important;
+  text-decoration: none; }
+
+.tna-button--secondary {
+  border-color: #efefef !important;
+  background-color: #efefef !important;
+  color: #000000; }
+
+.tna-button--secondary:visited, .tna-button--secondary:active {
+  background-color: #efefef !important;
+  color: #000000 !important; }
+
+.tna-button--secondary:hover {
+  border-color: #000000 !important;
+  background-color: #000000 !important;
+  color: #ffffff;
+  text-decoration: none; }
+
+.tna-button--no-underline {
+  text-decoration: none; }
 
 /*# sourceMappingURL=etna.css.map */
