@@ -3,8 +3,10 @@
         <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link">
             <div class="card-group-secondary-nav__image">
                 <picture>
-                    <source media="(min-width: 48rem)" srcset="<?= $card_values["src_small"] ?>">
-                    <source srcset="<?= $card_values["src_large"] ?>">
+                    <source media="(max-width: 48rem)" srcset="<?= $card_values["src_under_768"] ?>">
+                    <source media="(max-width: 62rem)" srcset="<?= $card_values["src_768_to_991"] ?>">
+                    <source media="(max-width: 75rem)" srcset="<?= $card_values["src_992_to_1199"] ?>">
+                    <source media="(min-width: 75rem)" srcset="<?= $card_values["src_over_1199"] ?>">
                     <img src="<?= $card_values["src"] ?>" alt="<?= $card_values["image_alt"] ?>">
                 </picture>
             </div>

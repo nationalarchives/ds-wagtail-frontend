@@ -14,7 +14,7 @@
     <?php require '../includes/generic_intro.php' ?>
     <div class="container">
         <div class="row">
-            <div class="col-md-10" id="content">
+            <div class="col-md-12" id="content">
                 <h2><?php echo $page["topic_heading"] ?></h2>
                 <p><?php echo $page["topic_description"] ?></p>
                 <div class="row">
