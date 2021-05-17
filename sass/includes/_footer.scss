@@ -11,7 +11,9 @@
 
     &__social-media-links {
         .tna-footer__social-media-icon {
-            padding: .5rem;
+            height: 35px;
+            padding: .5em;
+            box-sizing: content-box;
         }
     }
 

@@ -4,7 +4,7 @@
         <div class="container py-3">
             <div class="row justify-content-md-center text-center">
                 <div class="col-sm-12 col-lg-2">
-                <i class="far fa-envelope cta-banner-newsletter__icon"></i>
+                    <img src="/images/fontawesome-svgs/envelope.svg" class="cta-banner-newsletter__icon" alt="" role="presentation"/>
                 </div>
                 <div class="col-sm-12 col-lg-6">
                     <h3 class="cta-banner-newsletter__heading">Sign me up to The National Archives' mailing list</h3>
@@ -72,38 +72,37 @@
         <div class="container pb-3">
             <div class="row justify-content-md-center text-center">
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://twitter.com/UKNatArchives" class="d-inline-block" title="Follow us on Twitter - Opens a new window" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-twitter tna-footer__social-media-icon"></i>
-                            <span class="sr-only">Opens a new window</span>
+                    <a href="https://twitter.com/UKNatArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer">
+                            <img src="/images/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="Follow us on Twitter - Opens a new window"/>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" title="Follow us on YouTube - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube tna-footer__social-media-icon"></i>
+                    <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="Follow us on YouTube - Opens a new window"/>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" title="Follow us on Flickr - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-flickr tna-footer__social-media-icon"></i>
+                    <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="Follow us on Flickr - Opens a new window"/>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" title="Follow us on Facebook - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-square tna-footer__social-media-icon"></i>
+                    <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="Follow us on Facebook - Opens a new window"/>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" title="Follow us on Instagram - Opens a new window" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram tna-footer__social-media-icon"></i>
+                    <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="Follow us on Instagram - Opens a new window"/>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
                 <div class="col-4 col-sm-4 col-md-1">
-                    <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" title="Follow us via RSS">
-                        <i class="fas fa-rss tna-footer__social-media-icon"></i>
+                    <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block">
+                        <img src="/images/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="Follow us via RSS"/>
                         <span class="sr-only">Opens a new window</span>
                     </a>
                 </div>
@@ -119,16 +118,14 @@
                 <div class="col-md-8 text-center align-self-center">
                     <p class="mb-0">
                         All content is available under the
-                        <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/"
-                           title="External website - opens in a new window" target="_blank" rel="noopener noreferrer">
-                            Open Government Licence v3.0</a>, except where otherwise stated
+                        <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/" target="_blank" rel="noopener noreferrer">
+                            Open Government Licence v3.0 <span class="sr-only">External website - opens in a new window</span></a>, except where otherwise stated
                     </p>
                 </div>
                 <div class="col-md-2 text-center">
-                    <a title="External website - opens in a new window" href="http://gov.uk/" target="_blank"
+                    <a href="http://gov.uk/" target="_blank"
                        rel="noopener noreferrer">
-                        <img alt="GOV.UK logo" src="/images/logo-gov-uk.png" class="img-fluid">
-                        <span class="sr-only">Opens a new window</span>
+                        <img alt="GOV.UK logo - link opens in a new window" src="/images/logo-gov-uk.png" class="img-fluid">
                     </a>
                 </div>
             </div>
