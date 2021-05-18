@@ -2,6 +2,7 @@
 <html class="no-js" lang="en">
 
 <?php require '../data/arts_and_culture_data.php' ?>
+<?php require '../functions.php' ?>
 
 <?php require '../includes/head.php' ?>
 
@@ -17,7 +18,11 @@
                 <h1><?php echo $page['collection_highlights_heading'] ?></h1>
                 <h2><?php echo $page['arts_and_culture_topics_heading'] ?></h2>
                 <p><?php echo $page['arts_and_culture_topics_desc'] ?></p>
+                <div class="row">
+                    <?php render_nav_cards($topic_card_data); ?>
+                </div>
                 <?php require '../includes/card-group-promo.php' ?>
+            </div>
         </div>
     </div>
 </main>
