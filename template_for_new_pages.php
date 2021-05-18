@@ -12,7 +12,7 @@
 <main>
     <div class="container">
         <div class="row">
-            <div class="col-md-10" id="content">
+            <div class="col-md-12" id="content">
                 <h1><?php echo $content['page_title'] ?></h1>
             </div>
         </div>
