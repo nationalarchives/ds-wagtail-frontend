@@ -100,12 +100,19 @@
 <p class="standfirst">This is a collection of HTML templates for front-end development of Etna.</p>
 
 <h2>Page templates</h2>
+<h3>Explore the collection</h3>
 <ul>
     <li>
         <span>1</span>
-        <a href="collection-explorer/explore_the_collection.php">Explore the collection</a>
+        <a href="collection-explorer/explore_the_collection.php">Main page</a>
         <br>
         collection-explorer/explore_the_collection.php
+    </li>
+    <li>
+        <span>1</span>
+        <a href="collection-explorer/arts_and_culture.php">Topic page</a>
+        <br>
+        collection-explorer/arts_and_culture.php
     </li>
 </ul>
 
