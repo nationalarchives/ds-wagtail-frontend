@@ -15,7 +15,9 @@
         <div class="row">
             <div class="col-md-12" id="content">
                 <h1><?php echo $page['collection_highlights_heading'] ?></h1>
-            </div>
+                <h2><?php echo $page['arts_and_culture_topics_heading'] ?></h2>
+                <p><?php echo $page['arts_and_culture_topics_desc'] ?></p>
+                <?php require '../includes/card-group-promo.php' ?>
         </div>
     </div>
 </main>

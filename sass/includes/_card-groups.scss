@@ -36,4 +36,41 @@
       }
 
     }
+
+    &-promo {
+      padding: 1em;
+      margin-bottom: 1em;
+
+      &--dark {
+        @extend .card-group-promo;
+        background-color: $color__dark;
+        color: $color__white;
+
+        a, hr {
+          color: $color__white;
+        }
+
+      }
+
+      &__card {
+        &-image {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          max-height: 20em;
+          max-width: 100%;
+
+          @media only screen and (max-width: $screen__sm) {
+            max-width: 90%;
+          }
+          margin-left: 1em;
+          display: block;
+        }
+
+        &-heading {
+          font-weight: 400;
+          font-size: 1.5em;
+        }
+      }
+
+    }
 }

@@ -119,6 +119,27 @@ h2 {
   @media only screen and (min-width: 62rem) {
     .card-group-secondary-nav {
       display: block; } }
+.card-group-promo, .card-group-promo--dark {
+  padding: 1em;
+  margin-bottom: 1em; }
+  .card-group-promo--dark {
+    background-color: #26262a;
+    color: #ffffff; }
+    .card-group-promo--dark a, .card-group-promo--dark hr {
+      color: #ffffff; }
+  .card-group-promo__card-image {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-height: 20em;
+    max-width: 100%;
+    margin-left: 1em;
+    display: block; }
+    @media only screen and (max-width: 30rem) {
+      .card-group-promo__card-image {
+        max-width: 90%; } }
+  .card-group-promo__card-heading {
+    font-weight: 400;
+    font-size: 1.5em; }
 
 .tna-footer__body .tna-footer__list-item {
   margin-bottom: .25rem; }
