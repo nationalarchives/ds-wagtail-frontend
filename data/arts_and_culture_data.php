@@ -19,6 +19,7 @@ $breadcrumbs = [
 
 $promo = [
     "heading" => "Arts and culture collection insights",
+    "modifier" => "--dark",
     "cards" => [
         "Victorian advertising and design" => [
             "description" => "Among these records are one of the great British photography collections of the Victorian and Edwardian eras, with well over 100,000 individual images. There is also a huge and wonderful collection of British branding and advertising images from the late 19th and early 20th centuries.",
