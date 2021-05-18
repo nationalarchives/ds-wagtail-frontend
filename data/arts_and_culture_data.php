@@ -27,12 +27,6 @@ $promo = [
             "link" => "/",
             "image" => "/images/collection-explorer/promos/cats.png",
             "image_alt" => "An advertisement for Jacksons' Boots & Hats. Illustration of cats performing music on a stage."
-        ],
-        "Second card example" => [
-            "description" => "This is an example of a secondary card in this section.",
-            "link" => "/",
-            "image" => "https://via.placeholder.com/320",
-            "image_alt" => "A placeholder image."
         ]
     ]
 ];
