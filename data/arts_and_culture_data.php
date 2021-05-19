@@ -78,7 +78,7 @@ $collection_highlights_cards = [
         "src_768_to_991" => "/images/collection-explorer/topics_cards/328/victorian-photography.png",
         "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/victorian-photography.png",
         "src_over_1199" => "/images/collection-explorer/topics_cards/348/victorian-photography.png",
-        "image_alt" => "Black and photograph of shoeless Vicotrian women sanding in the sea together."
+        "image_alt" => "Black and photograph of shoeless Victorian women sanding in the sea together."
     ],
     "Public Information Films" => [
         "description" => "A selection of the most memorable public information films covering fascinating events from British post-war history.",
