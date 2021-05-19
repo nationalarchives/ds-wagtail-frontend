@@ -4,6 +4,8 @@ $page = [
     "title" => "Arts and culture",
     "collection_highlights_heading" => "Collection highlights",
     "collection_highlights_description" => "From the well-known to the unusual, browse highlights from The National Archives arts and culture collections.",
+    "more_arts_and_culture_heading" => "More Arts and culture",
+    "more_arts_and_culture_description" => "Find out more about Arts and culture at The National Archives."
 ];
 
 $generic_intro = [
@@ -89,5 +91,38 @@ $collection_highlights_cards = [
         "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/public-information-films.png",
         "src_over_1199" => "/images/collection-explorer/topics_cards/348/public-information-films.png",
         "image_alt" => "Still image from the Charlie Says collection of public information films."
+    ]
+];
+
+$more_arts_and_culture_cards = [
+    "Art and artists" => [
+        "description" => "This guide covers records related to art and artists for the 19th, 20th and 21st centuries",
+        "url" => "/",
+        "src" => "/images/collection-explorer/more_arts_and_culture_cards/art-and-artists.png",
+        "src_under_768" => "/images/collection-explorer/more_arts_and_culture_cards/543/art-and-artists.png",
+        "src_768_to_991" => "/images/collection-explorer/more_arts_and_culture_cards/328/art-and-artists.png",
+        "src_992_to_1199" => "/images/collection-explorer/more_arts_and_culture_cards/288/art-and-artists.png",
+        "src_over_1199" => "/images/collection-explorer/more_arts_and_culture_cards/348/art-and-artists.png",
+        "image_alt" => "Portion of coloured sketch showing  baskets of vegetables with greenhouses and watering cans in the background"
+    ],
+    "Transforming Archives: Rambert Archive" => [
+        "description" => "Rambert is a name that is familiar to many people across the country; some still refer to it as 'Ballet Rambert'",
+        "url" => "/",
+        "src" => "/images/collection-explorer/more_arts_and_culture_cards/rambert.png",
+        "src_under_768" => "/images/collection-explorer/more_arts_and_culture_cards/543/rambert.png",
+        "src_768_to_991" => "/images/collection-explorer/more_arts_and_culture_cards/328/rambert.png",
+        "src_992_to_1199" => "/images/collection-explorer/more_arts_and_culture_cards/288/rambert.png",
+        "src_over_1199" => "/images/collection-explorer/more_arts_and_culture_cards/348/rambert.png",
+        "image_alt" => "Black and white photograph of a group of dancers from the early 20th or late 19th century"
+    ],
+    "War Girls - poetry and prose by women in the First World War" => [
+        "description" => "Ruth Sillers talks about, and performs extracts from, her audio book compilation, War Girls",
+        "url" => "/",
+        "src" => "/images/collection-explorer/more_arts_and_culture_cards/war-girls.png",
+        "src_under_768" => "/images/collection-explorer/more_arts_and_culture_cards/543/war-girls.png",
+        "src_768_to_991" => "/images/collection-explorer/more_arts_and_culture_cards/328/war-girls.png",
+        "src_992_to_1199" => "/images/collection-explorer/more_arts_and_culture_cards/288/war-girls.png",
+        "src_over_1199" => "/images/collection-explorer/more_arts_and_culture_cards/348/war-girls.png",
+        "image_alt" => "Black and white photograph of women in and around what appears to be a caravan of some sort"
     ]
 ];

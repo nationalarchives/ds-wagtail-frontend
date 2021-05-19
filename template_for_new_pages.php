@@ -9,7 +9,7 @@
 
 <?php require 'includes/header.php' ?>
 
-<main>
+<main id="maincontent">
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="content">

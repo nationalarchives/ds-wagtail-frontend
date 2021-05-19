@@ -17,7 +17,7 @@ $breadcrumbs = [
     "Home" => "/"
 ];
 
-$topic_card_data = [
+$collection_highlights_cards = [
     "Agriculture and environment" => [
         "description" => "Farming, food and royal parks",
         "url" => "/",

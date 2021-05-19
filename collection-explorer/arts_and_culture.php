@@ -10,7 +10,7 @@
 
 <?php require '../includes/header.php' ?>
 
-<main>
+<main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
     <div class="container">
         <div class="row">
@@ -21,6 +21,11 @@
                     <?php render_nav_cards($collection_highlights_cards); ?>
                 </div>
                 <?php require '../includes/card-group-promo.php' ?>
+                <h2><?php echo $page['more_arts_and_culture_heading'] ?></h2>
+                <p><?php echo $page['more_arts_and_culture_description'] ?></p>
+                <div class="row">
+                    <?php render_nav_cards($more_arts_and_culture_cards) ?>
+                </div>
             </div>
         </div>
     </div>
