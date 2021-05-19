@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="content">
-                <h1><?php echo $page['collection_highlights_heading'] ?></h1>
+                <h2><?php echo $page['collection_highlights_heading'] ?></h2>
                 <p><?php echo $page['collection_highlights_description'] ?></p>
                 <div class="row">
                     <?php render_nav_cards($collection_highlights_cards); ?>
