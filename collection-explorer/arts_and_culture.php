@@ -16,10 +16,9 @@
         <div class="row">
             <div class="col-md-12" id="content">
                 <h1><?php echo $page['collection_highlights_heading'] ?></h1>
-                <h2><?php echo $page['arts_and_culture_topics_heading'] ?></h2>
-                <p><?php echo $page['arts_and_culture_topics_desc'] ?></p>
+                <p><?php echo $page['collection_highlights_description'] ?></p>
                 <div class="row">
-                    <?php render_nav_cards($topic_card_data); ?>
+                    <?php render_nav_cards($collection_highlights_cards); ?>
                 </div>
                 <?php require '../includes/card-group-promo.php' ?>
             </div>

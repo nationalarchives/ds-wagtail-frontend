@@ -18,7 +18,7 @@
                 <h2><?php echo $page["topic_heading"] ?></h2>
                 <p><?php echo $page["topic_description"] ?></p>
                 <div class="row">
-                    <?php render_nav_cards($topic_card_data); ?>
+                    <?php render_nav_cards($collection_highlights_cards); ?>
                 </div>
 
                 <h2><?php echo $page["time_heading"] ?></h2>

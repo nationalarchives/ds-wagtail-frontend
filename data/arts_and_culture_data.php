@@ -3,9 +3,7 @@
 $page = [
     "title" => "Arts and culture",
     "collection_highlights_heading" => "Collection highlights",
-    "collection_highlights_description" => "From the well-known to the unusual, browse highlights from The National Archives arts and culture collections",
-    "arts_and_culture_topics_heading" => "Arts and culture topics",
-    "arts_and_culture_topics_desc" => "Topics related to Arts and culture"
+    "collection_highlights_description" => "From the well-known to the unusual, browse highlights from The National Archives arts and culture collections.",
 ];
 
 $generic_intro = [
@@ -31,7 +29,7 @@ $promo = [
     ]
 ];
 
-$topic_card_data = [
+$collection_highlights_cards = [
     "The Muybridge Collection" => [
         "description" => "Pioneering work in photographic studies of motion, and early work in motion-picture projection.",
         "url" => "/",
