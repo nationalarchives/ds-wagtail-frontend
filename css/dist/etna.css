@@ -128,8 +128,7 @@ h2 {
     .card-group-promo--dark a, .card-group-promo--dark hr {
       color: #ffffff; }
   .card-group-promo__card-image {
-    max-height: 20em;
-    max-width: 100%;
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
     display: block; }
