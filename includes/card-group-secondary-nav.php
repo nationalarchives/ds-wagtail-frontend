@@ -1,6 +1,7 @@
 <div class="col-sm-12 col-md-6 col-lg-4">
-    <article class="card-group-secondary-nav">
+    <div class="card-group-secondary-nav">
         <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link">
+            <h3 class="sr-only"><?= $card_title ?></h3>
             <div class="card-group-secondary-nav__image">
                 <picture>
                     <source media="(max-width: 768px)" srcset="<?= $card_values["src_under_768"] ?>">
@@ -11,9 +12,9 @@
                 </picture>
             </div>
             <div class="card-group-secondary-nav__body">
-                <h3 class="tna-card__heading"><?= $card_title ?></h3>
+                <h3 class="tna-card__heading" aria-hidden="true"><?= $card_title ?></h3>
                 <p><?= $card_values["description"] ?></p>
             </div>
         </a>
-    </article>
+    </div>
 </div>
