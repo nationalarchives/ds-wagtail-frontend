@@ -162,6 +162,7 @@ h2 {
 .card-group-promo--dark {
   background-color: #26262a;
   color: #ffffff;
+  padding: 1rem 2rem;
 }
 .card-group-promo--dark a, .card-group-promo--dark hr {
   color: #ffffff;
@@ -175,6 +176,9 @@ h2 {
 .card-group-promo__card-heading {
   font-weight: 400;
   font-size: 1.5rem;
+}
+.card-group-promo__heading {
+  margin: 0;
 }
 
 .tna-footer__body .tna-footer__list-item {

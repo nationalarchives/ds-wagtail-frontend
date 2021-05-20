@@ -45,6 +45,7 @@
         @extend .card-group-promo;
         background-color: $color__dark;
         color: $color__white;
+        padding: 1rem 2rem;
 
         a, hr {
           color: $color__white;
@@ -66,5 +67,8 @@
         }
       }
 
+      &__heading {
+        margin: 0;
+      }
     }
 }
