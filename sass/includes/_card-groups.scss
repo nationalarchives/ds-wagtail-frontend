@@ -38,8 +38,8 @@
     }
 
     &-promo {
-      padding: 1em;
-      margin-bottom: 1em;
+      padding: 1rem;
+      margin-bottom: 1rem;
 
       &--dark {
         @extend .card-group-promo;
@@ -55,14 +55,14 @@
       &__card {
         &-image {
           width: 100%;
-          margin-top: 1em;
-          margin-bottom: 1em;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
           display: block;
         }
 
         &-heading {
           font-weight: 400;
-          font-size: 1.5em;
+          font-size: 1.5rem;
         }
       }
 
