@@ -11,7 +11,7 @@
           color: $color__black;
         }
         &:hover {
-          outline: 5px solid $color__card-hover;
+          outline: 0.312rem solid $color__card-hover;
           background: $color__card-hover;
           color: $color__white;
         }
@@ -28,7 +28,7 @@
 
       &__image {
         @extend .tna-card__image;
-        border: 1px solid $color__black;
+        border: 0.0625rem solid $color__black;
       }
 
       @media only screen and (min-width: $screen__lg) {

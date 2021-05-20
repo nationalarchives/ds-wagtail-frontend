@@ -3,10 +3,10 @@
 .tna-button {
     background-color: #26262a !important;
     color: #ffffff !important;
-    border: 2px solid #000000;
+    border: 0.125rem solid #000000;
     padding: 0.5rem 0.9rem;
     display: inline-block;
-    min-width: 24px;
+    min-width: 1.625rem;
     text-align: center;
   }
   .tna-button:visited, .tna-button:active {
@@ -19,7 +19,7 @@
     text-decoration: none;
   }
   .tna-button:focus {
-    outline: 5px solid #1d70b8;
+    outline: 0.312rem solid #1d70b8;
     outline-offset: 0;
     z-index: 999;
   }

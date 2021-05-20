@@ -2,9 +2,9 @@
 /* Colours */
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
@@ -134,7 +134,7 @@ h2 {
   color: #000000;
 }
 .card-group-secondary-nav__link:hover {
-  outline: 5px solid #26262a;
+  outline: 0.312rem solid #26262a;
   background: #26262a;
   color: #ffffff;
 }
@@ -148,7 +148,7 @@ h2 {
   color: #ffffff;
 }
 .card-group-secondary-nav__image {
-  border: 1px solid #000000;
+  border: 0.0625rem solid #000000;
 }
 @media only screen and (min-width: 62rem) {
   .card-group-secondary-nav {
@@ -184,7 +184,7 @@ h2 {
   font-size: 1.16rem;
 }
 .tna-footer__social-media-links .tna-footer__social-media-icon {
-  height: 35px;
+  height: 2.187rem;
   padding: 0.5rem;
   box-sizing: content-box;
 }
@@ -206,7 +206,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 .cta-banner-newsletter__icon {
-  height: 60px;
+  height: 3.75rem;
 }
 @media only screen and (max-width: 62rem) {
   .cta-banner-newsletter__icon {
@@ -217,10 +217,10 @@ h2 {
 .tna-button, .tna-button--no-underline {
   background-color: #26262a !important;
   color: #ffffff !important;
-  border: 2px solid #000000;
+  border: 0.125rem solid #000000;
   padding: 0.5rem 0.9rem;
   display: inline-block;
-  min-width: 24px;
+  min-width: 1.625rem;
   text-align: center;
 }
 
@@ -236,7 +236,7 @@ h2 {
 }
 
 .tna-button:focus, .tna-button--no-underline:focus {
-  outline: 5px solid #1d70b8;
+  outline: 0.312rem solid #1d70b8;
   outline-offset: 0;
   z-index: 999;
 }
