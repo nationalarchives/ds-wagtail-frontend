@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php require '../data/sample_data.php' ?>
+<?php require 'data/sample_data.php' ?>
 
-<?php require '../includes/head.php' ?>
+<?php require 'includes/head.php' ?>
 
 <body>
 
-<?php require '../includes/header.php' ?>
+<?php require 'includes/header.php' ?>
 
 <main id="maincontent">
     <div class="container">
@@ -20,7 +20,7 @@
 </main>
 
 
-<?php require '../includes/footer.php' ?>
+<?php require 'includes/footer.php' ?>
 
 </body>
 </html>
