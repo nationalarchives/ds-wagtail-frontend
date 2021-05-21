@@ -4,6 +4,8 @@ $page = [
     "title" => "Arts and culture",
     "collection_highlights_heading" => "Collection highlights",
     "collection_highlights_description" => "From the well-known to the unusual, browse highlights from The National Archives arts and culture collections.",
+    "arts_and_culture_topics_heading" => "Arts and culture topics",
+    "arts_and_culture_topics_description" => "Topics related to Arts and culture",
     "more_arts_and_culture_heading" => "More Arts and culture",
     "more_arts_and_culture_description" => "Find out more about Arts and culture at The National Archives."
 ];
@@ -98,6 +100,19 @@ $collection_highlights_cards = [
         "image_alt" => "Still image from the Charlie Says collection of public information films."
     ]
 ];
+
+$topic_cards = [
+    "Art, architecture and design" => ["url" => "/"],
+    "Communications" => ["url" => "/"],
+    "Literature" => ["url" => "/"],
+    "Performing arts" => ["url" => "/"],
+    "Photography and film" => ["url" => "/"],
+    "Radio and television" => ["url" => "/"],
+    "Ancient monuments and historical buildings" => ["url" => "/"],
+    "Sports" => ["url" => "/"],
+    "View all records in Arts and culture" => ["url" => "/"],
+];
+
 
 $more_arts_and_culture_cards = [
     "Art and artists" => [

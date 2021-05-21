@@ -18,13 +18,18 @@
                 <h2><?php echo $page['collection_highlights_heading'] ?></h2>
                 <p><?php echo $page['collection_highlights_description'] ?></p>
                 <div class="row">
-                    <?php render_nav_cards($collection_highlights_cards); ?>
+                    <?php render_secondary_nav_cards($collection_highlights_cards); ?>
+                </div>
+                <h2><?php echo $page['arts_and_culture_topics_heading'] ?></h2>
+                <p class="mb-1"><?php echo $page['arts_and_culture_topics_description'] ?></p>
+                <div class="row">
+                    <?php render_text_nav_cards($topic_cards, "--green") ?>
                 </div>
                 <?php require '../includes/card-group-promo.php' ?>
                 <h2><?php echo $page['more_arts_and_culture_heading'] ?></h2>
                 <p><?php echo $page['more_arts_and_culture_description'] ?></p>
                 <div class="row">
-                    <?php render_nav_cards($more_arts_and_culture_cards) ?>
+                    <?php render_secondary_nav_cards($more_arts_and_culture_cards) ?>
                 </div>
             </div>
         </div>
