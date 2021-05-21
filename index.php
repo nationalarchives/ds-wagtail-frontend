@@ -109,10 +109,16 @@
         collection-explorer/explore_the_collection.php
     </li>
     <li>
-        <span>1</span>
+        <span>2</span>
         <a href="collection-explorer/arts_and_culture.php">Topic page</a>
         <br>
         collection-explorer/arts_and_culture.php
+    </li>
+    <li>
+        <span>3</span>
+        <a href="collection-explorer/results.php">Results page</a>
+        <br>
+        collection-explorer/results.php
     </li>
 </ul>
 
