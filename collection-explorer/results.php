@@ -17,6 +17,9 @@
                 <div class="generic-intro">
                 <p><?php echo $page['design_registers_description'] ?></p>
                 </div>
+                <div class="results">
+                    <?php require '../includes/results-options.php' ?>
+                </div>
             </div>
         </div>
     </div>
@@ -24,6 +27,8 @@
 
 
 <?php require '../includes/footer.php' ?>
+
+<script src="/scripts/explorer-results.js"></script>
 
 </body>
 </html>
