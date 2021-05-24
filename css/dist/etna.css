@@ -357,7 +357,7 @@ h2 {
         margin-top: .5rem; } }
   .pagination__page-link, .pagination__page-link:visited {
     color: #ffffff; }
-  .pagination__page-link-current, .pagination__page-link:hover, .pagination__page-link:focus, .pagination__page-link-current:focus {
+  .pagination__page-link-current, .pagination__page-link-current:focus, .pagination__page-link-current:visited, .pagination__page-link:hover, .pagination__page-link:focus {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
