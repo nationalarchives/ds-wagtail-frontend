@@ -280,4 +280,69 @@ h2 {
     text-align: left;
     background-color: #fbe2bc; }
 
+.pagination {
+  background-color: #26262a; }
+  .pagination__list {
+    list-style-type: none;
+    padding-left: 0;
+    position: relative;
+    min-height: 50px; }
+    @media only screen and (min-width: 48rem) {
+      .pagination__list {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0; } }
+    .pagination__list-item {
+      display: inline-block;
+      vertical-align: middle;
+      min-height: 50px; }
+      @media only screen and (min-width: 48rem) {
+        .pagination__list-item {
+          margin-left: .7rem; } }
+  .pagination__page-chevron-next, .pagination__page-chevron-previous, .pagination__page-link, .pagination__page-link-current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; }
+  .pagination__page-chevron-next, .pagination__page-chevron-previous {
+    background-color: #dde5d5;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    top: 0; }
+    .pagination__page-chevron-next:hover, .pagination__page-chevron-previous:hover {
+      background-color: #26262a; }
+    @media only screen and (min-width: 48rem) {
+      .pagination__page-chevron-next, .pagination__page-chevron-previous {
+        position: absolute; } }
+  .pagination__page-chevron-next {
+    background-image: url("/images/fontawesome-svgs/chevron-right.svg");
+    right: 0; }
+    .pagination__page-chevron-next:hover {
+      background-image: url("/images/fontawesome-svgs/chevron-right-white.svg"); }
+  .pagination__page-chevron-previous {
+    background-image: url("/images/fontawesome-svgs/chevron-left.svg");
+    left: 0; }
+    .pagination__page-chevron-previous:hover {
+      background-image: url("/images/fontawesome-svgs/chevron-left-white.svg"); }
+  .pagination__page-link-current {
+    font-weight: bold; }
+  .pagination__page-link, .pagination__page-link-current {
+    width: 50px;
+    height: 50px;
+    margin-top: 0; }
+    @media only screen and (min-width: 48rem) {
+      .pagination__page-link, .pagination__page-link-current {
+        width: 40px;
+        height: 30px;
+        margin-top: .5rem; } }
+  .pagination__page-link, .pagination__page-link:visited {
+    color: #ffffff; }
+  .pagination__page-link-current, .pagination__page-link:hover, .pagination__page-link:focus {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold; }
+
 /*# sourceMappingURL=etna.css.map */

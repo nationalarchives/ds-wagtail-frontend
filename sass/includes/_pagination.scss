@@ -1,0 +1,100 @@
+.pagination {
+    background-color: $color__dark;
+
+    &__list {
+        @media only screen and (min-width: $screen__md) {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        list-style-type: none;
+        padding-left: 0;
+        position: relative;
+        min-height: 50px;
+        &-item {
+            display: inline-block;
+            vertical-align: middle;
+            min-height: 50px;
+            @media only screen and (max-width: $screen__md) {
+                // margin-top: .4rem;
+                // margin-bottom: .4rem;
+            }
+
+            @media only screen and (min-width: $screen__md) {
+                margin-left: .7rem;
+            }
+        }
+    }
+
+    &__page {
+        &-chevron-next, &-chevron-previous, &-link, &-link-current {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        &-chevron-next, &-chevron-previous {
+            background-color: $color__green;
+            width: 50px;
+            height: 50px;
+            &:hover {
+                background-color: $color__dark;
+            }
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40%;
+            @media only screen and (min-width: $screen__md) {
+                position: absolute;
+            }
+            top: 0;
+        }
+
+        &-chevron-next {
+            background-image: url('/images/fontawesome-svgs/chevron-right.svg');
+            &:hover {
+                background-image: url('/images/fontawesome-svgs/chevron-right-white.svg');
+            }
+            right: 0;
+        }
+
+        &-chevron-previous {
+            background-image: url('/images/fontawesome-svgs/chevron-left.svg');
+            &:hover {
+                background-image: url('/images/fontawesome-svgs/chevron-left-white.svg');
+            }
+            left: 0;
+        }
+
+        &-link-current {
+            font-weight: bold;
+        }
+
+        &-link, &-link-current {
+
+            width: 50px;
+            height: 50px;
+            margin-top: 0;
+
+            @media only screen and (min-width: $screen__md) {
+                width: 40px;
+                height: 30px;
+                margin-top: .5rem;
+            }
+
+        }
+
+        &-link, &-link:visited {
+            color: $color__white;
+        }
+
+        &-link-current, &-link:hover, &-link:focus {
+            background-color: $color__white;
+            color: $color__black;
+            font-weight: bold;
+        }
+
+    }
+}

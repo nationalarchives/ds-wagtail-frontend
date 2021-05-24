@@ -20,6 +20,7 @@
                 <div class="results">
                     <?php require '../includes/results-options.php' ?>
                 </div>
+                <?php require '../includes/pagination.php' ?>
             </div>
         </div>
     </div>
