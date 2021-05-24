@@ -39,7 +39,7 @@
             background-color: $color__green;
             width: 50px;
             height: 50px;
-            &:hover {
+            &:hover, &:focus {
                 background-color: $color__dark;
             }
 
@@ -54,16 +54,18 @@
 
         &-chevron-next {
             background-image: url('/images/fontawesome-svgs/chevron-right.svg');
-            &:hover {
+            &:hover, &:focus {
                 background-image: url('/images/fontawesome-svgs/chevron-right-white.svg');
+                outline-color: $color__focus-blue-outline-dark-bg;
             }
             right: 0;
         }
 
         &-chevron-previous {
             background-image: url('/images/fontawesome-svgs/chevron-left.svg');
-            &:hover {
+            &:hover, &:focus {
                 background-image: url('/images/fontawesome-svgs/chevron-left-white.svg');
+                outline-color: $color__focus-blue-outline-dark-bg;
             }
             left: 0;
         }
@@ -90,10 +92,11 @@
             color: $color__white;
         }
 
-        &-link-current, &-link:hover, &-link:focus {
+        &-link-current, &-link:hover, &-link:focus, &-link-current:focus {
             background-color: $color__white;
             color: $color__black;
             font-weight: bold;
+            outline-color: $color__focus-blue-outline-dark-bg;
         }
 
     }
