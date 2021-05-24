@@ -2,6 +2,7 @@
 <html class="no-js" lang="en">
 
 <?php require '../data/results_data.php' ?>
+<?php require '../functions.php' ?>
 
 <?php require '../includes/head.php' ?>
 
@@ -19,6 +20,9 @@
                 </div>
                 <div class="results">
                     <?php require '../includes/results-options.php' ?>
+                    <div class="row">
+                    <?php render_record_summary_cards($results_cards) ?>
+                    </div>
                 </div>
                 <?php require '../includes/pagination.php' ?>
             </div>
