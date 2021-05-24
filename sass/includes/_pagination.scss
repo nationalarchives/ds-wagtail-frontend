@@ -1,3 +1,4 @@
+
 .pagination {
     background-color: $color__dark;
 
@@ -5,16 +6,22 @@
         text-align: center;
         list-style-type: none;
         padding-left: 0;
-        min-height: 50px;
+        min-height: 3.125rem;
 
         display: flex;
         justify-content: start;
-        justify-items: center;
+
+        &-pages {
+            padding: 0;
+
+            ol {
+                padding: 0;
+            }
+        }
 
         &-item {
             display: inline-block;
-            vertical-align: middle;
-            min-height: 50px;
+            min-height: 3.125rem;
 
             &:first-child {
                 margin-left: 0;
@@ -34,9 +41,14 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
-            width: 50px;
-            height: 50px;
+            width: 3.125rem;
+            height: 3.125rem;
         }
+
+        &-chevron-next, &-chevron-previous {
+            height: 100%;
+        }
+
 
         &-chevron-next, &-chevron-previous {
             background-color: $color__green;
@@ -74,8 +86,8 @@
             margin-top: 0;
 
             @media only screen and (min-width: $screen__md) {
-                width: 40px;
-                height: 30px;
+                width: 2.5rem;
+                height: 1.875rem;
                 margin-top: .5rem;
             }
 
