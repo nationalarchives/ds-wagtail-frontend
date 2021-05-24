@@ -2,12 +2,7 @@
     background-color: $color__dark;
 
     &__list {
-        @media only screen and (min-width: $screen__md) {
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
+        text-align: center;
         list-style-type: none;
         padding-left: 0;
         min-height: 50px;
