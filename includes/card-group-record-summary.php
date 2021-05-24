@@ -1,7 +1,7 @@
 <div class="col-sm-12 col-md-6 col-lg-4">
     <div class="card-group-record-summary">
         <a href='<?= $card_values["url"] ?>' class="card-group-record-summary__link">
-            <h3><?= $card_title ?></h3>
+            <h4><?= $card_title ?></h4>
             <figure>
                 <div class="card-group-record-summary__image">
                     <picture>

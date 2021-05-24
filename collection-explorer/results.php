@@ -19,11 +19,15 @@
                 <p><?php echo $page['design_registers_description'] ?></p>
                 </div>
                 <div class="results">
+                    <h2 class="sr-only">Results</h2>
+                    <h3 class="sr-only">Options</h2>
                     <?php require '../includes/results-options.php' ?>
                     <div class="row">
+                    <h3 class="sr-only">Items</h3>
                     <?php render_record_summary_cards($results_cards) ?>
                     </div>
                 </div>
+                <h3 class="sr-only">Pagination</h3>
                 <?php require '../includes/pagination.php' ?>
             </div>
         </div>
