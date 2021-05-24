@@ -2,27 +2,28 @@
     background-color: $color__dark;
 
     &__list {
-        @media only screen and (min-width: $screen__md) {
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
+        text-align: center;
         list-style-type: none;
         padding-left: 0;
-        position: relative;
         min-height: 50px;
+
+        display: flex;
+        justify-content: start;
+        justify-items: center;
+
         &-item {
             display: inline-block;
             vertical-align: middle;
             min-height: 50px;
-            @media only screen and (max-width: $screen__md) {
-                // margin-top: .4rem;
-                // margin-bottom: .4rem;
+
+            &:first-child {
+                margin-left: 0;
+                margin-right: auto;
             }
 
-            @media only screen and (min-width: $screen__md) {
-                margin-left: .7rem;
+            &:last-child {
+                margin-left: auto;
+                margin-right: 0;
             }
         }
     }
@@ -33,12 +34,13 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
+            width: 50px;
+            height: 50px;
         }
 
         &-chevron-next, &-chevron-previous {
             background-color: $color__green;
-            width: 50px;
-            height: 50px;
+
             &:hover, &:focus {
                 background-color: $color__dark;
             }
@@ -46,10 +48,6 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: 40%;
-            @media only screen and (min-width: $screen__md) {
-                position: absolute;
-            }
-            top: 0;
         }
 
         &-chevron-next {
@@ -58,7 +56,6 @@
                 background-image: url('/images/fontawesome-svgs/chevron-right-white.svg');
                 outline-color: $color__focus-blue-outline-dark-bg;
             }
-            right: 0;
         }
 
         &-chevron-previous {
@@ -67,7 +64,6 @@
                 background-image: url('/images/fontawesome-svgs/chevron-left-white.svg');
                 outline-color: $color__focus-blue-outline-dark-bg;
             }
-            left: 0;
         }
 
         &-link-current {
@@ -75,9 +71,6 @@
         }
 
         &-link, &-link-current {
-
-            width: 50px;
-            height: 50px;
             margin-top: 0;
 
             @media only screen and (min-width: $screen__md) {
@@ -92,7 +85,7 @@
             color: $color__white;
         }
 
-        &-link-current, &-link:hover, &-link:focus, &-link-current:focus {
+        &-link-current, &-link-current:focus, &-link-current:visited, &-link:hover, &-link:focus {
             background-color: $color__white;
             color: $color__black;
             font-weight: bold;
