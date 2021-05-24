@@ -23,7 +23,7 @@
                 <h2><?php echo $page['arts_and_culture_topics_heading'] ?></h2>
                 <p class="mb-1"><?php echo $page['arts_and_culture_topics_description'] ?></p>
                 <div class="row">
-                    <?php render_text_nav_cards($topic_cards, "--green") ?>
+                    <?php render_text_nav_cards($topic_cards) ?>
                 </div>
                 <?php require '../includes/card-group-promo.php' ?>
                 <h2><?php echo $page['more_arts_and_culture_heading'] ?></h2>
