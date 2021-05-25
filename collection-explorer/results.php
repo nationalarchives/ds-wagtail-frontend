@@ -20,7 +20,7 @@
                 </div>
                 <div class="results">
                     <h2 class="sr-only">Results</h2>
-                    <h3 class="sr-only">Options</h2>
+                    <h3 class="sr-only">Options</h3>
                     <?php require '../includes/results-options.php' ?>
                     <div class="row">
                     <h3 class="sr-only">Items</h3>
