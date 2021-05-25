@@ -232,7 +232,7 @@ h2 {
     .cta-banner-newsletter__icon {
       display: none; } }
 
-.tna-button, .tna-button--no-underline {
+.tna-button, .tna-button--no-underline, .results-options__submit {
   background-color: #26262a !important;
   color: #ffffff !important;
   border: 0.125rem solid #000000;
@@ -241,16 +241,16 @@ h2 {
   min-width: 1.625rem;
   text-align: center; }
 
-.tna-button:visited, .tna-button--no-underline:visited, .tna-button:active, .tna-button--no-underline:active {
+.tna-button:visited, .tna-button--no-underline:visited, .results-options__submit:visited, .tna-button:active, .tna-button--no-underline:active, .results-options__submit:active {
   background-color: #26262a !important;
   color: #ffffff !important; }
 
-.tna-button:hover, .tna-button--no-underline:hover {
+.tna-button:hover, .tna-button--no-underline:hover, .results-options__submit:hover {
   background-color: #ffffff !important;
   color: #26262a !important;
   text-decoration: none; }
 
-.tna-button:focus, .tna-button--no-underline:focus {
+.tna-button:focus, .tna-button--no-underline:focus, .results-options__submit:focus {
   outline: 0.312rem solid #1d70b8;
   outline-offset: 0;
   z-index: 999; }
@@ -293,8 +293,10 @@ h2 {
     border-radius: 0; }
     .results-options__select:focus {
       outline: 0.313rem solid #1d70b8; }
-  .results-options__submit:focus {
-    outline: 0.313rem solid #1d70b8; }
+  .results-options__submit {
+    cursor: pointer; }
+    .results-options__submit:focus {
+      outline: 0.313rem solid #1d70b8; }
   .results-options__loading-message {
     padding: 1rem;
     margin-top: 1rem;
