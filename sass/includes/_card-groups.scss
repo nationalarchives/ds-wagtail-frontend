@@ -62,6 +62,9 @@
     &__image {
       @extend .tna-card__image;
       border: 0.0625rem solid $color__black;
+      &-fallback {
+        width: 100%;
+      }
     }
 
     @media only screen and (min-width: $screen__lg) {
@@ -77,6 +80,9 @@
     &__image {
       @extend .tna-card__image;
       border: 0.0625rem solid $color__black;
+      &-fallback {
+        width: 100%;
+      }
     }
 
     &__link {
