@@ -11,7 +11,8 @@
   }
 
   &__submit {
-
+    @extend .tna-button;
+    cursor: pointer;
     &:focus {
       outline: 0.313rem solid $color__focus-blue-outline-light-bg;
     }
