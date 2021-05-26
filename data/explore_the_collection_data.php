@@ -153,7 +153,7 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/medieval.png",
         "image_alt" => "Part of a medieval painting several figures with their arms raised in prayer. One figure is a king. Another is a monk"
     ],
-    "Early Modern (1485 - 1750)" => [
+    "Early Modern (1485 - 1714)" => [
         "description" => "Elizabeth 1st’s seal, Drake’s letters and Shakespeare’s Will  ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/early-modern.png",
@@ -163,7 +163,7 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/early-modern.png",
         "image_alt" => "Photograph of golden carving depicting a person upon a throne"
     ],
-    "Empire and Industry (1750 - 1850)" => [
+    "Georgians (1714 - 1837)" => [
         "description" => "Dick Turpin’s indictment, Captain Cook’s journal and the US declaration of Independance ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/empire-and-industry.png",
@@ -173,7 +173,7 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/empire-and-industry.png",
         "image_alt" => "Paining of a sail ship in good weather. Full sails and bow wave suggest it is moving at good pace."
     ],
-    "Victorians (1850 - 1901)" => [
+    "Victorians (1837 - 1901)" => [
         "description" => "The Great Exhibition, Nelson’s funeral  and the trials of Oscar Wilde. ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/victorians.png",
@@ -214,7 +214,7 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/wwii.png",
         "image_alt" => "A concerned looking woman walks through rubble and destruction. She is holding a small child and followed by two more."
     ],
-    "Postwar (945 - 2021)" => [
+    "Postwar (1945 - 2000)" => [
         "description" => "Cold war espionage, Poll tax riots and Brexit.",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/postwar.png",
