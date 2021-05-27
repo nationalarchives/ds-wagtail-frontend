@@ -101,19 +101,6 @@ $collection_highlights_cards = [
     ]
 ];
 
-$topic_cards = [
-    "Art, architecture and design" => ["url" => "/"],
-    "Communications" => ["url" => "/"],
-    "Literature" => ["url" => "/"],
-    "Performing arts" => ["url" => "/"],
-    "Photography and film" => ["url" => "/"],
-    "Radio and television" => ["url" => "/"],
-    "Ancient monuments and historical buildings" => ["url" => "/"],
-    "Sports" => ["url" => "/"],
-    "View all records in Arts and culture" => ["url" => "/"],
-];
-
-
 $more_arts_and_culture_cards = [
     "Art and artists" => [
         "description" => "This guide covers records related to art and artists for the 19th, 20th and 21st centuries",
