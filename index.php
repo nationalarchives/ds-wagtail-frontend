@@ -99,6 +99,15 @@
 <p class="standfirst">This is a collection of HTML templates for front-end development of Etna.</p>
 
 <h2>Page templates</h2>
+<h3>Image viewer</h3>
+<ul>
+    <li>
+        <span>1</span>
+        <a href="image-viewer/viewer.php">Image viewer</a>
+        <br>
+        image-viewer/viewer.php
+    </li>
+</ul>
 <h3>Explore the collection</h3>
 <ul>
     <li>
