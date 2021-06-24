@@ -15,28 +15,29 @@
         <div class="image-viewer__reference">
             <h1><strong>CAB 24/95/8</strong> <span>- Image 1 of 39</span></h1>
         </div>
-        <div class="image-viewer__toolbar" id="js-viewer-toolbar"">
-            <button id="zoom-in" aria-controls="js-image-viewer">Zoom in</button>
-            <button id="zoom-out" aria-controls="js-image-viewer">Zoom out</button>
-            <button id="home" aria-controls="js-image-viewer">Reset</button>
-            <button id="full-page" aria-controls="js-image-viewer">Full screen</button>
-        </div>
+        <div class="image-viewer__toolbar" id="js-viewer-toolbar"
+        ">
+        <button id="zoom-in" aria-controls="js-image-viewer">Zoom in</button>
+        <button id="zoom-out" aria-controls="js-image-viewer">Zoom out</button>
+        <button id="home" aria-controls="js-image-viewer">Reset</button>
+        <button id="full-page" aria-controls="js-image-viewer">Full screen</button>
     </div>
-    <div class="image-viewer__viewer" id="js-image-viewer"></div>
-    <div class="image-viewer__footer">
-        <nav class="image-viewer__navigation" aria-label="Explore this record">
-            <ul>
-                <li><a href="#">Record details</a></li>
-                <li><a href="#">All 39 images</a></li>
-            </ul>
-        </nav>
-        <nav class="image-viewer__pagination" aria-label="Pagination">
-            <ul>
-                <li><a href="#">Previous</a></li>
-                <li><a href="#">Next</a></li>
-            </ul>
-        </nav>
-    </div>
+</div>
+<div class="image-viewer__viewer" id="js-image-viewer"></div>
+<div class="image-viewer__footer">
+    <nav class="image-viewer__navigation" aria-label="Explore this record">
+        <ul>
+            <li><a href="#">Record details</a></li>
+            <li><a href="#">All 39 images</a></li>
+        </ul>
+    </nav>
+    <nav class="image-viewer__pagination" aria-label="Pagination">
+        <ul>
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
 </div>
 
 
@@ -55,10 +56,10 @@
         fullPageButton: "full-page",
         showNavigator: true,
         navigatorPosition: "ABSOLUTE",
-        navigatorTop:      "40vh",
-        navigatorLeft:     "79vw",
-        navigatorHeight:   "20vh",
-        navigatorWidth:    "20vw",
+        navigatorTop: "40vh",
+        navigatorLeft: "79vw",
+        navigatorHeight: "20vh",
+        navigatorWidth: "20vw",
         homeButton: "home",
         tileSources: {
             type: 'image',
@@ -69,6 +70,18 @@
 
     var viewer = OpenSeadragon(seadragon_options);
 
+    viewer.addHandler("full-page", function (data) {
+
+        var elem = document.getElementById('full-page');
+
+        if (elem) {
+            if (data.fullPage) {
+                elem.textContent = 'Exit full screen';
+                return;
+            }
+            elem.textContent = 'Full screen';
+        }
+    });
 
 </script>
 
