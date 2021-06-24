@@ -72,14 +72,15 @@
 
     viewer.addHandler("full-page", function (data) {
 
-        var elem = document.getElementById('full-page');
+        var full_screen_button = document.getElementById('full-page');
 
-        if (elem) {
+        if (full_screen_button) {
             if (data.fullPage) {
-                elem.textContent = 'Exit full screen';
+                full_screen_button.textContent = 'Exit full screen';
                 return;
             }
-            elem.textContent = 'Full screen';
+            full_screen_button.textContent = 'Full screen';
+            full_screen_button.focus();
         }
     });
 
