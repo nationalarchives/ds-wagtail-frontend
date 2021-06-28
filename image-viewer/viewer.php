@@ -49,7 +49,7 @@
 <script src="/scripts/libraries/openseadragon.min.js"></script>
 <script type="text/javascript">
 
-    var image_number = (new URL(document.location)).searchParams.get('image') || '';
+    var image_number = (new URL(document.location)).searchParams.get('image') || 1;
 
     try {
         let el = document.getElementById('image_number').textContent = image_number;
