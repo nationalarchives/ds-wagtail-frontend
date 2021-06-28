@@ -114,27 +114,6 @@
         image-viewer/browse.php
     </li>
 </ul>
-<h3>Explore the collection</h3>
-<ul>
-    <li>
-        <span>1</span>
-        <a href="collection-explorer/explore_the_collection.php">Main page</a>
-        <br>
-        collection-explorer/explore_the_collection.php
-    </li>
-    <li>
-        <span>2</span>
-        <a href="collection-explorer/arts_and_culture.php">Topic page</a>
-        <br>
-        collection-explorer/arts_and_culture.php
-    </li>
-    <li>
-        <span>3</span>
-        <a href="collection-explorer/results.php">Results page</a>
-        <br>
-        collection-explorer/results.php
-    </li>
-</ul>
 
 </body>
 </html>
