@@ -36,13 +36,19 @@
     margin: 1.3rem;
     text-align: right;
 
+    &.fullpage {
+      background-color: $color__black;
+      margin: 0;
+      padding: 0.5rem;
+    }
+
     @media (max-width: $screen__sm) {
       margin: 0.2rem;
     }
 
     > div {
       // This is necessary to address an issue relating to a div which is inserted
-      // by OpenSeadragon. At high zoom levels (300% +) this obscures the image and
+      // by OpenSeadragon. At high zoom levels (300% +) this obscures the image_number and
       // prevents pointer events from being picked up.
       pointer-events: none;
     }

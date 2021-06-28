@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php require '../data/arts_and_culture_data.php' ?>
-<?php require '../functions.php' ?>
-
 <?php require '../includes/head.php' ?>
 
 <body>

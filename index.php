@@ -107,6 +107,12 @@
         <br>
         image-viewer/viewer.php
     </li>
+    <li>
+        <span>2</span>
+        <a href="image-viewer/browse.php">Image browse</a>
+        <br>
+        image-viewer/browse.php
+    </li>
 </ul>
 <h3>Explore the collection</h3>
 <ul>
