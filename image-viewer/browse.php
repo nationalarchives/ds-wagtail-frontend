@@ -22,168 +22,168 @@
         </div>
         <ul class="image-browse__listing">
 
-            <li style="background-image:url(/images/image-viewer/default1.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb1.jpg">
                 <a href="/image-viewer/viewer.php?image=1">
                     <span>Image 1 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default2.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb2.jpg">
                 <a href="/image-viewer/viewer.php?image=2">
                     <span>Image 2 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default3.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb3.jpg">
                 <a href="/image-viewer/viewer.php?image=3">
                     <span>Image 3 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default4.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb4.jpg">
                 <a href="/image-viewer/viewer.php?image=4">
                     <span>Image 4 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default5.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb5.jpg">
                 <a href="/image-viewer/viewer.php?image=5">
                     <span>Image 5 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default6.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb6.jpg">
                 <a href="/image-viewer/viewer.php?image=6">
                     <span>Image 6 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default7.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb7.jpg">
                 <a href="/image-viewer/viewer.php?image=7">
                     <span>Image 7 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default8.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb8.jpg">
                 <a href="/image-viewer/viewer.php?image=8">
                     <span>Image 8 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default9.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb9.jpg">
                 <a href="/image-viewer/viewer.php?image=9">
                     <span>Image 9 of 39</span>
                 </a></li>
-            <li style="background-image:url(/images/image-viewer/default10.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb10.jpg">
                 <a href="/image-viewer/viewer.php?image=10">
                     <span>Image 10 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default11.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb11.jpg">
                 <a href="/image-viewer/viewer.php?image=11">
                     <span>Image 11 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default12.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb12.jpg">
                 <a href="/image-viewer/viewer.php?image=12">
                     <span>Image 12 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default13.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb13.jpg">
                 <a href="/image-viewer/viewer.php?image=13">
                     <span>Image 13 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default14.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb14.jpg">
                 <a href="/image-viewer/viewer.php?image=14">
                     <span>Image 14 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default15.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb15.jpg">
                 <a href="/image-viewer/viewer.php?image=15">
                     <span>Image 15 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default16.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb16.jpg">
                 <a href="/image-viewer/viewer.php?image=16">
                     <span>Image 16 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default17.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb17.jpg">
                 <a href="/image-viewer/viewer.php?image=17">
                     <span>Image 17 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default18.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb18.jpg">
                 <a href="/image-viewer/viewer.php?image=18">
                     <span>Image 18 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default19.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb19.jpg">
                 <a href="/image-viewer/viewer.php?image=19">
                     <span>Image 19 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default20.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb20.jpg">
                 <a href="/image-viewer/viewer.php?image=20">
                     <span>Image 20 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default21.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb21.jpg">
                 <a href="/image-viewer/viewer.php?image=21">
                     <span>Image 21 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default22.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb22.jpg">
                 <a href="/image-viewer/viewer.php?image=22">
                     <span>Image 22 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default23.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb23.jpg">
                 <a href="/image-viewer/viewer.php?image=23">
                     <span>Image 23 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default24.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb24.jpg">
                 <a href="/image-viewer/viewer.php?image=24">
                     <span>Image 24 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default25.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb25.jpg">
                 <a href="/image-viewer/viewer.php?image=25">
                     <span>Image 25 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default26.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb26.jpg">
                 <a href="/image-viewer/viewer.php?image=26">
                     <span>Image 26 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default27.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb27.jpg">
                 <a href="/image-viewer/viewer.php?image=27">
                     <span>Image 27 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default28.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb28.jpg">
                 <a href="/image-viewer/viewer.php?image=28">
                     <span>Image 28 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default29.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb29.jpg">
                 <a href="/image-viewer/viewer.php?image=29">
                     <span>Image 29 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default30.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb30.jpg">
                 <a href="/image-viewer/viewer.php?image=30">
                     <span>Image 30 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default31.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb31.jpg">
                 <a href="/image-viewer/viewer.php?image=31">
                     <span>Image 31 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default32.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb32.jpg">
                 <a href="/image-viewer/viewer.php?image=32">
                     <span>Image 32 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default33.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb33.jpg">
                 <a href="/image-viewer/viewer.php?image=33">
                     <span>Image 33 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default34.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb34.jpg">
                 <a href="/image-viewer/viewer.php?image=34">
                     <span>Image 34 of 39</span>
                 </a>
             </li>
-            <li style="background-image:url(/images/image-viewer/default35.jpg">
+            <li style="background-image:url(/images/image-viewer/thumb35.jpg">
                 <a href="/image-viewer/viewer.php?image=35">
                     <span>Image 35 of 39</span>
                 </a>
