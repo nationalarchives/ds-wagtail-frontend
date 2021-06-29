@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php require '../data/sample_data.php' ?>
+<?php require '../data/insights_shakespeare_data.php' ?>
 
 <?php require '../includes/head.php' ?>
 
