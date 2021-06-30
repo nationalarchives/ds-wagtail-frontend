@@ -2,6 +2,7 @@
 <html class="no-js" lang="en">
 
 <?php require '../data/insights_shakespeare_data.php' ?>
+<?php require '../functions.php' ?>
 
 <?php require '../includes/head.php' ?>
 
@@ -14,6 +15,8 @@
         <div class="row">
             <div class="col-md-12" id="content">
                 <h2><?php echo $page['title'] ?></h2>
+
+                <?php render_quotes($quotes); ?>
             </div>
         </div>
     </div>
