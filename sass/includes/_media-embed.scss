@@ -1,0 +1,55 @@
+.media-embed {
+  background: url("/images/insights/media-embed-bg.png") no-repeat;
+  height: 600px;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.media-embed__overlay {
+  background-color: #000;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.media-embed__content-panel {
+  padding: 0 3rem;
+  position: relative;
+  text-align: center;
+  top: 3rem;
+  z-index: 999;
+}
+
+.media-embed__icon {
+  background-color: #12477a;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.media-embed__icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.media-embed__heading {
+  font-size: 2rem;
+}
+
+.media-embed__date {
+  font-family: "Roboto Mono", sans-serif;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.media-embed__description {
+  font-size: 1.1rem;
+}
+
+.media-embed__icon-label, .media-embed__heading, .media-embed__description, .media-embed__date {
+  color: #fff;
+}

@@ -18,6 +18,7 @@
 
                 <?php render_quotes($quote_list); ?>
                 <?php render_callouts($callout_list); ?>
+                <?php require '../includes/media-embed.php' ?>
             </div>
         </div>
     </div>
