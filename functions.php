@@ -20,3 +20,10 @@ function render_quotes($quotes)
         include "../includes/quote.php";
     }
 }
+
+function render_callouts($callout_list)
+{
+    foreach ($callout_list as $callout_title => $callout_values) {
+        include "../includes/callout.php";
+    }
+}

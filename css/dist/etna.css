@@ -470,4 +470,49 @@ h2 {
   padding-right: 2rem;
 }
 
+.callout {
+  background-color: #12477a;
+  padding: 2rem;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.callout__heading {
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 3em;
+}
+
+.callout__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.callout__list-item {
+  background-color: #292929;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 20px solid #333;
+}
+
+.callout__link {
+  text-decoration: none;
+}
+.callout__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.callout__link-heading {
+  font-size: 26px;
+  color: #fff;
+}
+
+.callout__link-text {
+  color: #ccc;
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=etna.css.map */

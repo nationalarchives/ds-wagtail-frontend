@@ -16,7 +16,8 @@
             <div class="col-md-12" id="content">
                 <h2><?php echo $page['title'] ?></h2>
 
-                <?php render_quotes($quotes); ?>
+                <?php render_quotes($quote_list); ?>
+                <?php render_callouts($callout_list); ?>
             </div>
         </div>
     </div>
