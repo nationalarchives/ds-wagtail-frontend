@@ -11,11 +11,10 @@
 <?php require '../includes/header.php' ?>
 
 <main id="maincontent">
+    <?php require '../includes/generic_intro.php' ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="content">
-                <h2><?php echo $page['title'] ?></h2>
-
                 <?php render_quotes($quote_list); ?>
                 <?php render_callouts($callout_list); ?>
                 <?php render_media_embeds($media_embed_list); ?>
