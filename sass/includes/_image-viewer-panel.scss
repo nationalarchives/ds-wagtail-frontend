@@ -1,0 +1,21 @@
+.image-viewer-panel {
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background-color: $color__dark;
+  padding: 1rem;
+
+    img {
+      height: 400px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    a {
+      background-color: $color__link;
+      color: $color__white;
+      padding: 1rem;
+      display: inline-block;
+    }
+}

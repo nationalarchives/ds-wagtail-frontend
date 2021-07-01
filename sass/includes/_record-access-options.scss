@@ -1,0 +1,10 @@
+.record-access {
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+
+  &--light {
+    background-color: $color__grey-5;
+    color: $color__black;
+  }
+
+}

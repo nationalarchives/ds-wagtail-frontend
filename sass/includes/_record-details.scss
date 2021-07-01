@@ -1,0 +1,18 @@
+.record-details {
+
+  &__table {
+    width: 100%;
+    margin: 1rem 0 2rem;
+
+    td {
+      padding: 0.75em;
+      border: 3px solid #ddd;
+      vertical-align: top;
+
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+}

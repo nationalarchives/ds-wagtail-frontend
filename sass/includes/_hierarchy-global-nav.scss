@@ -1,0 +1,56 @@
+.hierarchy-global {
+
+  &__heading {
+    padding: 0 2rem;
+
+    @media only screen and (min-width: $screen__lg) {
+      padding: 0 1rem;
+
+    }
+  }
+
+  &--border-top {
+    border-top: 2px solid $color__black;
+  }
+
+  &--border-left {
+    border-left: 2px solid $color__black;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+
+      li {
+        border-bottom: 1px solid $color__grey-4;
+        padding: 2rem;
+
+        @media only screen and (min-width: $screen__lg) {
+          padding: 1rem;
+        }
+
+        &:first-child {
+          border-top: 1px solid $color__grey-4;
+        }
+
+
+        .reference {
+          display: block;
+          color: $color__black;
+          font-weight: bold;
+        }
+
+      }
+  }
+
+  &__current {
+    background-color: $color__link;
+    color: $color__white;
+    border-bottom: 0;
+
+    .reference {
+      color: $color__white;
+    }
+  }
+
+}

@@ -434,6 +434,7 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+<<<<<<< HEAD
 .no-js .image-viewer {
   display: none;
 }
@@ -648,6 +649,121 @@ h2 {
     margin-left: 0.5%;
     margin-bottom: 1%;
   }
+=======
+.hierarchy-global__heading {
+  padding: 0 2rem;
+}
+@media only screen and (min-width: 62rem) {
+  .hierarchy-global__heading {
+    padding: 0 1rem;
+  }
+}
+.hierarchy-global--border-top {
+  border-top: 2px solid #000000;
+}
+.hierarchy-global--border-left {
+  border-left: 2px solid #000000;
+}
+.hierarchy-global__list {
+  list-style-type: none;
+  padding: 0;
+}
+.hierarchy-global__list li {
+  border-bottom: 1px solid #dddddd;
+  padding: 2rem;
+}
+@media only screen and (min-width: 62rem) {
+  .hierarchy-global__list li {
+    padding: 1rem;
+  }
+}
+.hierarchy-global__list li:first-child {
+  border-top: 1px solid #dddddd;
+}
+.hierarchy-global__list li .reference {
+  display: block;
+  color: #000000;
+  font-weight: bold;
+}
+.hierarchy-global__current {
+  background-color: #1d70b8;
+  color: #ffffff;
+  border-bottom: 0;
+}
+.hierarchy-global__current .reference {
+  color: #ffffff;
+}
+
+.key-facts {
+  margin: 2rem 0 3rem;
+}
+.key-facts__list {
+  list-style-type: none;
+  padding: 0;
+}
+.key-facts__list li {
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 62rem) {
+  .key-facts__list li {
+    margin-bottom: 0.3rem;
+  }
+}
+.key-facts__list li span {
+  display: block;
+}
+@media only screen and (min-width: 62rem) {
+  .key-facts__list li span {
+    display: inline-block;
+    width: 10rem;
+  }
+}
+
+.image-viewer-panel {
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background-color: #26262a;
+  padding: 1rem;
+}
+.image-viewer-panel img {
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.image-viewer-panel a {
+  background-color: #1d70b8;
+  color: #ffffff;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.record-access {
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+}
+.record-access--light {
+  background-color: #efefef;
+  color: #000000;
+}
+
+.record-details__table {
+  width: 100%;
+  margin: 1rem 0 2rem;
+}
+.record-details__table td {
+  padding: 0.75em;
+  border: 3px solid #ddd;
+  vertical-align: top;
+}
+.record-details__table td:first-child {
+  font-weight: bold;
+}
+
+.tna-ul--inline li {
+  display: inline-block;
+>>>>>>> - Creating component includes
 }
 
 /*# sourceMappingURL=etna.css.map */
