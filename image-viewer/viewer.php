@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/libraries/tna-toolkit.0.0.1.css">
     <link rel="stylesheet" href="/css/dist/etna.css">
     <title>CAB 24/95/8 - The National Archives</title>
+
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
 </head>
 <body>
 <main>
@@ -43,13 +45,19 @@
 
 
 <noscript>
-    <img src="/images/image-viewer/viewer.jpg" alt="">
+    <img src="/images/image-viewer/default1.jpg">
 </noscript>
 
 <script src="/scripts/libraries/openseadragon.min.js"></script>
 <script type="text/javascript">
 
-    var image_number = (new URL(document.location)).searchParams.get('image') || 1;
+    try {
+        var image_number = (new URL(document.location)).searchParams.get('image') || 1;
+    } catch (error) {
+        image_number = 1;
+        console.log(error);
+    }
+
 
     try {
         let el = document.getElementById('image_number').textContent = image_number;

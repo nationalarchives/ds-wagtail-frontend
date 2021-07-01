@@ -434,6 +434,10 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+.no-js .image-viewer {
+  display: none;
+}
+
 .image-viewer {
   background-color: #000000;
   color: #ffffff;
@@ -631,6 +635,19 @@ h2 {
 .image-browse__listing a:hover, .image-browse__listing a:focus {
   outline: 0.313rem solid #8EC0EC;
   outline-offset: 0.125rem;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .image-browse__listing {
+    padding-top: 1rem;
+  }
+  .image-browse__listing > li {
+    display: inline-block;
+    width: 24%;
+    height: 24vw;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+  }
 }
 
 /*# sourceMappingURL=etna.css.map */
