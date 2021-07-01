@@ -14,7 +14,7 @@
         </p>
 
         <p class="media-embed__description">
-            <?php echo $media_embed_values['description'] ?>
+            <?php echo $media_embed_values['text'] ?>
         </p>
 
         <a class="tna-button--no-underline" href="/">

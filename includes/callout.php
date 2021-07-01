@@ -9,10 +9,10 @@
             <li class="callout__list-item">
                 <a class="callout__link" href="/">
                     <span class="callout__link-heading">
-                        <?php echo $callout_link['title'] ?>
+                        <?php echo $callout_link['heading'] ?>
                     </span>
                     <p class="callout__link-text">
-                        <?php echo $callout_link['summary'] ?>
+                        <?php echo $callout_link['text'] ?>
                     </p>
                 </a>
             </li>
