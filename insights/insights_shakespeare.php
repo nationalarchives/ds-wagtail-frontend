@@ -15,6 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="content">
+                <?php render_content_blocks($content_block_list); ?>
                 <?php render_quotes($quote_list); ?>
                 <?php render_callouts($callout_list); ?>
                 <?php render_media_embeds($media_embed_list); ?>

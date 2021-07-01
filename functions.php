@@ -34,3 +34,10 @@ function render_media_embeds($media_embed_list)
         include "../includes/media-embed.php";
     }
 }
+
+function render_content_blocks($content_block_list)
+{
+    foreach ($content_block_list as $content_block_title => $content_block_values) {
+        include "../includes/content-block.php";
+    }
+}
