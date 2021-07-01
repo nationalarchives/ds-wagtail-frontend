@@ -14,15 +14,15 @@ $breadcrumbs = [
 ];
 
 $quote_list = [
-    "quote" => [
+    "Shakespeare's birth record" => [
         "text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
         "citation" => "The National Archives",
-        "icon_src" => "/images/insights/quote-icon.svg"
+        "icon" => "/images/insights/quote-icon.svg"
     ]
 ];
 
 $callout_list = [
-    "callout" => [
+    "Legal cases relating to Shakespeare" => [
         "text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
         "links" => [
             "1" => [
@@ -38,5 +38,19 @@ $callout_list = [
                 "summary" => "This describes the way in which the shares in the syndicate that leased the Globe playhouse were distributed."
             ]
         ]
+    ]
+];
+
+$media_embed_list = [
+    "Shakespeare podcast" => [
+        "icon" => "/images/insights/audio-icon.png",
+        "icon-label" => "Listen",
+        "heading" => "A tourist’s guide to Shakespeare’s London",
+        "date" => "Tuesday 13 September 2016",
+        "description" => "Discover what it was like to wander the streets of Shakespeare’s London. Though large portions of the city from Shakespeare’s time
+            have since been destroyed by fire, war and developers, a surprising number of buildings and places still survive. Author David Thomas
+            discusses the sights, cuisine and pastimes of 16th century Londoners, while providing insight into what it was like to be a tourist during
+            Shakespeare’s lifetime. Please note that there are occasional disruptions to the sound quality during this recording.",
+        "button-text" => "Listen now"
     ]
 ];

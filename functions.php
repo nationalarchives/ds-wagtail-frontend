@@ -27,3 +27,10 @@ function render_callouts($callout_list)
         include "../includes/callout.php";
     }
 }
+
+function render_media_embeds($media_embed_list)
+{
+    foreach ($media_embed_list as $media_embed_title => $media_embed_values) {
+        include "../includes/media-embed.php";
+    }
+}

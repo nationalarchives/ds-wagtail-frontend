@@ -521,7 +521,8 @@ h2 {
 
 .media-embed {
   background: url("/images/insights/media-embed-bg.png") no-repeat;
-  height: 600px;
+  background-size: cover;
+  min-height: 600px;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
