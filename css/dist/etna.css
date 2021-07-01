@@ -537,10 +537,9 @@ h2 {
 }
 
 .media-embed__content-panel {
-  padding: 0 3rem;
+  padding: 3rem;
   position: relative;
   text-align: center;
-  top: 3rem;
   z-index: 999;
 }
 
