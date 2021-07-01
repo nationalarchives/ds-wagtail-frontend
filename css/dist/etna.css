@@ -476,7 +476,7 @@ h2 {
 
 .callout {
   background-color: #12477a;
-  padding: 2rem;
+  padding: 2rem 0;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
