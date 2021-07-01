@@ -14,7 +14,7 @@ $breadcrumbs = [
 ];
 
 $quote_list = [
-    "Shakespeare's birth record" => [
+    "Records relating to Shakespeare" => [
         "text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
         "citation" => "The National Archives",
         "icon" => "/images/insights/quote-icon.svg"
@@ -42,7 +42,7 @@ $callout_list = [
 ];
 
 $media_embed_list = [
-    "Shakespeare podcast" => [
+    "A tourist’s guide to Shakespeare’s London" => [
         "icon" => "/images/insights/audio-icon.png",
         "icon-label" => "Listen",
         "heading" => "A tourist’s guide to Shakespeare’s London",
