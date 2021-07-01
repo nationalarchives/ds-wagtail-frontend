@@ -99,25 +99,19 @@
 <p class="standfirst">This is a collection of HTML templates for front-end development of Etna.</p>
 
 <h2>Page templates</h2>
-<h3>Explore the collection</h3>
+<h3>Image viewer</h3>
 <ul>
     <li>
         <span>1</span>
-        <a href="collection-explorer/explore_the_collection.php">Main page</a>
+        <a href="image-viewer/viewer.php">Image viewer</a>
         <br>
-        collection-explorer/explore_the_collection.php
+        image-viewer/viewer.php
     </li>
     <li>
         <span>2</span>
-        <a href="collection-explorer/arts_and_culture.php">Topic page</a>
+        <a href="image-viewer/browse.php">Image browse</a>
         <br>
-        collection-explorer/arts_and_culture.php
-    </li>
-    <li>
-        <span>3</span>
-        <a href="collection-explorer/results.php">Results page</a>
-        <br>
-        collection-explorer/results.php
+        image-viewer/browse.php
     </li>
 </ul>
 
