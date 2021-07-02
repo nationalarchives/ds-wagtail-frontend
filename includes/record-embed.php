@@ -1,0 +1,24 @@
+<div class="record-embed">
+    <div class="record-embed__image-container">
+        <div class="container">
+            <h2 class="record-embed__heading no-margin-top"><?php echo $record_embed_values['heading'] ?></h2>
+        </div>
+        <img class="record-embed__image" src="<?php echo $record_embed_values['image'] ?>" alt="<?php echo $record_embed_values['image-alt'] ?>">
+    </div>
+    <div class="record-embed__description">
+        <div class="container">
+            <p class="record-embed__text--roboto-mono"><?php echo $record_embed_values['reference'] ?></p>
+            <p class="record-embed__text--roboto-mono"><?php echo $record_embed_values['date-created'] ?></p>
+
+            <?php
+            foreach ($record_embed_values['text'] as $record_embed_paragraphs => $record_embed_paragraph) { ?>
+                <p class="record-embed__text"><?php echo $record_embed_paragraph ?></p>
+            <?php } ?>
+
+            <?php
+            foreach ($record_embed_values['buttons'] as $record_embed_buttons => $record_embed_button) { ?>
+                <span class="record-embed__button"><a class="tna-button-secondary--no-underline" href=""><?php echo $record_embed_button ?></a></span>
+            <?php } ?>
+        </div>
+        </div>
+</div>

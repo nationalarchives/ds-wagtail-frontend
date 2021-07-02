@@ -20,6 +20,7 @@
                 <?php render_quotes($quote_list); ?>
                 <?php render_callouts($callout_list); ?>
                 <?php render_media_embeds($media_embed_list); ?>
+                <?php  render_record_embeds($record_embed_list); ?>
             </div>
         </div>
     </div>

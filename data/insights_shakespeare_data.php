@@ -78,3 +78,21 @@ $content_block_list = [
         ]
     ]
 ];
+
+$record_embed_list = [
+    "The face of Shakespeare" => [
+        "heading" => "The face of Shakespeare",
+        "image" => "/images/insights/shakespeare.png",
+        "image-alt" => "A portrait of Shakespeare",
+        "reference" => "Reference: PRO 30/25/205",
+        "date-created" => "Date created: 1958",
+        "text" => [
+            "paragraph-1" => "The portrait shows a balding man, dark haired, rather askew of eye, and wearing a white lace collar of a type familiar to anyone who has read anything about William Shakespeare. The image itself is quite easily explained. It is a pencil copy, made in the 19th century by an antiquarian and archivist, of a 17th century portrait. But is this an image of Shakespeare, and why is it in the collections of The National Archives at all?",
+            "paragraph-2" => "The expert among whose papers it was found was Rawdon Lubbock Brown who, as you may have read in a blog earlier this year, was among the staff of the then-Public Record Office… but in Venice."
+        ],
+        "buttons" => [
+            "discovery-cta" => "View in the catalogue",
+            "blog-cta" => "Read more in our blog"
+        ]
+    ]
+];

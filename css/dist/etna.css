@@ -602,4 +602,69 @@ h2 {
   font-family: "Roboto Mono", sans-serif;
 }
 
+.record-embed {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.record-embed__image-container {
+  background-color: #000;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.record-embed__heading {
+  text-align: left;
+  border-bottom: 5px solid #666;
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+}
+
+.record-embed__image {
+  height: 600px;
+}
+
+.record-embed__description {
+  background-color: #222;
+  padding: 2rem 0;
+}
+
+.record-embed__text, .record-embed__text--roboto-mono {
+  font-size: 1.1rem;
+}
+
+.record-embed__text, a.record-embed__text:visited, .record-embed__heading {
+  color: #fff;
+}
+
+.record-embed__text--roboto-mono {
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.record-embed__button {
+  margin-right: 1rem;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.tna-button-secondary--no-underline {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0.125rem solid #ffffff;
+  padding: 0.5rem 0.9rem;
+  display: inline-block;
+  min-width: 1.625rem;
+  text-align: center;
+  text-decoration: none;
+}
+.tna-button-secondary--no-underline:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 0.125rem solid #000000;
+}
+
 /*# sourceMappingURL=etna.css.map */

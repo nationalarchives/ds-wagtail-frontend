@@ -41,3 +41,10 @@ function render_content_blocks($content_block_list)
         include "../includes/content-block.php";
     }
 }
+
+function render_record_embeds($record_embed_list)
+{
+    foreach ($record_embed_list as $record_embed_title => $record_embed_values) {
+        include "../includes/record-embed.php";
+    }
+}
