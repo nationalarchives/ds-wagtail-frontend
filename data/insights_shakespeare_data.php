@@ -13,6 +13,19 @@ $breadcrumbs = [
     "Home" => "/"
 ];
 
+$jumplinks = [
+    "Shakespeare's career",
+    "The face of Shakespeare",
+    "Legal cases",
+    "Shakespeare and James I",
+    "A tourist's guide to Shakespeare's London",
+    "Paying for the privilege: a new Shakespeare discovery",
+    "Research resources",
+    "Shakespeare's will",
+    "An extract from Shakespeare's will",
+    "Explore our other content about Shakespeare"
+];
+
 $quote_list = [
     "Records relating to Shakespeare" => [
         "text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
