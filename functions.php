@@ -48,3 +48,10 @@ function render_record_embeds($record_embed_list)
         include "../includes/record-embed.php";
     }
 }
+
+function render_related_content($related_content_list)
+{
+    foreach ($related_content_list as $related_content_card => $card_values) {
+        include "../includes/related-content.php";
+    }
+}

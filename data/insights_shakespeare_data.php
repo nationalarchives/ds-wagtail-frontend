@@ -2,6 +2,8 @@
 
 $page = [
     "title" => "Collection Insights - Shakespeare",
+    "related_content_heading" => "Explore our other content about Shakespeare",
+    "related_content_description" => "Find out more about Shakespeare at The National Archives."
 ];
 
 $generic_intro = [
@@ -94,5 +96,45 @@ $record_embed_list = [
             "discovery-cta" => "View in the catalogue",
             "blog-cta" => "Read more in our blog"
         ]
+    ]
+];
+
+$related_content_list = [
+    "Blog" => [
+        "heading" => "Blog - Kidnapped to order: child actors in Shakespeare’s day",
+        "date" => "Saturday 23 April 2016",
+        "description" => "In Shakespeare’s day women could not act in public and female roles were performed by boys and young men. However, what is less well known is there were children’s companies entirely comprised of young boys who played both male and female roles. The Children of the Chapel was one of the most famous, and this blog will explore some of the more extreme methods they went to in order to recruit boys actors.",
+        "url" => "/",
+        "src" => "/images/collection-explorer/topics_cards/design-registers.png",
+        "src_under_768" => "/images/collection-explorer/topics_cards/543/design-registers.png",
+        "src_768_to_991" => "/images/collection-explorer/topics_cards/328/design-registers.png",
+        "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/design-registers.png",
+        "src_over_1199" => "/images/collection-explorer/topics_cards/348/design-registers.png",
+        "image_alt" => "Several frames from a Muybridge study showing a horse standing and in motion"
+    ],
+    "Podcast" => [
+        "heading" => "Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare",
+        "date" => "Tuesday 5 April 2016",
+        "description" => "The actor Edward Alleyn and his father-in-law Philip Henslowe built and expanded several London public playhouses, including the Rose, the Fortune, and the Hope. Named by King James VI and I as Joint ‘Masters of the Royal Game of Bears, Bulls and Mastiff Dogs’, Henslowe and Alleyn also staged such blood sports as bull- and bear- and lion-baiting at the Bear Garden and other venues, including royal palaces. They also commissioned plays and ran acting companies.",
+        "url" => "/",
+        "src" => "/images/collection-explorer/topics_cards/design-registers.png",
+        "src_under_768" => "/images/collection-explorer/topics_cards/543/design-registers.png",
+        "src_768_to_991" => "/images/collection-explorer/topics_cards/328/design-registers.png",
+        "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/design-registers.png",
+        "src_over_1199" => "/images/collection-explorer/topics_cards/348/design-registers.png",
+        "image_alt" => "Decorative pattern from the design registers"
+    ],
+    "Event" => [
+        "heading" => "Event - ‘Before Shakespeare’ at The National Archives",
+        "date" => "Date: Every Wednesday, starting Wednesday 1 August 2018",
+        "description" => "In this talk, the project team will ask the fundamental question, ‘what is a playhouse?’, and explore surviving documents that tell us what we know about these spaces, and rethink the builders, managers, and audiences who brought them into being.",
+        "url" => "/",
+        "src" => "/images/collection-explorer/topics_cards/design-registers.png",
+        "src_under_768" => "/images/collection-explorer/topics_cards/543/design-registers.png",
+        "src_768_to_991" => "/images/collection-explorer/topics_cards/328/design-registers.png",
+        "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/design-registers.png",
+        "src_over_1199" => "/images/collection-explorer/topics_cards/348/design-registers.png",
+        "image_alt" => "Decorative pattern from the design registers",
+        "price" => "Price - £4"
     ]
 ];
