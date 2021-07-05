@@ -20,8 +20,10 @@
             <?php echo $media_embed_values['text'] ?>
         </p>
 
-        <a class="tna-button--no-underline" href="/">
-            <?php echo $media_embed_values['button-text'] ?>
-        </a>
+        <audio controls>
+            <source src="<?php echo $media_embed_values['podcast-source'] ?>" type="audio/mp3">
+            <p>Your browser doesn't support HTML5 audio. Here is a <a href="<?php echo $media_embed_values['podcast-source'] ?>">link to the audio</a>
+                instead.</p>
+        </audio>
     </div>
 </div>
