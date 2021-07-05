@@ -1,45 +1,45 @@
 .callout {
-  background-color: #12477a;
+  background-color: $color__blue_3;
   padding: 2rem 0;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
-}
 
-.callout__heading {
-  color: #fff;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 1.4em;
-  margin-bottom: 3em;
-}
-
-.callout__list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.callout__list-item {
-  background-color: #292929;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-left: 20px solid #333;
-}
-
-.callout__link {
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: #fff;
+  &__standfirst {
+    color: $color__white;
+    font-family: $font__roboto-mono;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
   }
-}
 
-.callout__link-heading {
-  font-size: 26px;
-  color: #fff;
-}
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
 
-.callout__link-text {
-  color: #ccc;
-  margin-bottom: 0;
+ &__list-item {
+   background-color: $color__dark;
+   margin-bottom: 1rem;
+   padding: 1rem;
+   border-left: 1.25rem solid $color__grey-6;
+ }
+
+ &__link {
+   text-decoration: none;
+
+   &:hover {
+     text-decoration: underline;
+     text-decoration-color: $color__white;
+   }
+ }
+
+ &__link-heading {
+   font-size: 1.625rem;
+   color: $color__white;
+ }
+
+ &__link-text {
+   color: $color__grey-4;
+   margin-bottom: 0;
+ }
 }

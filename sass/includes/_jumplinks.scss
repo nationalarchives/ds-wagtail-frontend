@@ -1,22 +1,28 @@
 .jumplinks {
-  background-color: #12477a;
+  background-color: $color__blue_3;
   padding: 2rem;
+
+  &__heading {
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    column-count: 2;
+    padding-left: 0;
+  }
+
+  &__list-item {
+    margin: 0 1rem 1rem 1.2rem;
+  }
 }
 
-.jumplinks__heading {
-  margin-bottom: 2rem;
-}
-
-.jumplinks__list {
-  column-count: 2;
-  padding-left: 1rem;
-}
-
-.jumplink__list-item {
-  margin: 0 1em 0.5em 1.2em;
-}
-
-.jumplinks__heading, .jumplink__list-item, .jumplink, .jumplink:visited {
+.jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
   color: #fff;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: $font__roboto-mono;
+}
+
+@media only screen and (max-width: $screen__md)  {
+  .jumplinks__list {
+    column-count: 1;
+  }
 }

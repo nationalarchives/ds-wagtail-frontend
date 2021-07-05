@@ -2,28 +2,38 @@
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
-}
 
-.record-embed__image-container {
-  background-color: #000;
-  text-align: center;
-  padding:  2rem 0;
-}
+  &__image-container {
+    background-color: $color__black;
+    text-align: center;
+    padding:  2rem 0;
+  }
 
-.record-embed__heading {
-  text-align: left;
-  border-bottom: 5px solid #666;
-  padding-bottom: 10px;
-  margin-bottom: 2rem;
-}
+  &__heading {
+    text-align: left;
+    border-bottom: 0.3125rem solid $color__grey-3;
+    padding-bottom: 0.625rem;
+    margin-bottom: 2rem;
+  }
 
-.record-embed__image {
-  height: 600px;
-}
+  &__image {
+    max-width: 25rem;
+  }
 
-.record-embed__description {
-  background-color: #222;
-  padding: 2rem 0;
+  &__text--roboto-mono {
+    color: $color__white;
+    font-family: $font__roboto-mono
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+  }
+
+ &__description {
+   background-color: $color__grey-2;
+   padding: 2rem 0;
+ }
 }
 
 .record-embed__text, .record-embed__text--roboto-mono {
@@ -31,16 +41,7 @@
 }
 
 .record-embed__text, a.record-embed__text:visited, .record-embed__heading {
-  color: #fff;
-}
-
-.record-embed__text--roboto-mono {
-  color: #fff;
-  font-family: "Roboto Mono", sans-serif;
-}
-
-.record-embed__button {
-  margin-right: 1rem;
+  color: $color__white;
 }
 
 .no-margin-top {
@@ -48,9 +49,9 @@
 }
 
 .tna-button-secondary--no-underline {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  border: 0.125rem solid #ffffff;
+  background-color: $color__white !important;
+  color: $color__black !important;
+  border: 0.125rem solid $color__white;
   padding: 0.5rem 0.9rem;
   display: inline-block;
   min-width: 1.625rem;
@@ -58,8 +59,14 @@
   text-decoration: none;
 
   &:hover {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-    border: 0.125rem solid #000000;
+    background-color: $color__black !important;
+    color: $color__white !important;
+    border: 0.125rem solid $color__black;
+  }
+}
+
+@media only screen and (max-width: $screen__md)  {
+  .record-embed__image {
+    width: 20rem;
   }
 }

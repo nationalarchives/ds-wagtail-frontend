@@ -1,23 +1,25 @@
 <div class="callout">
     <div class="container">
-        <p class="callout__heading">
-            <?php echo $callout_values['text'] ?>
+        <p class="callout__standfirst">
+            <?php echo $callout_values['standfirst-text'] ?>
         </p>
 
-        <ul class="callout__list">
+        <dl class="callout__list">
             <?php
             foreach ($callout_values['links'] as $callout_links => $callout_link) { ?>
-                <li class="callout__list-item">
-                    <a class="callout__link" href="/">
-                        <span class="callout__link-heading">
-                            <?php echo $callout_link['heading'] ?>
-                        </span>
-                        <p class="callout__link-text">
-                            <?php echo $callout_link['text'] ?>
-                        </p>
-                    </a>
-                </li>
+                <div class="callout__list-item">
+                    <dt>
+                        <a class="callout__link" href="/">
+                            <span class="callout__link-heading">
+                                <?php echo $callout_link['heading'] ?>
+                            </span>
+                        </a>
+                    </dt>
+                    <dd class="callout__link-text">
+                        <?php echo $callout_link['text'] ?>
+                    </dd>
+                </div>
             <?php } ?>
-        </ul>
+        </dl>
     </div>
 </div>
