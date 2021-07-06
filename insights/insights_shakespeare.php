@@ -20,13 +20,15 @@
                 <?php render_quotes($quote_list); ?>
                 <?php render_callouts($callout_list); ?>
                 <?php render_media_embeds($media_embed_list); ?>
-                <?php  render_record_embeds($record_embed_list); ?>
+                <?php render_record_embeds($record_embed_list); ?>
 
                 <h2><?php echo $page['related_content_heading'] ?></h2>
                 <p><?php echo $page['related_content_description'] ?></p>
                 <div class="row">
                     <?php  render_related_content($related_content_list); ?>
                 </div>
+
+                <?php require '../includes/key-facts__author.php' ?>
             </div>
         </div>
     </div>

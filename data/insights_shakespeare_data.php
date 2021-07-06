@@ -1,7 +1,7 @@
 <?php
 
 $page = [
-    "title" => "Collection Insights - Shakespeare",
+    "title" => "Collection Insight - Shakespeare",
     "related_content_heading" => "Explore our other content about Shakespeare",
     "related_content_description" => "Find out more about Shakespeare at The National Archives."
 ];
@@ -66,7 +66,7 @@ $media_embed_list = [
             have since been destroyed by fire, war and developers, a surprising number of buildings and places still survive. Author David Thomas
             discusses the sights, cuisine and pastimes of 16th century Londoners, while providing insight into what it was like to be a tourist during
             Shakespeare’s lifetime. Please note that there are occasional disruptions to the sound quality during this recording.",
-        "button-text" => "Listen now"
+        "podcast-source" => "https://www.nationalarchives.gov.uk/documents/tourist-guide-to-shakespeare-london.mp3"
     ]
 ];
 
@@ -137,4 +137,10 @@ $related_content_list = [
         "image_alt" => "Decorative pattern from the design registers",
         "price" => "Price - £4"
     ]
+];
+
+$author = [
+    "author" => "Curated by The National Archives' Editorial Board",
+    "author-info" => "This content was curated by a team of editors and Principal Records Specialists with expertise in The National Archives' records relating to Shakespeare.",
+    "image" => "/images/insights/insights-shakespeare-logo.png"
 ];

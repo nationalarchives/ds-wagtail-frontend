@@ -1,0 +1,16 @@
+.key-facts__author {
+  background-color: #e5e5e5;
+  padding: 2rem 0;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+
+  &-image-container {
+    text-align: center;
+  }
+
+  &-info {
+    text-align: left;
+    margin-right: 4rem;
+  }
+}
