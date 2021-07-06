@@ -526,7 +526,7 @@ h2 {
   position: absolute;
 }
 .media-embed__content-panel {
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   position: relative;
   text-align: center;
   z-index: 999;
@@ -553,6 +553,15 @@ h2 {
 }
 .media-embed__description {
   font-size: 1.1rem;
+}
+.media-embed__transcript {
+  background-color: #26262a;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.media-embed__transcript-heading, .media-embed__transcript-text {
+  color: #ffffff;
+  text-align: left;
 }
 
 .media-embed__icon-label, .media-embed__heading, .media-embed__description, .media-embed__date {

@@ -15,7 +15,7 @@
   }
 
   &__content-panel {
-    padding: 3rem;
+    padding: 3rem 3rem 0 3rem;
     position: relative;
     text-align: center;
     z-index: 999;
@@ -47,6 +47,17 @@
 
   &__description {
     font-size: 1.1rem;
+  }
+
+  &__transcript {
+    background-color: $color__grey-2;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+
+  &__transcript-heading, &__transcript-text {
+    color: $color__white;
+    text-align: left;
   }
 }
 

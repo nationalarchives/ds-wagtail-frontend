@@ -25,5 +25,10 @@
             <p>Your browser doesn't support HTML5 audio. Here is a <a href="<?php echo $media_embed_values['podcast-source'] ?>">link to the audio</a>
                 instead.</p>
         </audio>
+
+        <div class="media-embed__transcript">
+            <h3 class="media-embed__transcript-heading">Transcript</h3>
+            <p class="media-embed__transcript-text"><?php echo $media_embed_values['transcript'] ?></p>
+        </div>
     </div>
 </div>
