@@ -1,37 +1,45 @@
 .hierarchy-global {
 
   &__heading {
-    padding: 0 2rem;
+    padding: 1rem;
+    border-top: 1px dotted $color__grey-3;
 
-    @media only screen and (min-width: $screen__lg) {
-      padding: 0 1rem;
+
+      @media only screen and (min-width: $screen__lg) {
+        padding: 1rem;
+        text-align: center;
+      }
+
+    h2 {
+      margin: 1rem 0 0 0;
+      font-size: 1.3rem;
+      border-bottom: 5px solid $color__grey-4;
+      padding: 1rem 0 0.5rem;
+      display: inline-block;
+
 
     }
-  }
 
-  &--border-top {
-    border-top: 2px solid $color__black;
-  }
-
-  &--border-left {
-    border-left: 2px solid $color__black;
+    p {
+      margin: 0;
+    }
   }
 
   &__list {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 
       li {
+        background: url($arrow_down) no-repeat 1rem 1.75rem;
+        background-size: 0.9rem;
         border-bottom: 1px solid $color__grey-4;
-        padding: 2rem;
+        padding: 2rem 2rem 2rem 3rem;
 
         @media only screen and (min-width: $screen__lg) {
-          padding: 1rem;
+          padding: 1.5rem 1.5rem 1.5rem 3rem;
         }
 
-        &:first-child {
-          border-top: 1px solid $color__grey-4;
-        }
 
 
         .reference {
@@ -39,18 +47,36 @@
           color: $color__black;
           font-weight: bold;
         }
-
       }
-  }
-
-  &__current {
-    background-color: $color__link;
-    color: $color__white;
-    border-bottom: 0;
-
-    .reference {
+    .current {
+      background: $color__link url($arrow_right) no-repeat 1rem 1.9rem;
+      background-size: 0.9rem;
       color: $color__white;
+      border-bottom: 0;
+
+
+      span.reference {
+        color: $color__white;
+      }
+
+      span.location {
+        color: $color__white;
+        display: inline-block;
+        font-size: 1rem;
+
+        margin-bottom: 0.35rem;
+      }
     }
   }
 
+
+
+  /* Block modifier: Makes the hierarchy sticky on scroll (xl screen size only) */
+  &--sticky {
+
+    @media only screen and (min-width: $screen__xl) {
+      position: sticky;
+      top: 0;
+    }
+  }
 }

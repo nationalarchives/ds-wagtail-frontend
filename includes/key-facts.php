@@ -4,5 +4,5 @@
         <li><span>Record created by:</span><b>Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</b></li>
         <li><span>Record now held at:</span><b>The National Archives, UK</b></li>
     </ul>
-    <p class="key-facts__link"><span class="small"><i class="bi bi-chevron-down"></i></span><a href="">See the full description</a></p>
+    <p class="key-facts__link"><a href="#">See the full description</a></p>
 </div>

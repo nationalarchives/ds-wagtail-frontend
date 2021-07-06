@@ -13,17 +13,14 @@
 
     <?php require '../includes/hierarchy__local.php' ?>
 
-
     <div class="row no-gutters">
 
-
-
-        <div class="col-xl-3 order-xl-2 hierarchy-global--border-left hierarchy-global--border-top">
+        <div class="col-xl-3 order-xl-2 specific-border-bottom-lg specific-sticky specific-bg-grey-5 specific-margin-top-sm-to-lg">
             <?php require '../includes/hierarchy__global.php' ?>
         </div>
 
         <div class="col-xl-9 order-xl-1">
-            <?php require '../includes/generic_intro.php' ?>
+            <?php require '../includes/record_title.php' ?>
             <div class="container">
                 <?php require '../includes/key-facts.php' ?>
 
@@ -36,15 +33,6 @@
                 <h2>Description and record details</h2>
 
                 <?php require '../includes/record-details.php' ?>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="content">
-                <h2><?php echo $page['title'] ?></h2>
             </div>
         </div>
     </div>

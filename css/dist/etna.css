@@ -1,5 +1,6 @@
 /* Fonts */
 /* Colours */
+/* Background images */
 .sr-only {
   position: absolute;
   width: 0.0625rem;
@@ -254,7 +255,7 @@ h2 {
   }
 }
 
-.tna-button, .results-options__submit, .tna-button--no-underline {
+.tna-button, .results-options__submit {
   background-color: #26262a !important;
   color: #ffffff !important;
   border: 0.125rem solid #000000;
@@ -264,18 +265,18 @@ h2 {
   text-align: center;
 }
 
-.tna-button:visited, .results-options__submit:visited, .tna-button--no-underline:visited, .tna-button:active, .results-options__submit:active, .tna-button--no-underline:active {
+.tna-button:visited, .results-options__submit:visited, .tna-button:active, .results-options__submit:active {
   background-color: #26262a !important;
   color: #ffffff !important;
 }
 
-.tna-button:hover, .results-options__submit:hover, .tna-button--no-underline:hover {
+.tna-button:hover, .results-options__submit:hover {
   background-color: #ffffff !important;
   color: #26262a !important;
   text-decoration: none;
 }
 
-.tna-button:focus, .results-options__submit:focus, .tna-button--no-underline:focus {
+.tna-button:focus, .results-options__submit:focus {
   outline: 0.312rem solid #1d70b8;
   outline-offset: 0;
   z-index: 999;
@@ -315,8 +316,13 @@ h2 {
   text-decoration: none;
 }
 
-.tna-button--no-underline {
+.tna-button, .results-options__submit {
   text-decoration: none;
+  background-color: #1d70b8 !important;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .results-options {
@@ -434,6 +440,7 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .no-js .image-viewer {
   display: none;
@@ -650,48 +657,117 @@ h2 {
     margin-bottom: 1%;
   }
 =======
+=======
+.hierarchy-global {
+  /* Block modifier: Makes the hierarchy sticky on scroll (xl screen size only) */
+}
+>>>>>>> Major implementation of design work including:
 .hierarchy-global__heading {
-  padding: 0 2rem;
+  padding: 1rem;
+  border-top: 1px dotted #6f777b;
 }
 @media only screen and (min-width: 62rem) {
   .hierarchy-global__heading {
-    padding: 0 1rem;
+    padding: 1rem;
+    text-align: center;
   }
 }
-.hierarchy-global--border-top {
-  border-top: 2px solid #000000;
+.hierarchy-global__heading h2 {
+  margin: 1rem 0 0 0;
+  font-size: 1.3rem;
+  border-bottom: 5px solid #dddddd;
+  padding: 1rem 0 0.5rem;
+  display: inline-block;
 }
-.hierarchy-global--border-left {
-  border-left: 2px solid #000000;
+.hierarchy-global__heading p {
+  margin: 0;
 }
 .hierarchy-global__list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .hierarchy-global__list li {
+  background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 1.75rem;
+  background-size: 0.9rem;
   border-bottom: 1px solid #dddddd;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 3rem;
 }
 @media only screen and (min-width: 62rem) {
   .hierarchy-global__list li {
-    padding: 1rem;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
   }
-}
-.hierarchy-global__list li:first-child {
-  border-top: 1px solid #dddddd;
 }
 .hierarchy-global__list li .reference {
   display: block;
   color: #000000;
   font-weight: bold;
 }
-.hierarchy-global__current {
-  background-color: #1d70b8;
+.hierarchy-global__list .current {
+  background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.9rem;
+  background-size: 0.9rem;
   color: #ffffff;
   border-bottom: 0;
 }
-.hierarchy-global__current .reference {
+.hierarchy-global__list .current span.reference {
   color: #ffffff;
+}
+.hierarchy-global__list .current span.location {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+@media only screen and (min-width: 75rem) {
+  .hierarchy-global--sticky {
+    position: sticky;
+    top: 0;
+  }
+}
+
+.hierarchy-local {
+  display: none;
+}
+@media only screen and (min-width: 62rem) {
+  .hierarchy-local {
+    text-align: center;
+    display: block;
+    padding: 2rem 0 1rem;
+    margin: 1rem 0 0;
+    border-top: 5px solid #efefef;
+  }
+}
+.hierarchy-local__nav-item a {
+  display: block;
+}
+.hierarchy-local__nav-item a .reference {
+  color: #ffffff;
+  display: inline-block;
+  background: #1d70b8;
+  margin-right: 0.7rem;
+  padding: 0 0.3rem;
+  font-weight: bold;
+}
+.hierarchy-local__nav-item--left {
+  background: url("/images/fontawesome-svgs/chevron-left.svg") no-repeat;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 auto 1rem;
+}
+.hierarchy-local__nav-item--up {
+  background: url("/images/fontawesome-svgs/chevron-up.svg") no-repeat;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 auto 1rem;
+}
+.hierarchy-local__nav-item--right {
+  background: url("/images/fontawesome-svgs/chevron-right.svg") no-repeat;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 auto 1rem;
 }
 
 .key-facts {
@@ -718,6 +794,11 @@ h2 {
     width: 10rem;
   }
 }
+.key-facts__link {
+  background: url("/images/fontawesome-svgs/chevron-down.svg") no-repeat;
+  background-size: 1.25rem;
+  padding-left: 2.5rem;
+}
 
 .image-viewer-panel {
   margin-top: 1rem;
@@ -725,7 +806,7 @@ h2 {
   width: 100%;
   position: relative;
   background-color: #26262a;
-  padding: 1rem;
+  padding: 1rem 0 0;
 }
 .image-viewer-panel img {
   height: 400px;
@@ -733,10 +814,15 @@ h2 {
   margin: 0 auto;
 }
 .image-viewer-panel a {
-  background-color: #1d70b8;
-  color: #ffffff;
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 2.5rem;
   display: inline-block;
+  color: #ffffff;
+  background: url("/images/fontawesome-svgs/search-plus-white.svg") no-repeat center left;
+  background-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 1.1rem;
 }
 
 .record-access {
@@ -764,6 +850,87 @@ h2 {
 .tna-ul--inline li {
   display: inline-block;
 >>>>>>> - Creating component includes
+}
+
+.record-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.record-title--dark {
+  background-color: #26262a;
+  color: #ffffff;
+}
+.record-title--dark a {
+  color: #ffffff;
+}
+.record-title__title {
+  margin-top: 0;
+  font-size: 3rem;
+}
+@media (max-width: 48rem) {
+  .record-title__title {
+    font-size: 2.25rem;
+  }
+}
+
+/* -
+
+Created 5 Jul 2021 - By Matt B
+
+This file holds styles that are needed in very specific circumstances and will rarely be re-used (if ever).
+These are typically styles that aren't component-specific (using BEM) and aren't included in the Boostrap grid.
+When adding a style, ensure it is within the pre-pended with 'specific' class to identify it correctly and write an accompanying description in the comments to explain:
+  - what it is doing
+  - where it is used
+
+- */
+.specific {
+  /*
+
+  Purpose: Adds a left border to the hierarchy once the screen size passes a certain break point
+  Used on: Details page - */
+  /*
+
+  Purpose: Adds a top border to the hierarchy once the screen size passes a certain break point
+  Used on: Details page - */
+  /*
+
+  Purpose: Adds a bottom border to the hierarchy once the screen size passes a certain break point
+  Used on: Details page - */
+  /*
+
+  Purpose: Adds a grey-5 background colour
+  Used on: Details page - */
+  /*
+
+  Purpose: Adds top margin on screen sizes up to lg (removes margin on lg and above)
+  Used on: Details page - */
+}
+@media only screen and (min-width: 75rem) {
+  .specific-border-left-lg {
+    border-left: 2px solid #dddddd;
+  }
+}
+@media only screen and (min-width: 75rem) {
+  .specific-border-top-lg {
+    border-top: 2px solid #dddddd;
+  }
+}
+@media only screen and (min-width: 75rem) {
+  .specific-border-bottom-lg {
+    border-bottom: 2px solid #dddddd;
+  }
+}
+.specific-bg-grey-5 {
+  background-color: #efefef;
+}
+.specific-margin-top-sm-to-lg {
+  margin: 2rem 0 0;
+}
+@media only screen and (min-width: 62rem) {
+  .specific-margin-top-sm-to-lg {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=etna.css.map */

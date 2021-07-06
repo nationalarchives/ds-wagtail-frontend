@@ -22,4 +22,10 @@
       }
     }
   }
+
+  &__link {
+    background: url($chevron_down) no-repeat;
+    background-size: 1.25rem;
+    padding-left: 2.5rem;
+  }
 }
