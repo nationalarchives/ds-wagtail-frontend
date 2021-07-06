@@ -661,22 +661,24 @@ h2 {
 .hierarchy-global {
   /* Block modifier: Makes the hierarchy sticky on scroll (xl screen size only) */
 }
+<<<<<<< HEAD
 >>>>>>> Major implementation of design work including:
 .hierarchy-global__heading {
+=======
+.hierarchy-global details summary {
+>>>>>>> - Adding details/summary HTML to handle hierarchy on mobile
   padding: 1rem;
-  border-top: 1px dotted #6f777b;
+  text-align: center;
 }
-@media only screen and (min-width: 62rem) {
-  .hierarchy-global__heading {
-    padding: 1rem;
-    text-align: center;
-  }
+.hierarchy-global details summary::marker {
+  color: #1d70b8;
+}
+.hierarchy-global__heading {
+  display: inline-block;
 }
 .hierarchy-global__heading h2 {
-  margin: 1rem 0 0 0;
   font-size: 1.3rem;
-  border-bottom: 5px solid #dddddd;
-  padding: 1rem 0 0.5rem;
+  padding-left: 0.5rem;
   display: inline-block;
 }
 .hierarchy-global__heading p {
@@ -688,15 +690,20 @@ h2 {
   margin: 0;
 }
 .hierarchy-global__list li {
-  background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 1.75rem;
+  background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 2.25rem;
   background-size: 0.9rem;
   border-bottom: 1px solid #dddddd;
   padding: 2rem 2rem 2rem 3rem;
 }
 @media only screen and (min-width: 62rem) {
   .hierarchy-global__list li {
+    background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 1.75rem;
+    background-size: 0.9rem;
     padding: 1.5rem 1.5rem 1.5rem 3rem;
   }
+}
+.hierarchy-global__list li:first-child {
+  border-top: 1px solid #dddddd;
 }
 .hierarchy-global__list li .reference {
   display: block;
@@ -704,10 +711,16 @@ h2 {
   font-weight: bold;
 }
 .hierarchy-global__list .current {
-  background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.9rem;
+  background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 2.25rem;
   background-size: 0.9rem;
   color: #ffffff;
   border-bottom: 0;
+}
+@media only screen and (min-width: 62rem) {
+  .hierarchy-global__list .current {
+    background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.75rem;
+    background-size: 0.9rem;
+  }
 }
 .hierarchy-global__list .current span.reference {
   color: #ffffff;
@@ -806,7 +819,7 @@ h2 {
   width: 100%;
   position: relative;
   background-color: #26262a;
-  padding: 1rem 0 0;
+  padding: 2.5em 0 0;
 }
 .image-viewer-panel img {
   height: 400px;
