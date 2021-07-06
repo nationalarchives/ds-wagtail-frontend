@@ -669,17 +669,18 @@ h2 {
 >>>>>>> - Adding details/summary HTML to handle hierarchy on mobile
   padding: 1rem;
   text-align: center;
+  margin: 1.5rem 0;
 }
 .hierarchy-global details summary::marker {
   color: #1d70b8;
 }
 .hierarchy-global__heading {
-  display: inline-block;
+  display: inline;
 }
 .hierarchy-global__heading h2 {
   font-size: 1.3rem;
   padding-left: 0.5rem;
-  display: inline-block;
+  display: inline;
 }
 .hierarchy-global__heading p {
   margin: 0;
@@ -734,7 +735,7 @@ h2 {
 @media only screen and (min-width: 75rem) {
   .hierarchy-global--sticky {
     position: sticky;
-    top: 0;
+    top: 2em;
   }
 }
 
