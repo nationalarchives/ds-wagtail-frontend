@@ -12,6 +12,7 @@
 
 <main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
+    <?php require '../includes/hero-image.php' ?>
     <?php require '../includes/jumplinks.php' ?>
     <div class="container">
         <div class="row">
