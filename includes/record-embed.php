@@ -26,7 +26,7 @@
 
             <?php
             foreach ($record_embed_values['buttons'] as $record_embed_buttons => $record_embed_button) { ?>
-                <span class="record-embed__button"><a class="tna-button-secondary--no-underline" href=""><?php echo $record_embed_button ?></a></span>
+                <span class="record-embed__button"><a class="tna-button-secondary--no-underline" href="<?php echo $record_embed_button["link"] ?>"><?php echo $record_embed_button["button-text"] ?></a></span>
             <?php } ?>
         </div>
     </div>

@@ -42,15 +42,18 @@ $callout_list = [
         "links" => [
             "1" => [
                 "heading" => "The case of Belott versus Mountjoy",
-                "text" => "This concerns a marriage dowry and contains Shakespeare’s signed deposition. The documents pinpoint his residence in 1604."
+                "text" => "This concerns a marriage dowry and contains Shakespeare’s signed deposition. The documents pinpoint his residence in 1604.",
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904894"
             ],
             "2" => [
                 "heading" => "The case of Keysar versus Burbage and others",
-                "text" => "This describes the King’s Men acting company’s involvement in the Blackfriars Playhouse."
+                "text" => "This describes the King’s Men acting company’s involvement in the Blackfriars Playhouse.",
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C2677795"
             ],
             "3" => [
                 "heading" => "The case of Witter versus Heminges and Condell",
-                "text" => "This describes the way in which the shares in the syndicate that leased the Globe playhouse were distributed."
+                "text" => "This describes the way in which the shares in the syndicate that leased the Globe playhouse were distributed.",
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904893"
             ]
         ]
     ]
@@ -93,8 +96,14 @@ $record_embed_list = [
             "paragraph-2" => "The expert among whose papers it was found was Rawdon Lubbock Brown who, as you may have read in a blog earlier this year, was among the staff of the then-Public Record Office… but in Venice."
         ],
         "buttons" => [
-            "discovery-cta" => "View in the catalogue",
-            "blog-cta" => "Read more in our blog"
+            "catalogue" => [
+                "button-text" => "View in the catalogue",
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C3604789"
+            ],
+            "blog" => [
+                "button-text" => "Read more in our blog",
+                "link" => "https://blog.nationalarchives.gov.uk/face-william-shakespeare/"
+            ]
         ]
     ]
 ];

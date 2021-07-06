@@ -9,7 +9,7 @@
             foreach ($callout_values['links'] as $callout_links => $callout_link) { ?>
                 <div class="callout__list-item">
                     <dt>
-                        <a class="callout__link" href="/">
+                        <a class="callout__link" href="<?php echo $callout_link['link'] ?>">
                             <span class="callout__link-heading">
                                 <?php echo $callout_link['heading'] ?>
                             </span>
