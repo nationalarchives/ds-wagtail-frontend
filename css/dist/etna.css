@@ -688,4 +688,45 @@ h2 {
   margin-right: 4rem;
 }
 
+.research-resources {
+  text-align: center;
+  margin: 2rem 0;
+}
+.research-resources__icon {
+  background-color: #134571;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.research-resources__icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.research-resources__list {
+  list-style: none;
+  padding-left: 0;
+}
+.research-resources__list-item {
+  background-color: #134571;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 1.25rem solid #1d70b8;
+  text-align: left;
+}
+.research-resources__link {
+  text-decoration: none;
+}
+.research-resources__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+.research-resources__link-heading {
+  font-size: 1.625rem;
+}
+.research-resources__link-heading, .research-resources__link-text {
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=etna.css.map */

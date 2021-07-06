@@ -49,6 +49,13 @@ function render_record_embeds($record_embed_list)
     }
 }
 
+function render_research_resources($research_resources_list)
+{
+    foreach ($research_resources_list as $research_resources_title => $research_resources_values) {
+        include "../includes/research-resources.php";
+    }
+}
+
 function render_related_content($related_content_list)
 {
     foreach ($related_content_list as $related_content_card => $card_values) {

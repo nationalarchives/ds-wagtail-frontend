@@ -166,6 +166,27 @@ $related_content_list = [
     ]
 ];
 
+$research_resources_list = [
+    "Shakespeare research resources" => [
+        "icon" => "/images/insights/learn-icon.png",
+        "icon-label" => "Research",
+        "heading" => "Research resources",
+        "description" => "These research resources may be a helpful way to continue your exploration of Shakespeare.",
+        "links" => [
+            "Tudor Entertainment" => [
+                "link" => "https://www.nationalarchives.gov.uk/education/resources/tudor-entertainment/",
+                "heading" => "Tudor Entertainment",
+                "text" => "What was the effect of the early playhouses?"
+            ],
+            "James I" => [
+                "link" => "https://www.nationalarchives.gov.uk/education/resources/james-i/",
+                "heading" => "James I",
+                "text" => "What were the key areas of dispute?"
+            ]
+        ]
+    ]
+];
+
 $author = [
     "author" => "Curated by The National Archives' Editorial Board",
     "author-info" => "This content was curated by a team of editors and Principal Records Specialists with expertise in The National Archives' records relating to Shakespeare.",
