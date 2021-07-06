@@ -49,6 +49,13 @@ function render_record_embeds($record_embed_list)
     }
 }
 
+function render_record_embeds_no_image($record_embed_no_image_list)
+{
+    foreach ($record_embed_no_image_list as $record_embed_no_image_title => $record_embed_no_image_values) {
+        include "../includes/record-embed__no-image.php";
+    }
+}
+
 function render_research_resources($research_resources_list)
 {
     foreach ($research_resources_list as $research_resources_title => $research_resources_values) {

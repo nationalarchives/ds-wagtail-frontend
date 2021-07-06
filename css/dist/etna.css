@@ -729,4 +729,45 @@ h2 {
   color: #ffffff;
 }
 
+.record-embed-no-image {
+  text-align: center;
+  margin: 2rem 0;
+}
+.record-embed-no-image__icon {
+  background-color: #134571;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.record-embed-no-image__icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.record-embed-no-image__list {
+  list-style: none;
+  padding-left: 0;
+}
+.record-embed-no-image__list-item {
+  background-color: #134571;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 1.25rem solid #1d70b8;
+  text-align: left;
+}
+.record-embed-no-image__link {
+  text-decoration: none;
+}
+.record-embed-no-image__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+.record-embed-no-image__link-heading {
+  font-size: 1.625rem;
+}
+.record-embed-no-image__link-heading, .record-embed-no-image__link-text {
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=etna.css.map */

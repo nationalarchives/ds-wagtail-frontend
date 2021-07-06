@@ -126,6 +126,25 @@ $record_embed_list = [
     ]
 ];
 
+$record_embed_no_image_list = [
+    "Shakespeare and James I" => [
+        "has-image" => "false",
+        "icon" => "/images/insights/explore-icon.png",
+        "icon-label" => "Discover our records",
+        "heading" => "Shakespeare and James I",
+        "reference" => "LC 2/4/5",
+        "text" => [
+            "paragraph-1" => "Other documents at The National Archives reveal the growing status and prestige of Shakespeare, as, for example, the 1604 Progress of James I through the city of London, which mentions a grant of cloth to Shakespeare.",
+        ],
+        "buttons" => [
+            "catalogue" => [
+                "button-text" => "View in the catalogue",
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C213527"
+            ]
+        ]
+    ]
+];
+
 $related_content_list = [
     "Blog" => [
         "heading" => "Blog - Kidnapped to order: child actors in Shakespeare’s day",
