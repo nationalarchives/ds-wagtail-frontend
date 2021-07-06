@@ -34,6 +34,18 @@
    background-color: $color__grey-2;
    padding: 2rem 0;
  }
+
+ &__image-viewer-link, &__image-viewer-link:visited {
+   padding: 2rem 1rem 2rem 2.5rem;
+   display: inline-block;
+   color: $color__white;
+   background: url($search_plus) no-repeat center left;
+   background-size: 1.75rem;
+   text-align: center;
+   font-weight: bold;
+   vertical-align: top;
+   font-size: 1.1rem;
+ }
 }
 
 .record-embed__text, .record-embed__text--roboto-mono {

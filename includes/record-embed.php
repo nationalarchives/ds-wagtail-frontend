@@ -3,9 +3,14 @@
         <div class="container">
             <h2 class="record-embed__heading no-margin-top"><?php echo $record_embed_values['heading'] ?></h2>
         </div>
-        <a href="/">
+        <figure>
             <img class="record-embed__image" src="<?php echo $record_embed_values['image'] ?>" alt="<?php echo $record_embed_values['image-alt'] ?>">
-        </a>
+            <figcaption>
+                <a class="record-embed__image-viewer-link" href="/">
+                    Open in our image viewer
+                </a>
+            </figcaption>
+        </figure>
     </div>
     <div class="record-embed__description">
         <div class="container">

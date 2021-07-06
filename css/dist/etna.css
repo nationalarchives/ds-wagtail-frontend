@@ -1,5 +1,6 @@
 /* Fonts */
 /* Colours */
+/* Background images */
 .sr-only {
   position: absolute;
   width: 0.0625rem;
@@ -617,6 +618,17 @@ h2 {
 .record-embed__description {
   background-color: #26262a;
   padding: 2rem 0;
+}
+.record-embed__image-viewer-link, .record-embed__image-viewer-link:visited {
+  padding: 2rem 1rem 2rem 2.5rem;
+  display: inline-block;
+  color: #ffffff;
+  background: url("/images/fontawesome-svgs/search-plus-white.svg") no-repeat center left;
+  background-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 1.1rem;
 }
 
 .record-embed__text, .record-embed__text--roboto-mono {
