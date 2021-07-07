@@ -16,19 +16,21 @@
         <?php echo $research_resources_values['description'] ?>
     </p>
 
-    <ul class="research-resources__list">
+    <dl class="research-resources__list">
         <?php
         foreach ($research_resources_values['links'] as $research_resources_links => $research_resources_link) { ?>
-            <li class="research-resources__list-item">
-                <a class="research-resources__link" href="<?php echo $research_resources_link['link'] ?>">
-                    <span class="research-resources__link-heading">
-                        <?php echo $research_resources_link['heading'] ?>
-                    </span>
-                </a>
-                <p class="research-resources__link-text">
+            <div class="research-resources__list-item">
+                <dt>
+                    <a class="research-resources__link" href="<?php echo $research_resources_link['link'] ?>">
+                        <span class="research-resources__link-heading">
+                            <?php echo $research_resources_link['heading'] ?>
+                        </span>
+                    </a>
+                </dt>
+                <dd class="research-resources__link-text">
                     <?php echo $research_resources_link['text'] ?>
-                </p>
-            </li>
+                </dd>
+            </div>
         <?php } ?>
-    </ul>
+    </dl>
 </div>
