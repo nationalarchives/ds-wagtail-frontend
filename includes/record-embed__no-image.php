@@ -18,7 +18,7 @@
 
     <?php
     foreach ($record_embed_no_image_values['text'] as $record_embed_no_image_paragraphs => $record_embed_no_image_paragraph) { ?>
-        <p>
+        <p class="record-embed-no-image__text">
             <?php echo $record_embed_no_image_paragraph ?>
         </p>
     <?php } ?>
