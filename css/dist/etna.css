@@ -474,6 +474,14 @@ h2 {
 .content-block__text {
   font-size: 1.3rem;
 }
+.content-block__bordered {
+  border-top: 5px solid #dddddd;
+  border-bottom: 5px solid #dddddd;
+  padding: 2rem 0;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
 
 .quote {
   position: relative;

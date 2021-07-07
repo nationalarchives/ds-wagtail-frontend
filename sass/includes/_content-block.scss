@@ -5,4 +5,13 @@
   &__text {
     font-size: 1.3rem;
   }
+
+  &__bordered {
+    border-top: 5px solid $color__grey-4;
+    border-bottom: 5px solid $color__grey-4;
+    padding: 2rem 0;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+  }
 }

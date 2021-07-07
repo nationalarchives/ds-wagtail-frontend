@@ -100,6 +100,19 @@ $content_block_list = [
             "paragraph-2" => "His now famous plays were performed widely during his lifetime, often at the purpose-built Globe Theatre in London on the south bank of the Thames. The first folio was published in 1623, with 154 sonnets, 37 plays, and 2 long poems. It is suggested that his friends put it together in case others tried to copy Shakespeare’s work and claim it as their own.",
             "paragraph-3" => "Since then, he has become internationally renowned as the world’s greatest ever playwright."
         ]
+    ],
+    "Shakespeare's will" => [
+        "heading" => "",
+        "text" => [
+            "paragraph-1" => "Shakespeare’s will itself is a matter of debate. The last will and testament helps us to learn about Shakespeare at the end of his life, providing us with minute details about his final wishes. The source evidence in this lesson shows that he was a man of considerable wealth by the time he died, and that most of it was left to his eldest daughter, Susanna Hall. The will also provides us with three of only six surviving samples of his signature."
+        ]
+    ],
+    "The King's Men" => [
+        "heading" => "The King's Men",
+        "text" => [
+            "paragraph-1" => "Six shillings and eight pence is what Shakespeare’s company of actors, the Lord Chamberlain’s Men, were charged for the first stage of a bureaucratic process to gain a licence granting them the patronage of the new king, James I; henceforth, the company would be known as the King’s Men. It was expensive – at the time, actors in London were normally paid less than one shilling a day – but it was to prove a wise investment.",
+            "paragraph-2" => "This information has recently come to light in a new examination of a document in The National Archives by Dr Hannah Crummé."
+        ]
     ]
 ];
 
