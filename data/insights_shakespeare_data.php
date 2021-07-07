@@ -229,5 +229,5 @@ $research_resources_list = [
 $author = [
     "author" => "Curated by The National Archives' Editorial Board",
     "author-info" => "This content was curated by a team of editors and Principal Records Specialists with expertise in The National Archives' records relating to Shakespeare.",
-    "image" => "/images/insights/insights-shakespeare-logo.png"
+    "image" => ""
 ];
