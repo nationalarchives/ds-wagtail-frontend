@@ -24,6 +24,7 @@
                 <?php render_media_embeds($media_embed_list); ?>
                 <?php render_research_resources($research_resources_list) ?>
                 <?php render_record_embeds($record_embed_list); ?>
+                <?php render_blog_embeds($blog_embed_list) ?>
 
                 <h2><?php echo $page['related_content_heading'] ?></h2>
                 <p><?php echo $page['related_content_description'] ?></p>

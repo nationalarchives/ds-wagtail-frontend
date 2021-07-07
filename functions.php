@@ -69,3 +69,10 @@ function render_related_content($related_content_list)
         include "../includes/related-content.php";
     }
 }
+
+function render_blog_embeds($blog_embed_list)
+{
+    foreach ($blog_embed_list as $blog_embed_title => $blog_embed_values) {
+        include "../includes/blog-embed.php";
+    }
+}

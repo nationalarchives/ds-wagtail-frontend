@@ -88,6 +88,38 @@
   max-width: 8.938rem;
 }
 
+.hero-image {
+  background: url(/images/insights/shakespeare-hero-image.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 420px;
+}
+
+.jumplinks {
+  background-color: #134571;
+  padding: 2rem;
+}
+.jumplinks__heading {
+  margin-bottom: 2rem;
+}
+.jumplinks__list {
+  column-count: 2;
+  padding-left: 1rem;
+}
+.jumplinks__list-item {
+  margin: 0 1rem 1rem 1.2rem;
+}
+
+.jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+@media only screen and (max-width: 48rem) {
+  .jumplinks__list {
+    column-count: 1;
+  }
+}
 a {
   transition: background-color 0.5s, color 0.5s;
 }
@@ -435,6 +467,10 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+.content-block__text {
+  font-size: 1.3rem;
+}
+
 .quote {
   position: relative;
   margin-bottom: 3rem;
@@ -568,35 +604,6 @@ h2 {
   color: #ffffff;
 }
 
-.content-block__text {
-  font-size: 1.3rem;
-}
-
-.jumplinks {
-  background-color: #134571;
-  padding: 2rem;
-}
-.jumplinks__heading {
-  margin-bottom: 2rem;
-}
-.jumplinks__list {
-  column-count: 2;
-  padding-left: 1rem;
-}
-.jumplinks__list-item {
-  margin: 0 1rem 1rem 1.2rem;
-}
-
-.jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
-  color: #fff;
-  font-family: "Roboto Mono", sans-serif;
-}
-
-@media only screen and (max-width: 48rem) {
-  .jumplinks__list {
-    column-count: 1;
-  }
-}
 .record-embed {
   width: 100vw;
   position: relative;
@@ -673,62 +680,6 @@ h2 {
     width: 20rem;
   }
 }
-.key-facts__author {
-  background-color: #e5e5e5;
-  padding: 2rem 0;
-  width: 100vw;
-  position: relative;
-  left: calc(-50vw + 50%);
-}
-.key-facts__author-image-container {
-  text-align: center;
-}
-.key-facts__author-info {
-  text-align: left;
-  margin-right: 4rem;
-}
-
-.research-resources {
-  text-align: center;
-  margin: 2rem 0;
-}
-.research-resources__icon {
-  background-color: #134571;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  padding: 1rem;
-}
-.research-resources__icon-label {
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 0.9em;
-}
-.research-resources__list {
-  list-style: none;
-  padding-left: 0;
-}
-.research-resources__list-item {
-  background-color: #134571;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-left: 1.25rem solid #1d70b8;
-  text-align: left;
-}
-.research-resources__link {
-  text-decoration: none;
-}
-.research-resources__link:hover {
-  text-decoration: underline;
-  text-decoration-color: #ffffff;
-}
-.research-resources__link-heading {
-  font-size: 1.625rem;
-}
-.research-resources__link-heading, .research-resources__link-text {
-  color: #ffffff;
-}
-
 .record-embed-no-image {
   text-align: center;
   margin: 2rem 0;
@@ -773,11 +724,110 @@ h2 {
   color: #ffffff;
 }
 
-.hero-image {
-  background: url(/images/insights/shakespeare-hero-image.jpg) no-repeat;
-  background-size: cover;
+.research-resources {
+  text-align: center;
+  margin: 2rem 0;
+}
+.research-resources__icon {
+  background-color: #134571;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.research-resources__icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.research-resources__list {
+  list-style: none;
+  padding-left: 0;
+}
+.research-resources__list-item {
+  background-color: #134571;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 1.25rem solid #1d70b8;
+  text-align: left;
+}
+.research-resources__link {
+  text-decoration: none;
+}
+.research-resources__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+.research-resources__link-heading {
+  font-size: 1.625rem;
+}
+.research-resources__link-heading, .research-resources__link-text {
+  color: #ffffff;
+}
+
+.blog-embed {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+.blog-embed__icon {
+  background-color: #134571;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.blog-embed__icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.blog-embed__image {
+  width: 100%;
+}
+.blog-embed__list {
+  list-style: none;
+  padding-left: 0;
+}
+.blog-embed__list-item {
+  background-color: #134571;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 1.25rem solid #1d70b8;
+  text-align: left;
+}
+.blog-embed__link {
+  text-decoration: none;
+}
+.blog-embed__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+.blog-embed__text {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+.blog-embed__link-heading {
+  font-size: 1.625rem;
+}
+.blog-embed__link-heading, .blog-embed__link-text {
+  color: #ffffff;
+}
+
+.key-facts__author {
+  background-color: #e5e5e5;
+  padding: 2rem 0;
+  width: 100vw;
   position: relative;
-  height: 420px;
+  left: calc(-50vw + 50%);
+}
+.key-facts__author-image-container {
+  text-align: center;
+}
+.key-facts__author-info {
+  text-align: left;
+  margin-right: 4rem;
 }
 
 /*# sourceMappingURL=etna.css.map */

@@ -145,6 +145,26 @@ $record_embed_no_image_list = [
     ]
 ];
 
+$blog_embed_list = [
+    "Paying for the privilege: a new Shakespeare discovery" => [
+        "icon" => "/images/insights/read-icon.png",
+        "icon-label" => "Blog",
+        "date" => "Saturday 23 April 2016",
+        "heading" => "Paying for the privilege: a new Shakespeare discovery",
+        "image" => "/images/insights/paying-for-privilege.jpeg",
+        "image-alt" => "Summary in Signet Office Docquet Book of licence to the Lord Chamberlain’s Men (including Shakespeare) and fee charged (catalogue reference: SO 3/2)",
+        "text" => [
+            "paragraph-1" => "One third of a pound does not go far today – it’s not even a small child’s pocket money. But in 1603, it helped Shakespeare secure his future.",
+        ],
+        "buttons" => [
+            "blog" => [
+                "button-text" => "Read the full blog",
+                "link" => "https://blog.nationalarchives.gov.uk/paying-privilege-new-shakespeare-discovery/"
+            ]
+        ]
+    ]
+];
+
 $related_content_list = [
     "Blog" => [
         "heading" => "Blog - Kidnapped to order: child actors in Shakespeare’s day",
