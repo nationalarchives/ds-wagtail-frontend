@@ -23,7 +23,7 @@ $color__pink: #fad3d4;
 $color__blue_2: #1e1e2a;
 $color__blue_3: #134571;
 $color__blue_4: #1d70b8;
-$color__blue_5: #8EC0EC;;
+$color__blue_5: #8EC0EC;
 $color__purple: #4c2c92;
 
 $color__grey-5: #efefef;
@@ -48,4 +48,13 @@ $default__border: 0.125rem solid $color__black;
 
 $transition_duration: 0.5s;
 
+/* Background images */
+$chevron_left: '/images/fontawesome-svgs/chevron-left.svg';
+$chevron_up: '/images/fontawesome-svgs/chevron-up.svg';
+$chevron_right: '/images/fontawesome-svgs/chevron-right.svg';
+$chevron_down: '/images/fontawesome-svgs/chevron-down.svg';
 
+$arrow_down: '/images/fontawesome-svgs/arrow-down.svg';
+$arrow_right: '/images/fontawesome-svgs/arrow-right.svg';
+
+$search_plus: '/images/fontawesome-svgs/search-plus-white.svg';

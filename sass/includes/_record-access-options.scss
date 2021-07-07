@@ -1,0 +1,32 @@
+.record-access {
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+  background-color: $color__grey-5;
+  color: $color__black;
+
+  summary {
+    text-decoration: underline;
+    color: $color__link;
+    margin-bottom: 1rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

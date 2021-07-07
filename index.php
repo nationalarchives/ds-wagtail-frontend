@@ -113,6 +113,12 @@
         <br>
         image-viewer/browse.php
     </li>
+    <li>
+        <span>4</span>
+        <a href="details/index.php">Details page</a>
+        <br>
+        details/index.php
+    </li>
 </ul>
 
 </body>
