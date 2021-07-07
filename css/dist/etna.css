@@ -581,7 +581,7 @@ h2 {
 }
 .jumplinks__list {
   column-count: 2;
-  padding-left: 0;
+  padding-left: 1rem;
 }
 .jumplinks__list-item {
   margin: 0 1rem 1rem 1.2rem;
