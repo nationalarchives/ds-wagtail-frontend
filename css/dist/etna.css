@@ -84,6 +84,9 @@
   text-decoration: none;
 }
 
+.tna-header {
+  padding: 1rem 3rem;
+}
 .tna-header__logo--beta {
   max-width: 8.938rem;
 }
@@ -659,7 +662,8 @@ h2 {
 =======
 =======
 .hierarchy-global {
-  /* Block modifier: Makes the hierarchy sticky on scroll (xl screen size only) */
+  position: sticky;
+  top: 2em;
 }
 <<<<<<< HEAD
 >>>>>>> Major implementation of design work including:
@@ -670,9 +674,6 @@ h2 {
   padding: 1rem;
   text-align: center;
   margin: 1.5rem 0;
-}
-.hierarchy-global details summary::marker {
-  color: #1d70b8;
 }
 .hierarchy-global__heading {
   display: inline;
@@ -690,98 +691,91 @@ h2 {
   padding: 0;
   margin: 0;
 }
-.hierarchy-global__list li {
+@media only screen and (min-width: 75rem) {
+  .hierarchy-global__list {
+    max-height: 30rem;
+    border: 3px solid #dddddd;
+    overflow-y: auto;
+    margin: 0.75rem;
+    background: #ffffff;
+  }
+}
+.hierarchy-global__list-item {
   background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 2.25rem;
   background-size: 0.9rem;
   border-bottom: 1px solid #dddddd;
   padding: 2rem 2rem 2rem 3rem;
 }
 @media only screen and (min-width: 62rem) {
-  .hierarchy-global__list li {
+  .hierarchy-global__list-item {
     background: url("/images/fontawesome-svgs/arrow-down.svg") no-repeat 1rem 1.75rem;
     background-size: 0.9rem;
     padding: 1.5rem 1.5rem 1.5rem 3rem;
   }
 }
-.hierarchy-global__list li:first-child {
+.hierarchy-global__list-item:first-child {
   border-top: 1px solid #dddddd;
 }
-.hierarchy-global__list li .reference {
-  display: block;
-  color: #000000;
-  font-weight: bold;
-}
-.hierarchy-global__list .current {
+.hierarchy-global__list-item--current-item {
   background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 2.25rem;
   background-size: 0.9rem;
   color: #ffffff;
   border-bottom: 0;
 }
 @media only screen and (min-width: 62rem) {
-  .hierarchy-global__list .current {
+  .hierarchy-global__list-item--current-item {
     background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.75rem;
     background-size: 0.9rem;
   }
 }
-.hierarchy-global__list .current span.reference {
+.hierarchy-global__reference {
+  display: block;
+  color: #000000;
+  font-weight: bold;
+}
+.hierarchy-global__reference--white {
   color: #ffffff;
 }
-.hierarchy-global__list .current span.location {
+.hierarchy-global__location {
   color: #ffffff;
   display: inline-block;
   font-size: 1rem;
   margin-bottom: 0.35rem;
 }
-@media only screen and (min-width: 75rem) {
-  .hierarchy-global--sticky {
-    position: sticky;
-    top: 2em;
-  }
-}
 
 .hierarchy-local {
-  display: none;
+  text-align: center;
+  border-top: 3px solid #efefef;
+  padding: 1.5rem 0;
 }
-@media only screen and (min-width: 62rem) {
-  .hierarchy-local {
-    text-align: center;
-    display: block;
-    padding: 2rem 0 1rem;
-    margin: 1rem 0 0;
-    border-top: 5px solid #efefef;
-  }
+.hierarchy-local__nav-item {
+  margin: 0;
 }
 .hierarchy-local__nav-item a {
   display: block;
 }
-.hierarchy-local__nav-item a .reference {
-  color: #ffffff;
-  display: inline-block;
-  background: #1d70b8;
-  margin-right: 0.7rem;
-  padding: 0 0.3rem;
-  font-weight: bold;
+.hierarchy-local__nav-indicator {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 auto 1rem;
 }
-.hierarchy-local__nav-item--left {
+.hierarchy-local__nav-indicator--left {
   background: url("/images/fontawesome-svgs/chevron-left.svg") no-repeat;
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0 auto 1rem;
 }
-.hierarchy-local__nav-item--up {
+.hierarchy-local__nav-indicator--up {
   background: url("/images/fontawesome-svgs/chevron-up.svg") no-repeat;
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0 auto 1rem;
 }
-.hierarchy-local__nav-item--right {
+.hierarchy-local__nav-indicator--right {
   background: url("/images/fontawesome-svgs/chevron-right.svg") no-repeat;
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0 auto 1rem;
+}
+.hierarchy-local__nav-label, .hierarchy-local__nav-link {
+  display: none;
+}
+@media only screen and (min-width: 62rem) {
+  .hierarchy-local__nav-label, .hierarchy-local__nav-link {
+    display: inline;
+  }
 }
 
 .key-facts {
@@ -818,12 +812,11 @@ h2 {
   margin-top: 1rem;
   text-align: center;
   width: 100%;
-  position: relative;
   background-color: #26262a;
-  padding: 2.5em 0 0;
+  padding: 2.5rem 0 0;
 }
 .image-viewer-panel img {
-  height: 400px;
+  height: 25rem;
   display: block;
   margin: 0 auto;
 }
@@ -842,23 +835,52 @@ h2 {
 .record-access {
   padding: 1rem 2rem;
   margin-bottom: 5rem;
-}
-.record-access--light {
   background-color: #efefef;
   color: #000000;
+}
+.record-access summary {
+  text-decoration: underline;
+  color: #1d70b8;
+  margin-bottom: 1rem;
+}
+.record-access summary:hover {
+  text-decoration: none;
+}
+.record-access__list {
+  list-style-type: none;
+  padding: 0;
+}
+.record-access__list li {
+  display: inline-block;
+}
+.record-access__list li a:first-of-type {
+  margin-left: 0;
 }
 
 .record-details__table {
   width: 100%;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 5rem;
 }
-.record-details__table td {
+.record-details__table th, .record-details__table td {
   padding: 0.75em;
-  border: 3px solid #ddd;
+  border: 3px solid #dddddd;
   vertical-align: top;
 }
-.record-details__table td:first-child {
+.record-details__table th {
   font-weight: bold;
+}
+
+.taxonomy-tags .taxonomy-tags__list {
+  list-style-type: none;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+.taxonomy-tags .taxonomy-tags__list li {
+  margin: 0 1.25rem 1rem 0;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border: 3px solid #dddddd;
 }
 
 .tna-ul--inline li {
@@ -877,19 +899,17 @@ h2 {
 .record-title--dark a {
   color: #ffffff;
 }
-.record-title__title {
+.record-title h1 {
   margin-top: 0;
   font-size: 3rem;
 }
 @media (max-width: 48rem) {
-  .record-title__title {
+  .record-title h1 {
     font-size: 2.25rem;
   }
 }
 
 /* -
-
-Created 5 Jul 2021 - By Matt B
 
 This file holds styles that are needed in very specific circumstances and will rarely be re-used (if ever).
 These are typically styles that aren't component-specific (using BEM) and aren't included in the Boostrap grid.
@@ -919,6 +939,10 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 
   Purpose: Adds top margin on screen sizes up to lg (removes margin on lg and above)
   Used on: Details page - */
+  /*
+
+  Purpose: Adds bottom padding to the main content column to give breathing space
+  Used on: Details page - */
 }
 @media only screen and (min-width: 75rem) {
   .specific-border-left-lg {
@@ -945,6 +969,9 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   .specific-margin-top-sm-to-lg {
     margin: 0;
   }
+}
+.specific-padding-bottom-lg {
+  padding-bottom: 5rem;
 }
 
 /*# sourceMappingURL=etna.css.map */

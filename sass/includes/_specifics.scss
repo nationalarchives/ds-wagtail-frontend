@@ -1,7 +1,5 @@
 /* -
 
-Created 5 Jul 2021 - By Matt B
-
 This file holds styles that are needed in very specific circumstances and will rarely be re-used (if ever).
 These are typically styles that aren't component-specific (using BEM) and aren't included in the Boostrap grid.
 When adding a style, ensure it is within the pre-pended with 'specific' class to identify it correctly and write an accompanying description in the comments to explain:
@@ -74,4 +72,16 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
       }
 
     }
+
+    /*
+
+    Purpose: Adds bottom padding to the main content column to give breathing space
+    Used on: Details page - */
+
+    &-padding-bottom-lg {
+
+      padding-bottom: 5rem;
+
+    }
+
 }

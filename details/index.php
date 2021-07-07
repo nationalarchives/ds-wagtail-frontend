@@ -15,11 +15,11 @@
 
     <div class="row no-gutters">
 
-        <div class="col-xl-3 order-xl-2 specific-border-bottom-lg specific-sticky specific-bg-grey-5 specific-margin-top-sm-to-lg">
+        <div class="col-xl-3 order-xl-2 specific-border-bottom-lg specific-sticky specific-bg-grey-5">
             <?php require '../includes/hierarchy__global.php' ?>
         </div>
 
-        <div class="col-xl-9 order-xl-1">
+        <div class="col-xl-9 order-xl-1 specific-padding-bottom-lg">
             <?php require '../includes/record_title.php' ?>
             <div class="container">
                 <?php require '../includes/key-facts.php' ?>
@@ -33,6 +33,10 @@
                 <h2>Description and record details</h2>
 
                 <?php require '../includes/record-details.php' ?>
+
+                <h2>Topics covered in this record</h2>
+
+                <?php require '../includes/taxonomy-tags.php' ?>
             </div>
         </div>
     </div>
