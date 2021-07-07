@@ -14,8 +14,8 @@
     </div>
     <div class="record-embed__description">
         <div class="container">
-            <p class="record-embed__text--roboto-mono"><?php echo $record_embed_values['reference'] ?></p>
-            <p class="record-embed__text--roboto-mono"><?php echo $record_embed_values['date-created'] ?></p>
+            <p class="record-embed__text--roboto-mono">Reference: <?php echo $record_embed_values['reference'] ?></p>
+            <p class="record-embed__text--roboto-mono">Date created: <?php echo $record_embed_values['date-created'] ?></p>
 
             <div class="record-embed__text">
             <?php

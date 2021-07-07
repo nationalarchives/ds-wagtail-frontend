@@ -12,8 +12,12 @@
         <?php echo $record_embed_no_image_values['icon-label'] ?>
     </p>
 
-    <p class="record-embed-no-image__reference">
+    <p class="record-embed-no-image__text--inline">
         Reference: <?php echo $record_embed_no_image_values['reference'] ?>
+    </p>
+
+    <p class="record-embed-no-image__text--inline">
+        Date created: <?php echo $record_embed_no_image_values['date-created'] ?>
     </p>
 
     <?php

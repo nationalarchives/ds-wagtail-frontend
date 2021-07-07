@@ -714,8 +714,10 @@ h2 {
   text-decoration: underline;
   text-decoration-color: #ffffff;
 }
-.record-embed-no-image__text {
+.record-embed-no-image__text--inline {
+  display: inline-block;
   font-size: 1.1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 .record-embed-no-image__link-heading {
   font-size: 1.625rem;
