@@ -112,7 +112,7 @@
 
 .jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
   color: #fff;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -503,7 +503,7 @@ h2 {
   width: 40%;
 }
 .quote__text {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
 }
 .quote__citation {
@@ -520,7 +520,7 @@ h2 {
 }
 .callout__standfirst {
   color: #ffffff;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 3rem;
 }
@@ -587,7 +587,7 @@ h2 {
   font-size: 2rem;
 }
 .media-embed__date {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: -0.0125rem;
   font-weight: bold;
 }
@@ -626,10 +626,6 @@ h2 {
 }
 .record-embed__image {
   max-width: 25rem;
-}
-.record-embed__text--roboto-mono {
-  color: #ffffff;
-  font-family: "Roboto Mono", sans-serif;
 }
 .record-embed__button {
   display: inline-block;
