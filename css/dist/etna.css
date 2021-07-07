@@ -467,13 +467,18 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+.content-block {
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
 .content-block__text {
   font-size: 1.3rem;
 }
 
 .quote {
   position: relative;
-  margin-bottom: 3rem;
+  margin: 2rem 0;
+  padding: 2rem 0;
 }
 .quote__icon {
   position: absolute;
@@ -683,6 +688,7 @@ h2 {
 .record-embed-no-image {
   text-align: center;
   margin: 2rem 0;
+  padding: 2rem 0;
 }
 .record-embed-no-image__icon {
   background-color: #134571;
@@ -729,6 +735,7 @@ h2 {
 .research-resources {
   text-align: center;
   margin: 2rem 0;
+  padding: 2rem 0;
 }
 .research-resources__icon {
   background-color: #134571;

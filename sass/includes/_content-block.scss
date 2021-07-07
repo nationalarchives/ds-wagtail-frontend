@@ -1,3 +1,8 @@
-.content-block__text {
-  font-size: 1.3rem;
+.content-block {
+  margin: 2rem 0;
+  padding: 2rem 0;
+
+  &__text {
+    font-size: 1.3rem;
+  }
 }
