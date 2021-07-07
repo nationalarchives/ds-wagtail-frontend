@@ -9,7 +9,7 @@
     </h2>
 
     <p class="blog-embed__date" >
-        Published on <?php echo $blog_embed_values['date'] ?>
+        Published on <time datetime="<?php echo $blog_embed_values['datetime'] ?>"><?php echo $blog_embed_values['date'] ?></time>
     </p>
 
     <div class="blog-embed__image-container">

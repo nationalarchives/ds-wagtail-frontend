@@ -13,7 +13,7 @@
             </div>
             <div class="card-group-secondary-nav__body">
                 <h3 class="tna-card__heading" aria-hidden="true"><?= $card_values['heading'] ?></h3>
-                <p><?php echo $card_values["date"]?></p>
+                <p><time datetime="<?php echo $card_values["datetime"]?>"><?php echo $card_values["date"]?></time></p>
                 <p><?php echo $card_values["description"]?></p>
                 <?php
                 if(!empty($card_values['price'])) { ?>

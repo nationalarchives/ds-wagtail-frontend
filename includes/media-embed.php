@@ -13,7 +13,7 @@
             <?php echo $media_embed_values['icon-label'] ?>
         </p>
         <p class="media-embed__date">
-            <?php echo $media_embed_values['date'] ?>
+            <time datetime="<?php echo $media_embed_values['datetime'] ?>"><?php echo $media_embed_values['date'] ?></time>
         </p>
 
         <p class="media-embed__description">

@@ -17,7 +17,7 @@
     </p>
 
     <p class="record-embed-no-image__text--inline">
-        Date created: <?php echo $record_embed_no_image_values['date-created'] ?>
+        Date created: <time datetime="<?php echo $record_embed_no_image_values['datetime'] ?>"><?php echo $record_embed_no_image_values['date-created'] ?></time>
     </p>
 
     <?php

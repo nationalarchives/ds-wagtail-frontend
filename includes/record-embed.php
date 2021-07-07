@@ -15,7 +15,9 @@
     <div class="record-embed__description">
         <div class="container">
             <p class="record-embed__text">Reference: <?php echo $record_embed_values['reference'] ?></p>
-            <p class="record-embed__text">Date created: <?php echo $record_embed_values['date-created'] ?></p>
+            <p class="record-embed__text">
+                Date created: <time datetime="<?php echo $record_embed_values['datetime'] ?>"><?php echo $record_embed_values['date-created'] ?></time>
+            </p>
 
             <div class="record-embed__text">
             <?php
