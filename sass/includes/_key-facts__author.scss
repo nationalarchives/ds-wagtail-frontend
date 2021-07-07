@@ -1,5 +1,5 @@
 .key-facts__author {
-  background-color: #e5e5e5;
+  background-color: $color__dark;
   padding: 2rem 0;
   width: 100vw;
   position: relative;
@@ -12,5 +12,9 @@
   &-info {
     text-align: left;
     margin-right: 4rem;
+  }
+
+  &-info-heading, &-info-text {
+    color: $color__white;
   }
 }

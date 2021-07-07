@@ -816,7 +816,7 @@ h2 {
 }
 
 .key-facts__author {
-  background-color: #e5e5e5;
+  background-color: #26262a;
   padding: 2rem 0;
   width: 100vw;
   position: relative;
@@ -828,6 +828,9 @@ h2 {
 .key-facts__author-info {
   text-align: left;
   margin-right: 4rem;
+}
+.key-facts__author-info-heading, .key-facts__author-info-text {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=etna.css.map */

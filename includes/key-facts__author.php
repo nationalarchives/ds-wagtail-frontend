@@ -10,8 +10,8 @@
                 </div>
                 <div class="col-md-8 col-sm-12">
                     <div class="key-facts__author-info">
-                        <h3><?php echo $author['author'] ?></h3>
-                        <p><?php echo $author['author-info'] ?></p>
+                        <h3 class="key-facts__author-info-heading"><?php echo $author['author'] ?></h3>
+                        <p class="key-facts__author-info-text"><?php echo $author['author-info'] ?></p>
                     </div>
                 </div>
             <?php }
@@ -19,8 +19,8 @@
             else { ?>
                 <div class="col-md-12">
                     <div class="key-facts__author-info">
-                        <h3><?php echo $author['author'] ?></h3>
-                        <p><?php echo $author['author-info'] ?></p>
+                        <h3 class="key-facts__author-info-heading"><?php echo $author['author'] ?></h3>
+                        <p class="key-facts__author-info-text"><?php echo $author['author-info'] ?></p>
                     </div>
                 </div>
             <?php } ?>
