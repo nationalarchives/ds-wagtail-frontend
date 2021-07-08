@@ -553,10 +553,11 @@ h2 {
 }
 .callout__link {
   text-decoration: none;
+  transition: none;
 }
 .callout__link:hover {
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  color: #ffffff;
 }
 .callout__link:focus {
   outline: 0.313rem solid #8EC0EC;
@@ -786,10 +787,11 @@ h2 {
 }
 .research-resources__link {
   text-decoration: none;
+  transition: none;
 }
 .research-resources__link:hover {
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  color: #ffffff;
 }
 .research-resources__link:focus {
   outline: 0.313rem solid #ffffff;

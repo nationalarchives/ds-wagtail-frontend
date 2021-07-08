@@ -32,10 +32,11 @@
 
   &__link {
     text-decoration: none;
+    transition: none;
 
     &:hover {
       text-decoration: underline;
-      text-decoration-color: $color__white;
+      color: $color__white;
     }
 
     &:focus {
