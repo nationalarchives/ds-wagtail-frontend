@@ -15,6 +15,12 @@ $breadcrumbs = [
     "Home" => "/"
 ];
 
+
+$hero_image = [
+    "image" => "/images/insights/shakespeare-hero-image.jpg",
+    "image-alt" => "A portrait of Shakespeare"
+];
+
 $jumplinks = [
     "Section 1" => [
         "heading" => "Section 1",
