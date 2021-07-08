@@ -20,11 +20,13 @@
             <?php echo $media_embed_values['text'] ?>
         </p>
 
-        <audio controls>
-            <source src="<?php echo $media_embed_values['podcast-source'] ?>" type="audio/mp3">
-            <p>Your browser doesn't support HTML5 audio. Here is a <a href="<?php echo $media_embed_values['podcast-source'] ?>">link to the audio</a>
-                instead.</p>
-        </audio>
+        <div class="media-embed__audio-container">
+            <audio controls>
+                <source src="<?php echo $media_embed_values['podcast-source'] ?>" type="audio/mp3">
+                <p>Your browser doesn't support HTML5 audio. Here is a <a href="<?php echo $media_embed_values['podcast-source'] ?>">link to the audio</a>
+                    instead.</p>
+            </audio>
+        </div>
 
         <div class="media-embed__transcript">
             <h3 class="media-embed__transcript-heading">Transcript</h3>

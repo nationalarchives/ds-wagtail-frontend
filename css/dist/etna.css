@@ -612,6 +612,10 @@ h2 {
 .media-embed__description {
   font-size: 1.1rem;
 }
+.media-embed__audio-container {
+  margin-right: -3rem;
+  margin-left: -3rem;
+}
 .media-embed__transcript {
   background-color: #26262a;
   margin-top: 2rem;
