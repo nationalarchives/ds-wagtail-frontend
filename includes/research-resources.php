@@ -4,9 +4,9 @@
         <?php echo $research_resources_values['icon-label'] ?>
     </p>
 
-    <h2 class="research-resources__heading">
+    <h3 class="research-resources__heading">
         <?php echo $research_resources_values['heading'] ?>
-    </h2>
+    </h3>
 
     <p class="research-resources__icon-label sr-only" >
         <?php echo $research_resources_values['icon-label'] ?>

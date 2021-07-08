@@ -1,7 +1,7 @@
 <article class="record-embed">
     <div class="record-embed__image-container">
         <div class="container">
-            <h2 class="record-embed__heading no-margin-top"><?php echo $record_embed_values['heading'] ?></h2>
+            <h3 class="record-embed__heading no-margin-top"><?php echo $record_embed_values['heading'] ?></h3>
         </div>
         <figure>
             <img class="record-embed__image" src="<?php echo $record_embed_values['image'] ?>" alt="<?php echo $record_embed_values['image-alt'] ?>">

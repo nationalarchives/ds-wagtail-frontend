@@ -6,9 +6,9 @@
             <?php echo $media_embed_values['icon-label'] ?>
         </p>
 
-        <h2 class="media-embed__heading">
+        <h3 class="media-embed__heading">
             <?php echo $media_embed_values['heading'] ?>
-        </h2>
+        </h3>
         <p class="media-embed__icon-label sr-only" >
             <?php echo $media_embed_values['icon-label'] ?>
         </p>

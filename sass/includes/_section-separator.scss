@@ -1,0 +1,45 @@
+.section-separator {
+  margin: 5rem 0;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  display: flex;
+
+  &__border-container {
+    flex: 1;
+  }
+
+  &__border-left, &__border-right {
+    height: 50%;
+    border-bottom: 0.3125rem solid $color__black;
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: $screen__sm)  {
+  .section-separator__heading {
+    max-width: 15rem;
+  }
+}
+
+@media only screen and (min-width: $screen__sm) and (max-width: $screen__md)  {
+  .section-separator__heading {
+    max-width: 20rem;
+  }
+}
+@media only screen and (min-width: $screen__md) and (max-width: $screen__lg)  {
+  .section-separator__heading {
+    max-width: 40rem;
+  }
+}
+
+@media only screen and (min-width: $screen__lg) and (max-width: $screen__xl)  {
+  .section-separator__heading {
+    max-width: 50rem;
+  }
+}

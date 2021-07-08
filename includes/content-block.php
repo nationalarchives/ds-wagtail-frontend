@@ -1,9 +1,9 @@
 <?php
     if(!empty($content_block_values['heading'])) { ?>
         <div class="content-block">
-            <h2 class="content-block__heading">
+            <h3 class="content-block__heading">
                 <?php echo $content_block_values['heading'] ?>
-            </h2>
+            </h3>
             <div class="content-block__text">
                 <?php
                 foreach ($content_block_values['text'] as $content_paragraphs => $content_paragraph) { ?>

@@ -76,3 +76,7 @@ function render_blog_embeds($blog_embed_list)
         include "../includes/blog-embed.php";
     }
 }
+
+function render_section_separator($section_heading, $section_id){
+    include "../includes/section-separator.php";
+}

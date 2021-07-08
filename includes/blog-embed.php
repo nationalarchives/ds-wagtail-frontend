@@ -4,9 +4,9 @@
         <?php echo $blog_embed_values['icon-label'] ?>
     </p>
 
-    <h2 class="blog-embed__heading">
+    <h3 class="blog-embed__heading">
         <?php echo $blog_embed_values['heading'] ?>
-    </h2>
+    </h3>
 
     <p class="blog-embed__date" >
         Published on <time datetime="<?php echo $blog_embed_values['datetime'] ?>"><?php echo $blog_embed_values['date'] ?></time>

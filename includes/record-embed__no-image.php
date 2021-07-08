@@ -4,9 +4,9 @@
         <?php echo $record_embed_no_image_values['icon-label'] ?>
     </p>
 
-    <h2 class="record-embed-no-image__heading">
+    <h3 class="record-embed-no-image__heading">
         <?php echo $record_embed_no_image_values['heading'] ?>
-    </h2>
+    </h3>
 
     <p class="record-embed-no-image__icon-label sr-only" >
         <?php echo $record_embed_no_image_values['icon-label'] ?>

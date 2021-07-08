@@ -16,16 +16,18 @@ $breadcrumbs = [
 ];
 
 $jumplinks = [
-    "Shakespeare's career",
-    "The face of Shakespeare",
-    "Legal cases",
-    "Shakespeare and James I",
-    "A tourist's guide to Shakespeare's London",
-    "Paying for the privilege: a new Shakespeare discovery",
-    "Research resources",
-    "Shakespeare's will",
-    "An extract from Shakespeare's will",
-    "Explore our other content about Shakespeare"
+    "Section 1" => [
+        "heading" => "Section 1",
+        "id" => "section-1"
+    ],
+    "Section 2" => [
+        "heading" => "Section 2",
+        "id" => "section-2"
+    ],
+    "Section 3" => [
+        "heading" => "Section 3",
+        "id" => "section-3"
+    ]
 ];
 
 $quote_list = [

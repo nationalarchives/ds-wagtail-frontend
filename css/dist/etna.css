@@ -103,7 +103,6 @@
   margin-bottom: 2rem;
 }
 .jumplinks__list {
-  column-count: 2;
   padding-left: 1rem;
 }
 .jumplinks__list-item {
@@ -480,6 +479,10 @@ h2 {
   margin: 2rem 0;
   padding: 2rem 0;
 }
+.content-block__heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
 .content-block__text {
   font-size: 1.3rem;
 }
@@ -645,6 +648,8 @@ h2 {
   padding: 2rem 0;
 }
 .record-embed__heading {
+  font-size: 2rem;
+  font-weight: 400;
   text-align: left;
   border-bottom: 0.3125rem solid #6f777b;
   padding-bottom: 0.625rem;
@@ -727,6 +732,10 @@ h2 {
   font-weight: bold;
   font-size: 0.9em;
 }
+.record-embed-no-image__heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
 .record-embed-no-image__list {
   list-style: none;
   padding-left: 0;
@@ -773,6 +782,10 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 0.9em;
+}
+.research-resources__heading {
+  font-size: 2rem;
+  font-weight: 400;
 }
 .research-resources__list {
   list-style: none;
@@ -821,6 +834,10 @@ h2 {
   font-weight: bold;
   font-size: 0.9em;
 }
+.blog-embed__heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
 .blog-embed__image {
   width: 100%;
 }
@@ -854,6 +871,11 @@ h2 {
   color: #ffffff;
 }
 
+.related-content__heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .key-facts__author {
   background-color: #dddddd;
   padding: 2rem 0;
@@ -870,6 +892,47 @@ h2 {
 }
 .key-facts__author-info-heading, .key-facts__author-info-text {
   color: #000000;
+}
+
+.section-separator {
+  margin: 5rem 0;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  display: flex;
+}
+.section-separator__border-container {
+  flex: 1;
+}
+.section-separator__border-left, .section-separator__border-right {
+  height: 50%;
+  border-bottom: 0.3125rem solid #000000;
+}
+.section-separator__heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+@media only screen and (max-width: 30rem) {
+  .section-separator__heading {
+    max-width: 15rem;
+  }
+}
+@media only screen and (min-width: 30rem) and (max-width: 48rem) {
+  .section-separator__heading {
+    max-width: 20rem;
+  }
+}
+@media only screen and (min-width: 48rem) and (max-width: 62rem) {
+  .section-separator__heading {
+    max-width: 40rem;
+  }
+}
+@media only screen and (min-width: 62rem) and (max-width: 75rem) {
+  .section-separator__heading {
+    max-width: 50rem;
+  }
 }
 
 /*# sourceMappingURL=etna.css.map */
