@@ -14,6 +14,10 @@
   &__list-item {
     margin: 0 1rem 1rem 1.2rem;
   }
+
+  .jumplink:focus {
+    outline: 0.313rem solid $color__white;
+  }
 }
 
 .jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {

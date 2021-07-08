@@ -109,6 +109,9 @@
 .jumplinks__list-item {
   margin: 0 1rem 1rem 1.2rem;
 }
+.jumplinks .jumplink:focus {
+  outline: 0.313rem solid #ffffff;
+}
 
 .jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
   color: #fff;
@@ -549,6 +552,10 @@ h2 {
   text-decoration: underline;
   text-decoration-color: #ffffff;
 }
+.callout__link:focus {
+  outline: 0.313rem solid #8EC0EC;
+  outline-offset: 0.25rem;
+}
 .callout__link-heading {
   font-size: 1.625rem;
   color: #ffffff;
@@ -769,6 +776,10 @@ h2 {
 .research-resources__link:hover {
   text-decoration: underline;
   text-decoration-color: #ffffff;
+}
+.research-resources__link:focus {
+  outline: 0.313rem solid #ffffff;
+  outline-offset: 0.25rem;
 }
 .research-resources__link-heading {
   font-size: 1.625rem;

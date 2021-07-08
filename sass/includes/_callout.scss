@@ -31,6 +31,11 @@
      text-decoration: underline;
      text-decoration-color: $color__white;
    }
+
+   &:focus {
+     outline: 0.313rem solid $color__blue_5;
+     outline-offset: .25rem;
+   }
  }
 
  &__link-heading {
