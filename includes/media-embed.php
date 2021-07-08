@@ -29,7 +29,7 @@
         </div>
 
         <div class="media-embed__transcript">
-            <h3 class="media-embed__transcript-heading">Transcript</h3>
+            <h4 class="media-embed__transcript-heading">Transcript</h4>
             <p class="media-embed__transcript-text"><?php echo $media_embed_values['transcript'] ?></p>
         </div>
     </div>
