@@ -1421,44 +1421,16 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 }
 
 .section-separator {
-  margin: 5rem 0;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
-  display: flex;
-}
-.section-separator__border-container {
-  flex: 1;
-}
-.section-separator__border-left, .section-separator__border-right {
-  height: 50%;
-  border-bottom: 0.3125rem solid #000000;
 }
 .section-separator__heading {
   font-size: 2.5rem;
+  color: #26262a;
   text-align: center;
-  margin: 0 2rem;
-}
-
-@media only screen and (max-width: 30rem) {
-  .section-separator__heading {
-    max-width: 15rem;
-  }
-}
-@media only screen and (min-width: 30rem) and (max-width: 48rem) {
-  .section-separator__heading {
-    max-width: 20rem;
-  }
-}
-@media only screen and (min-width: 48rem) and (max-width: 62rem) {
-  .section-separator__heading {
-    max-width: 40rem;
-  }
-}
-@media only screen and (min-width: 62rem) and (max-width: 75rem) {
-  .section-separator__heading {
-    max-width: 50rem;
-  }
+  margin-top: 0px;
+  padding: 3rem 0px;
 }
 
 /*# sourceMappingURL=etna.css.map */

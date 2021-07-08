@@ -23,15 +23,15 @@ $hero_image = [
 
 $jumplinks = [
     "Section 1" => [
-        "heading" => "Section 1",
+        "heading" => "Section 1: Lorem ipsum dolor sit amet",
         "id" => "section-1"
     ],
     "Section 2" => [
-        "heading" => "Section 2",
+        "heading" => "Section 2: Lorem ipsum dolor sit amet",
         "id" => "section-2"
     ],
     "Section 3" => [
-        "heading" => "Section 3",
+        "heading" => "Section 3: Lorem ipsum dolor sit amet",
         "id" => "section-3"
     ]
 ];
