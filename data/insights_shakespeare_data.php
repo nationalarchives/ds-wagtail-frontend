@@ -74,6 +74,7 @@ $media_embed_list = [
         "heading" => "A tourist’s guide to Shakespeare’s London",
         "date" => "Tuesday 13 September 2016",
         "datetime" => "2016-09-13",
+        "image-background" => "/images/insights/media-embed-bg.png",
         "text" => "Discover what it was like to wander the streets of Shakespeare’s London. Though large portions of the city from Shakespeare’s time
             have since been destroyed by fire, war and developers, a surprising number of buildings and places still survive. Author David Thomas
             discusses the sights, cuisine and pastimes of 16th century Londoners, while providing insight into what it was like to be a tourist during
