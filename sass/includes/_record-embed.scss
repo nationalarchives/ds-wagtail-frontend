@@ -42,6 +42,10 @@
    font-size: 1.1rem;
    transition: none;
  }
+
+ &__image-viewer-link:hover {
+   color: $color__white !important;
+ }
 }
 
 .record-embed__text, .record-embed__text--roboto-mono {

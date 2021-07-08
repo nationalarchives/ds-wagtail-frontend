@@ -115,6 +115,9 @@
 .jumplinks .jumplink:focus {
   outline: 0.313rem solid #ffffff;
 }
+.jumplinks .jumplink:hover {
+  color: #ffffff !important;
+}
 
 .jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
   color: #fff;
@@ -668,6 +671,9 @@ h2 {
   vertical-align: top;
   font-size: 1.1rem;
   transition: none;
+}
+.record-embed__image-viewer-link:hover {
+  color: #ffffff !important;
 }
 
 .record-embed__text, .record-embed__text--roboto-mono {

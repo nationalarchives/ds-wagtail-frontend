@@ -21,6 +21,10 @@
     &:focus {
       outline: 0.313rem solid $color__white;
     }
+
+    &:hover {
+      color: $color__white !important;
+    }
   }
 }
 
