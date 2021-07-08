@@ -109,6 +109,9 @@
 .jumplinks__list-item {
   margin: 0 1rem 1rem 1.2rem;
 }
+.jumplinks .jumplink {
+  transition: none;
+}
 .jumplinks .jumplink:focus {
   outline: 0.313rem solid #ffffff;
 }

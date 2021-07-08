@@ -15,8 +15,12 @@
     margin: 0 1rem 1rem 1.2rem;
   }
 
-  .jumplink:focus {
-    outline: 0.313rem solid $color__white;
+  .jumplink {
+    transition: none;
+
+    &:focus {
+      outline: 0.313rem solid $color__white;
+    }
   }
 }
 
