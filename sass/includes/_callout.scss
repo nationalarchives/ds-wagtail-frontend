@@ -27,6 +27,7 @@
  &__link {
    text-decoration: none;
    transition: none;
+   color: $color__white !important;
 
    &:hover {
      text-decoration: underline;
@@ -40,12 +41,16 @@
  }
 
  &__link-heading {
+   margin-top: 0;
    font-size: 1.625rem;
-   color: $color__white;
  }
 
  &__link-text {
    color: $color__grey-4;
    margin-bottom: 0;
  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }

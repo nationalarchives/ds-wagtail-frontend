@@ -1102,6 +1102,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 .callout__link {
   text-decoration: none;
   transition: none;
+  color: #ffffff !important;
 }
 .callout__link:hover {
   text-decoration: underline;
@@ -1112,11 +1113,14 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   outline-offset: 0.25rem;
 }
 .callout__link-heading {
+  margin-top: 0;
   font-size: 1.625rem;
-  color: #ffffff;
 }
 .callout__link-text {
   color: #dddddd;
+  margin-bottom: 0;
+}
+.callout p:last-child {
   margin-bottom: 0;
 }
 
