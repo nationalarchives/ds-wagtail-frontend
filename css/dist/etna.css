@@ -95,7 +95,7 @@ a {
   transition: background-color 0.5s, color 0.5s;
 }
 a:focus {
-  outline: 0.313rem solid #1d70b8;
+  outline: 0.313rem solid #1A67A2;
 }
 
 [class*="--dark"] a:focus {
@@ -143,7 +143,7 @@ h2 {
   color: #ffffff;
 }
 .card-group-secondary-nav__link:focus {
-  background: #1d70b8;
+  background: #1A67A2;
 }
 .card-group-secondary-nav__link:focus h2, .card-group-secondary-nav__link:focus h3, .card-group-secondary-nav__link:focus h4 {
   text-decoration: none;
@@ -184,7 +184,7 @@ h2 {
   color: #ffffff;
 }
 .card-group-record-summary__link:focus {
-  background: #1d70b8;
+  background: #1A67A2;
 }
 .card-group-record-summary__link:focus h2, .card-group-record-summary__link:focus h3, .card-group-record-summary__link:focus h4 {
   text-decoration: none;
@@ -321,7 +321,7 @@ h2 {
 
 .tna-button, .results-options__submit {
   text-decoration: none;
-  background-color: #1d70b8 !important;
+  background-color: #1A67A2 !important;
   color: #ffffff;
   border: 0;
   padding: 1rem;
@@ -336,13 +336,13 @@ h2 {
   border-radius: 0;
 }
 .results-options__select:focus {
-  outline: 0.313rem solid #1d70b8;
+  outline: 0.313rem solid #1A67A2;
 }
 .results-options__submit {
   cursor: pointer;
 }
 .results-options__submit:focus {
-  outline: 0.313rem solid #1d70b8;
+  outline: 0.313rem solid #1A67A2;
 }
 .results-options__loading-message {
   padding: 1rem;
@@ -545,7 +545,7 @@ h2 {
 }
 .image-viewer__navigation a:focus {
   text-decoration: none;
-  outline-color: #1d70b8;
+  outline-color: #1A67A2;
 }
 .image-viewer__pagination {
   padding: 1rem;
@@ -635,7 +635,7 @@ h2 {
 .image-browse__listing a span {
   display: inline-block;
   padding: 1rem;
-  background-color: #1d70b8;
+  background-color: #1A67A2;
   text-decoration: underline;
 }
 .image-browse__listing a:visited span {
@@ -667,6 +667,12 @@ h2 {
   text-align: center;
   margin: 1.5rem 0;
 }
+.hierarchy-global details summary:hover {
+  text-decoration: none;
+}
+.hierarchy-global details summary:focus {
+  outline: 0.312rem solid #1A67A2;
+}
 .hierarchy-global__heading {
   display: inline;
 }
@@ -682,14 +688,15 @@ h2 {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  background: #ffffff;
 }
 @media only screen and (min-width: 75rem) {
   .hierarchy-global__list {
     max-height: 30rem;
-    border: 3px solid #dddddd;
+    border-top: 3px solid #dddddd;
+    border-bottom: 3px solid #dddddd;
     overflow-y: auto;
     margin: 0.75rem;
-    background: #ffffff;
   }
 }
 .hierarchy-global__list-item {
@@ -709,14 +716,14 @@ h2 {
   border-top: 1px solid #dddddd;
 }
 .hierarchy-global__list-item--current-item {
-  background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 2.25rem;
+  background: #1A67A2 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 2.25rem;
   background-size: 0.9rem;
   color: #ffffff;
   border-bottom: 0;
 }
 @media only screen and (min-width: 62rem) {
   .hierarchy-global__list-item--current-item {
-    background: #1d70b8 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.75rem;
+    background: #1A67A2 url("/images/fontawesome-svgs/arrow-right.svg") no-repeat 1rem 1.75rem;
     background-size: 0.9rem;
   }
 }
@@ -730,9 +737,9 @@ h2 {
 }
 .hierarchy-global__location {
   color: #ffffff;
-  display: inline-block;
+  display: block;
   font-size: 1rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 .hierarchy-local {
@@ -807,12 +814,15 @@ h2 {
   background-color: #26262a;
   padding: 2.5rem 0 0;
 }
-.image-viewer-panel img {
+.image-viewer-panel figure {
+  margin: 0;
+}
+.image-viewer-panel figure img {
   height: 25rem;
   display: block;
   margin: 0 auto;
 }
-.image-viewer-panel a {
+.image-viewer-panel figure a {
   padding: 2rem 1rem 2rem 2.5rem;
   display: inline-block;
   color: #ffffff;
@@ -832,21 +842,47 @@ h2 {
 }
 .record-access summary {
   text-decoration: underline;
-  color: #1d70b8;
+  color: #1A67A2;
   margin-bottom: 1rem;
 }
 .record-access summary:hover {
   text-decoration: none;
 }
+.record-access summary:focus {
+  outline: 0.312rem solid #1A67A2;
+}
 .record-access__list {
   list-style-type: none;
   padding: 0;
+  margin-top: 1rem;
 }
 .record-access__list li {
   display: inline-block;
 }
-.record-access__list li a:first-of-type {
+.record-access__button {
+  text-decoration: none;
+  background-color: #1A67A2;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+}
+.record-access__button:first-of-type {
   margin-left: 0;
+}
+.record-access__button:visited {
+  color: #ffffff;
+}
+.record-access__button:hover {
+  background: #26262a;
+}
+.record-access__button:focus {
+  background: #000000;
+  outline-offset: 0.2rem;
+}
+.record-access__button:hover, .record-access__button:focus {
+  color: #ffffff;
 }
 
 .record-details__table {

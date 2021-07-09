@@ -1,6 +1,8 @@
 <div class="image-viewer-panel">
     <div class="container">
-        <img src="../images/details/dummy-image.png" alt="">
-        <a href="#" title="#">Open in our image viewer</a>
+        <figure>
+            <img src="../images/details/dummy-image.png" alt="">
+            <figcaption><a href="#" title="#">Open in our image viewer</a></figcaption>
+        </figure>
     </div>
 </div>
