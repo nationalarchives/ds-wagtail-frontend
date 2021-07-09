@@ -1362,10 +1362,11 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   outline-offset: 0.25rem;
 }
 .research-resources__link-heading {
+  margin-top: 0;
   font-size: 1.625rem;
 }
-.research-resources__link-heading, .research-resources__link-text {
-  color: #ffffff;
+.research-resources__link, .research-resources__link-text {
+  color: #ffffff !important;
 }
 
 .blog-embed {

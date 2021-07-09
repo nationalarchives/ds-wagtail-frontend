@@ -51,10 +51,11 @@
   }
 
   &__link-heading {
+    margin-top: 0;
     font-size: 1.625rem;
   }
 
-  &__link-heading, &__link-text {
-    color: $color__white;
+  &__link, &__link-text {
+    color: $color__white !important;
   }
 }

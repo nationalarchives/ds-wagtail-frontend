@@ -21,11 +21,11 @@
         foreach ($research_resources_values['links'] as $research_resources_links => $research_resources_link) { ?>
             <div class="research-resources__list-item">
                 <dt>
-                    <a class="research-resources__link" href="<?php echo $research_resources_link['link'] ?>">
-                        <span class="research-resources__link-heading">
+                    <h4 class="research-resources__link-heading">
+                        <a class="research-resources__link" href="<?php echo $research_resources_link['link'] ?>">
                             <?php echo $research_resources_link['heading'] ?>
-                        </span>
-                    </a>
+                        </a>
+                    </h4>
                 </dt>
                 <dd class="research-resources__link-text">
                     <?php echo $research_resources_link['text'] ?>
