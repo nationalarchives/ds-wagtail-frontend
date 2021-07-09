@@ -238,7 +238,7 @@ $related_content_list = [
         "src_768_to_991" => "/images/collection-explorer/topics_cards/328/design-registers.png",
         "src_992_to_1199" => "/images/collection-explorer/topics_cards/288/design-registers.png",
         "src_over_1199" => "/images/collection-explorer/topics_cards/348/design-registers.png",
-        "image_alt" => "Several frames from a Muybridge study showing a horse standing and in motion"
+        "image_alt" => "Decorative pattern from the design registers"
     ],
     "Podcast" => [
         "heading" => "Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare",
