@@ -1440,6 +1440,22 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 .key-facts__author-info-heading, .key-facts__author-info-text {
   color: #000000;
 }
+@media screen and (max-width: 62rem) {
+  .key-facts__author-info {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .key-facts__author-image-container {
+    text-align: left;
+  }
+  .key-facts__author-info {
+    margin-left: 0;
+  }
+}
+.key-facts__author-info--no-margin-left {
+  margin-left: 0;
+}
 
 .section-separator {
   width: 100vw;

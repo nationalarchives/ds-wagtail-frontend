@@ -18,7 +18,7 @@
 
             else { ?>
                 <div class="col-md-12">
-                    <div class="key-facts__author-info">
+                    <div class="key-facts__author-info--no-margin-left">
                         <h3 class="key-facts__author-info-heading"><?php echo $author['author'] ?></h3>
                         <p class="key-facts__author-info-text"><?php echo $author['author-info'] ?></p>
                     </div>
