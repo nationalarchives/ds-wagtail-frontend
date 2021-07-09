@@ -28,7 +28,7 @@
             </li>
             <li class="hierarchy-global__list-item hierarchy-global__list-item--current-item">
                 <span class="hierarchy-global__location">You are here:</span>
-                <span class="hierarchy-global__reference--white">C 5/139/35</span> Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and
+                <span class="hierarchy-global__reference hierarchy-global__reference--white">C 5/139/35</span> Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and
             </li>
         </ul>
     </details>

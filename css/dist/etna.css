@@ -667,6 +667,12 @@ h2 {
   text-align: center;
   margin: 1.5rem 0;
 }
+.hierarchy-global details summary:hover {
+  text-decoration: none;
+}
+.hierarchy-global details summary:focus {
+  outline: 0.312rem solid #1d70b8;
+}
 .hierarchy-global__heading {
   display: inline;
 }
@@ -682,14 +688,15 @@ h2 {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  background: #ffffff;
 }
 @media only screen and (min-width: 75rem) {
   .hierarchy-global__list {
     max-height: 30rem;
-    border: 3px solid #dddddd;
+    border-top: 3px solid #dddddd;
+    border-bottom: 3px solid #dddddd;
     overflow-y: auto;
     margin: 0.75rem;
-    background: #ffffff;
   }
 }
 .hierarchy-global__list-item {
@@ -730,9 +737,9 @@ h2 {
 }
 .hierarchy-global__location {
   color: #ffffff;
-  display: inline-block;
+  display: block;
   font-size: 1rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 .hierarchy-local {
@@ -807,12 +814,15 @@ h2 {
   background-color: #26262a;
   padding: 2.5rem 0 0;
 }
-.image-viewer-panel img {
+.image-viewer-panel figure {
+  margin: 0;
+}
+.image-viewer-panel figure img {
   height: 25rem;
   display: block;
   margin: 0 auto;
 }
-.image-viewer-panel a {
+.image-viewer-panel figure a {
   padding: 2rem 1rem 2rem 2.5rem;
   display: inline-block;
   color: #ffffff;
@@ -838,15 +848,41 @@ h2 {
 .record-access summary:hover {
   text-decoration: none;
 }
+.record-access summary:focus {
+  outline: 0.312rem solid #1d70b8;
+}
 .record-access__list {
   list-style-type: none;
   padding: 0;
+  margin-top: 1rem;
 }
 .record-access__list li {
   display: inline-block;
 }
-.record-access__list li a:first-of-type {
+.record-access__button {
+  text-decoration: none;
+  background-color: #1d70b8;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+}
+.record-access__button:first-of-type {
   margin-left: 0;
+}
+.record-access__button:visited {
+  color: #ffffff;
+}
+.record-access__button:hover {
+  background: #26262a;
+}
+.record-access__button:focus {
+  background: #000000;
+  outline-offset: 0.2rem;
+}
+.record-access__button:hover, .record-access__button:focus {
+  color: #ffffff;
 }
 
 .record-details__table {
