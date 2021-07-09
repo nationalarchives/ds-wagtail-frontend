@@ -23,11 +23,12 @@
                 <?php render_callouts($callout_list); ?>
                 <?php render_section_separator("Section 2: Lorem ipsum dolor sit amet", "section-2"); ?>
                 <?php render_record_embeds_no_image($record_embed_no_image_list); ?>
-                <?php render_media_embeds($media_embed_list); ?>
+                <?php render_audio_embeds($audio_embed_list); ?>
                 <?php render_research_resources($research_resources_list) ?>
                 <?php render_record_embeds($record_embed_list); ?>
                 <?php render_section_separator("Section 3: Lorem ipsum dolor sit amet", "section-3"); ?>
                 <?php render_blog_embeds($blog_embed_list) ?>
+                <?php render_video_embeds($video_embed_list); ?>
                 <h3 class="related-content__heading"><?php echo $page['related_content_heading'] ?></h3>
                 <p><?php echo $page['related_content_description'] ?></p>
                 <div class="row">

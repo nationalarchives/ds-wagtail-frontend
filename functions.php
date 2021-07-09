@@ -28,10 +28,17 @@ function render_callouts($callout_list)
     }
 }
 
-function render_media_embeds($media_embed_list)
+function render_audio_embeds($audio_embed_list)
 {
-    foreach ($media_embed_list as $media_embed_title => $media_embed_values) {
-        include "../includes/media-embed.php";
+    foreach ($audio_embed_list as $audio_embed_title => $audio_embed_values) {
+        include "../includes/media-embed__audio.php";
+    }
+}
+
+function render_video_embeds($video_embed_list)
+{
+    foreach ($video_embed_list as $video_embed_title => $video_embed_values) {
+        include "../includes/media-embed__video.php";
     }
 }
 

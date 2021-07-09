@@ -1149,6 +1149,9 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   margin-right: -3rem;
   margin-left: -3rem;
 }
+.media-embed__video {
+  width: 100%;
+}
 .media-embed__transcript {
   background-color: #26262a;
   margin-top: 2rem;

@@ -67,7 +67,7 @@ $callout_list = [
     ]
 ];
 
-$media_embed_list = [
+$audio_embed_list = [
     "A tourist’s guide to Shakespeare’s London" => [
         "icon" => "/images/insights/audio-icon.png",
         "icon-label" => "Podcast",
@@ -80,6 +80,39 @@ $media_embed_list = [
             discusses the sights, cuisine and pastimes of 16th century Londoners, while providing insight into what it was like to be a tourist during
             Shakespeare’s lifetime. Please note that there are occasional disruptions to the sound quality during this recording.",
         "podcast-source" => "https://www.nationalarchives.gov.uk/documents/tourist-guide-to-shakespeare-london.mp3",
+        "transcript" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+         aliqua. Suspendisse faucibus interdum posuere lorem ipsum. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse.
+         Condimentum id venenatis a condimentum. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Sit amet mauris 
+         commodo quis imperdiet massa tincidunt nunc pulvinar. Tincidunt arcu non sodales neque sodales. Non enim praesent elementum
+         facilisis. A condimentum vitae sapien pellentesque habitant morbi. Erat velit scelerisque in dictum non consectetur a erat. Sit amet
+         facilisis magna etiam tempor orci eu lobortis elementum. Nunc mattis enim ut tellus elementum sagittis. Faucibus nisl tincidunt
+         eget nullam.
+
+         Amet est placerat in egestas erat imperdiet. Sed felis eget velit aliquet sagittis id consectetur. Sit amet mattis vulputate enim nulla
+         aliquet. Cursus sit amet dictum sit amet justo. Leo a diam sollicitudin tempor id eu nisl nunc. Lacus suspendisse faucibus interdum
+         posuere lorem. Augue ut lectus arcu bibendum. Sit amet nisl purus in mollis nunc sed id. In cursus turpis massa tincidunt dui ut ornare.
+         Praesent tristique magna sit amet purus gravida quis blandit.
+
+         Mauris nunc congue nisi vitae suscipit tellus. Lacinia at quis risus sed vulputate. Interdum velit euismod in pellentesque. Velit dignissim
+         sodales ut eu sem integer vitae. Purus in massa tempor nec feugiat nisl pretium. Ipsum dolor sit amet consectetur adipiscing elit
+         ut aliquam purus. Urna et pharetra pharetra massa massa ultricies. Tortor id aliquet lectus proin nibh nisl. Velit sed ullamcorper morbi
+         tincidunt ornare massa eget egestas. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Aliquet enim tortor at auctor
+         urna. Commodo viverra maecenas accumsan lacus vel facilisis."
+    ]
+];
+
+$video_embed_list = [
+    "A tourist’s guide to Shakespeare’s London" => [
+        "icon" => "/images/insights/play-icon.png",
+        "icon-label" => "Video",
+        "heading" => "Lorem Ipsum Dolor Sit Amet",
+        "date" => "Tuesday 13 September 2016",
+        "datetime" => "2016-09-13",
+        "image-background" => "/images/insights/media-embed-bg.png",
+        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Suspendisse faucibus interdum posuere lorem ipsum. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Condimentum
+          id venenatis a condimentum. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit.",
+        "video-source" => "",
         "transcript" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
          aliqua. Suspendisse faucibus interdum posuere lorem ipsum. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse.
          Condimentum id venenatis a condimentum. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Sit amet mauris 
