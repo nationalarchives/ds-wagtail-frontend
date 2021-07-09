@@ -380,7 +380,9 @@ h2 {
   outline: 0.1875rem solid #26262a;
 }
 .tna-button--dark:focus, .tna-button--dark:visited:focus {
-  outline: 0.3125rem solid #1d70b8;
+  outline: 0.312rem solid #1d70b8;
+  outline-offset: 0.125rem;
+  z-index: 999;
 }
 
 .results-options {
