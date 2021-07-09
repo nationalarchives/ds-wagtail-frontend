@@ -6,7 +6,7 @@
         <figure>
             <img class="record-embed__image" src="<?php echo $record_embed_values['image'] ?>" alt="<?php echo $record_embed_values['image-alt'] ?>">
             <figcaption>
-                <a class="record-embed__image-viewer-link" href="/">
+                <a class="record-embed__image-viewer-link" href="<?php echo$record_embed_values['image-viewer-link'] ?>">
                     Open in our image viewer
                 </a>
             </figcaption>

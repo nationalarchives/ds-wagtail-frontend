@@ -163,6 +163,7 @@ $record_embed_list = [
         "heading" => "The face of Shakespeare",
         "image" => "/images/insights/shakespeare.png",
         "image-alt" => "A portrait of Shakespeare",
+        "image-viewer-link" => "/image-viewer/viewer.php",
         "reference" => "PRO 30/25/205",
         "date-created" => "1958",
         "datetime" => "1958",
