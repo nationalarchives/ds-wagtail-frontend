@@ -11,7 +11,7 @@
                     <p class="cta-banner-newsletter__description">Subscribe now for regular news, updates, and priority booking events.</p>
                 </div>
                 <div class="col-sm-12 col-lg-2">
-                    <a class="tna-button" href="https://www.nationalarchives.gov.uk/contact-us/email-updates/">Sign up</a>
+                    <a class="tna-button--dark" href="https://www.nationalarchives.gov.uk/contact-us/email-updates/">Sign up</a>
                 </div>
             </div>
         </div>

@@ -365,6 +365,21 @@ h2 {
   margin: 0.5rem;
 }
 
+.tna-button--dark, .tna-button--dark:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #26262a;
+  color: #ffffff;
+  outline: 0.1875rem solid #26262a;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.tna-button--dark:hover, .tna-button--dark:visited:hover {
+  background-color: #ffffff;
+  color: #26262a;
+  outline: 0.1875rem solid #26262a;
+}
+
 .results-options {
   text-align: right;
 }

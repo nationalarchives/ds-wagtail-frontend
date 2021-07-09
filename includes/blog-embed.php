@@ -29,7 +29,7 @@
 
     <?php
     foreach ($blog_embed_values['buttons'] as $blog_embed_buttons => $blog_embed_button) { ?>
-        <a class="tna-button--no-underline" href="<?php echo $blog_embed_button['link'] ?>"><?php echo $blog_embed_button['button-text'] ?></a>
+        <a class="tna-button--dark" href="<?php echo $blog_embed_button['link'] ?>"><?php echo $blog_embed_button['button-text'] ?></a>
     <?php } ?>
 
 </div>
