@@ -10,7 +10,6 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
 </head>
-<body>
 <main>
 
     <div class="image-viewer">

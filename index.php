@@ -94,7 +94,7 @@
         }
     </style>
 </head>
-<body>
+
 <h1>Wagtail frontend</h1>
 <p class="standfirst">This is a collection of HTML templates for front-end development of Etna.</p>
 

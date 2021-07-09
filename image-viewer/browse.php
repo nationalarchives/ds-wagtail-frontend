@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="/css/dist/etna.css">
     <title>CAB 24/95/8 (Image 1 of 34) - The National Archives</title>
 </head>
-<body>
-<main>
 
+<main>
     <div class="image-browse">
         <div class="image-browse__header">
             <div class="image-browse__reference_and_count">
