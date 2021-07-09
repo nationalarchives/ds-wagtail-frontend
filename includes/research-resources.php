@@ -1,6 +1,6 @@
 <div class="research-resources">
     <img class="research-resources__icon" src="<?php echo $research_resources_values['icon'] ?>" alt="" />
-    <p class="research-resources__icon-label" role="presentation">
+    <p class="research-resources__icon-label" role="presentation" aria-hidden="true">
         <?php echo $research_resources_values['icon-label'] ?>
     </p>
 

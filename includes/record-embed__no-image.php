@@ -1,6 +1,6 @@
 <div class="record-embed-no-image">
     <img class="record-embed-no-image__icon" src="<?php echo $record_embed_no_image_values['icon'] ?>" alt="" />
-    <p class="record-embed-no-image__icon-label" role="presentation">
+    <p class="record-embed-no-image__icon-label" role="presentation" aria-hidden="true">
         <?php echo $record_embed_no_image_values['icon-label'] ?>
     </p>
 

@@ -2,7 +2,7 @@
     <div class="media-embed__overlay"></div>
     <div class="media-embed__content-panel">
         <img class="media-embed__icon" src="<?php echo $audio_embed_values['icon'] ?>" alt="" />
-        <p class="media-embed__icon-label" role="presentation">
+        <p class="media-embed__icon-label" role="presentation" aria-hidden="true">
             <?php echo $audio_embed_values['icon-label'] ?>
         </p>
 

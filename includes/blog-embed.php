@@ -1,6 +1,6 @@
 <div class="blog-embed">
     <img class="blog-embed__icon" src="<?php echo $blog_embed_values['icon'] ?>" alt="" />
-    <p class="blog-embed__icon-label" role="presentation">
+    <p class="blog-embed__icon-label" role="presentation" aria-hidden="true">
         <?php echo $blog_embed_values['icon-label'] ?>
     </p>
 
