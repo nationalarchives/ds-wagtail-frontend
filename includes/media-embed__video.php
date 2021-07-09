@@ -30,7 +30,14 @@
 
         <div class="media-embed__transcript">
             <h4 class="media-embed__transcript-heading">Transcript</h4>
-            <p class="media-embed__transcript-text"><?php echo $video_embed_values['transcript'] ?></p>
+            <div class="media-embed__transcript-text">
+                <?php
+                foreach ($video_embed_values['transcript'] as $transcript_paragraphs => $transcript_paragraph) { ?>
+                    <p>
+                        <?php echo $transcript_paragraph ?>
+                    </p>
+                <?php } ?>
+            </div>
         </div>
     </div>
 </div>
