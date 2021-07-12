@@ -9,7 +9,16 @@
       padding: 1rem;
       text-align: center;
       margin: 1.5rem 0;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:focus {
+        outline: 0.312rem solid $color__link;
+      }
     }
+
   }
 
   &__heading {
@@ -30,13 +39,14 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    background: $color__white;
 
     @media only screen and (min-width: $screen__xl) {
       max-height: 30rem;
-      border: 3px solid $color__grey-4;
+      border-top: 3px solid $color__grey-4;
+      border-bottom: 3px solid $color__grey-4;
       overflow-y: auto;
       margin: 0.75rem;
-      background: $color__white;
     }
   }
 
@@ -81,8 +91,8 @@
 
   &__location {
     color: $color__white;
-    display: inline-block;
+    display: block;
     font-size: 1rem;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.25rem;
   }
 }
