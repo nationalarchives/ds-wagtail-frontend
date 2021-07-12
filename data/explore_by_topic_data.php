@@ -48,22 +48,22 @@ $collection_highlights_cards = [
     "Crime, courts and justice" => [
         "description" => "Pardons, pirates and prisons",
         "url" => "/",
-        "src" => "/images/collection-explorer/cards/crime.png",
-        "src_under_768" => "/images/collection-explorer/cards/543/crime.png",
-        "src_768_to_991" => "/images/collection-explorer/cards/328/crime.png",
-        "src_992_to_1199" => "/images/collection-explorer/cards/288/crime.png",
-        "src_over_1199" => "/images/collection-explorer/cards/348/crime.png",
-        "image_alt" => "Police booking photograph showing front and side profile of well dressed young woman."
+        "src" => "/images/collection-explorer/cards/etna-topics-crime.jpg",
+        "src_under_768" => "/images/collection-explorer/cards/etna-topics-crime.jpg",
+        "src_768_to_991" => "/images/collection-explorer/cards/etna-topics-crime.jpg",
+        "src_992_to_1199" => "/images/collection-explorer/cards/etna-topics-crime.jpg",
+        "src_over_1199" => "/images/collection-explorer/cards/etna-topics-crime.jpg",
+        "image_alt" => "Photograph of a young woman."
     ],
     "Family and identity" => [
         "description" => "Census, children and gender",
         "url" => "/",
-        "src" => "/images/collection-explorer/cards/family.png",
-        "src_under_768" => "/images/collection-explorer/cards/543/family.png",
-        "src_768_to_991" => "/images/collection-explorer/cards/328/family.png",
-        "src_992_to_1199" => "/images/collection-explorer/cards/288/family.png",
-        "src_over_1199" => "/images/collection-explorer/cards/348/family.png",
-        "image_alt" => "Fragment of screenprint artwork showing a young woman in the foreground and several figures in the background."
+        "src" => "/images/collection-explorer/cards/etna-topics-family-and-identity.jpg",
+        "src_under_768" => "/images/collection-explorer/cards/etna-topics-family-and-identity.jpg",
+        "src_768_to_991" => "/images/collection-explorer/cards/etna-topics-family-and-identity.jpg",
+        "src_992_to_1199" => "/images/collection-explorer/cards/etna-topics-family-and-identity.jpg",
+        "src_over_1199" => "/images/collection-explorer/cards/etna-topics-family-and-identity.jpg",
+        "image_alt" => "Photograph of children smiling into a camera above them."
 
     ],
     "Health and welfare" => [
@@ -100,12 +100,12 @@ $collection_highlights_cards = [
     "Religion" => [
         "description" => "Discrimination, persecution and witchcraft",
         "url" => "/",
-        "src" => "/images/collection-explorer/cards/religion.png",
-        "src_under_768" => "/images/collection-explorer/cards/543/religion.png",
-        "src_768_to_991" => "/images/collection-explorer/cards/328/religion.png",
-        "src_992_to_1199" => "/images/collection-explorer/cards/288/religion.png",
-        "src_over_1199" => "/images/collection-explorer/cards/348/religion.png",
-        "image_alt" => "Portion of a photograph showing art which appears to be ancient Egyptian in origin."
+        "src" => "/images/collection-explorer/cards/etna-topics-religion.jpg",
+        "src_under_768" => "/images/collection-explorer/cards/etna-topics-religion.jpg",
+        "src_768_to_991" => "/images/collection-explorer/cards/etna-topics-religion.jpg",
+        "src_992_to_1199" => "/images/collection-explorer/cards/etna-topics-religion.jpg",
+        "src_over_1199" => "/images/collection-explorer/cards/etna-topics-religion.jpg",
+        "image_alt" => "Illustration of a scroll."
     ],
     "British state and citizens" => [
         "description" => "Policing, royalty and suffrage",
@@ -127,15 +127,15 @@ $collection_highlights_cards = [
         "src_over_1199" => "/images/collection-explorer/cards/348/transport.png",
         "image_alt" => "Illustration of a parallel roads and paths running through a green area."
     ],
-    "War" => [
+    "War and Military" => [
         "description" => "Battles, weapons and refugees",
         "url" => "/",
-        "src" => "/images/collection-explorer/cards/war.png",
-        "src_under_768" => "/images/collection-explorer/cards/543/war.png",
-        "src_768_to_991" => "/images/collection-explorer/cards/328/war.png",
-        "src_992_to_1199" => "/images/collection-explorer/cards/288/war.png",
-        "src_over_1199" => "/images/collection-explorer/cards/348/war.png",
-        "image_alt" => "Photograph of three women. Each is holding two piglets, one under each arm. There is snow and the picture seems to be from the early 20th century."
+        "src" => "/images/collection-explorer/cards/etna-topics-war-and-military.jpg",
+        "src_under_768" => "/images/collection-explorer/cards/etna-topics-war-and-military.jpg",
+        "src_768_to_991" => "/images/collection-explorer/cards/etna-topics-war-and-military.jpg",
+        "src_992_to_1199" => "/images/collection-explorer/cards/etna-topics-war-and-military.jpg",
+        "src_over_1199" => "/images/collection-explorer/cards/etna-topics-war-and-military.jpg",
+        "image_alt" => "Photograph of soldiers riding in a tank in a field."
     ]
 ];
 
@@ -145,25 +145,25 @@ $promos =
 
 [
     [
-        "modifier" => "--dark",
+        "modifier" => "--green",
         "cards" => [
-            "Explorer highlights by time period" => [
+            "Explore highlights by time period" => [
                 "description" => "Discover 1,000 years of British history through time periods including:
                 
-                <ul>
-                    <li><a href='#'>Early 20th Century (1901-1918)</a></li>
-                    <li><a href='#'>Family and identity (1939-1945)</a></li>
-                    <li><a href='#'>Crime, courts and justice (947-1485)</a></li>
+                <ul class='card-group-promo__card-list'>
+                    <li class='card-group-promo__card-list-item'><a href='#'>Early 20th Century (1901-1918)</a></li>
+                    <li class='card-group-promo__card-list-item'><a href='#'>Family and identity (1939-1945)</a></li>
+                    <li class='card-group-promo__card-list-item'><a href='#'>Crime, courts and justice (947-1485)</a></li>
                 </ul>
                 
                 <a href='/collection-explorer/explore_by_time_period.php'>View all time periods</a>
                 ",
                 "link" => "/collection-explorer/explore_by_time_period.php",
-                "src_over_1199" => "https://via.placeholder.com/340x274",
-                "src_992_to_1199" => "https://via.placeholder.com/357x288",
-                "src_768_to_991" => "https://via.placeholder.com/314x253",
-                "src_576_to_767" => "https://via.placeholder.com/478x385",
-                "src_under_576" => "https://via.placeholder.com/478x385",
+                "src_over_1199" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
+                "src_992_to_1199" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
+                "src_768_to_991" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
+                "src_576_to_767" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
+                "src_under_576" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
                 "image_alt" => "Placeholder alt tag"
                 ]
             ]
