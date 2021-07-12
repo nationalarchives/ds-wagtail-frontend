@@ -7,5 +7,5 @@
     <p class="tna-header__description">
     <span class="tna-header__description-heading">Welcome to The National Archives</span><br/>
     We are the guardians of over 1,000 years of iconic documents and UK government records.
-    <p>
+</p>
 </header>
