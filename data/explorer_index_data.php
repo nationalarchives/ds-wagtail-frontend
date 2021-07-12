@@ -31,11 +31,11 @@ $promos =
                 <a href='/collection-explorer/explore_by_topic.php'>View all topics</a>
                 ",
                 "link" => "/collection-explorer/explore_by_topic.php",
-                "src_over_1199" => "/images/collection-explorer/promos/etna-topics-selection.png",
-                "src_992_to_1199" => "/images/collection-explorer/promos/etna-topics-selection.png",
-                "src_768_to_991" => "/images/collection-explorer/promos/etna-topics-selection.png",
-                "src_576_to_767" => "/images/collection-explorer/promos/etna-topics-selection.png",
-                "src_under_576" => "/images/collection-explorer/promos/etna-topics-selection.png",
+                "src_over_1199" => "/images/collection-explorer/promos/etna-topics-selection-508.png",
+                "src_992_to_1199" => "/images/collection-explorer/promos/etna-topics-selection-492.png",
+                "src_768_to_991" => "/images/collection-explorer/promos/etna-topics-selection-626.png",
+                "src_576_to_767" => "/images/collection-explorer/promos/etna-topics-selection-446.png",
+                "src_under_576" => "/images/collection-explorer/promos/etna-topics-selection-446.png",
                 "image_alt" => "Placeholder alt tag"
                 ]
             ]

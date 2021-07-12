@@ -30,15 +30,15 @@ $promos =
             "Victorian advertising and design" => [
                 "description" => "Among these records are one of the great British photography collections of the Victorian and Edwardian eras, with well over 100,000 individual images. There is also a huge and wonderful collection of British branding and advertising images from the late 19th and early 20th centuries.",
                 "link" => "/",
-                "image_number" => "/images/collection-explorer/promos/cats.png",
-                "src_over_1199" => "/images/collection-explorer/promos/340/victorian_advertising_and_design.png",
-                "src_992_to_1199" => "/images/collection-explorer/promos/357/victorian_advertising_and_design.png",
-                "src_768_to_991" => "/images/collection-explorer/promos/314/victorian_advertising_and_design.png",
-                "src_576_to_767" => "/images/collection-explorer/promos/478/victorian_advertising_and_design.png",
-                "src_under_576" => "/images/collection-explorer/promos/513/victorian_advertising_and_design.png",
+                "image_number" => "/images/collection-explorer/promos/cats-508.png",
+                "src_over_1199" => "/images/collection-explorer/promos/cats-508.png",
+                "src_992_to_1199" => "/images/collection-explorer/promos/cats-492.png",
+                "src_768_to_991" => "/images/collection-explorer/promos/cats-626.png",
+                "src_576_to_767" => "/images/collection-explorer/promos/cats-446.png",
+                "src_under_576" => "/images/collection-explorer/promos/cats-446.png",
                 "image_alt" => "An advertisement for Jacksons' Boots & Hats. Illustration of cats performing music on a stage."
-                ]
             ]
+        ]
     ],
 ];
 
