@@ -19,7 +19,7 @@ $promos =
     [
         "modifier" => "--dark",
         "cards" => [
-            "Explorer highlights by topic" => [
+            "Explore highlights by topic" => [
                 "description" => "Browse highlights of the collection through topics including:
                 
                 <ul>
@@ -44,7 +44,7 @@ $promos =
     [
         "modifier" => "--dark",
         "cards" => [
-            "Explorer highlights by time period" => [
+            "Explore highlights by time period" => [
                 "description" => "Discover 1,000 years of British history through time periods including:
                 
                 <ul>
