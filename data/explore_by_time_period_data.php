@@ -103,7 +103,7 @@ $promos =
 
 [
     [
-        "modifier" => "--dark",
+        "modifier" => "--green",
         "cards" => [
             "Explore highlights by topic" => [
                 "description" => "Browse highlights of the collection through topics including:
