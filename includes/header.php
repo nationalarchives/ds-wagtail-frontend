@@ -1,5 +1,4 @@
 <a href="#maincontent" class="skip-to-content-link sr-only sr-only-focusable">Skip to main content</a>
-<div class="container">
 <header class="tna-header">
  
     <a href="/" class="tna-header__home-link">
@@ -10,4 +9,3 @@
     We are the guardians of over 1,000 years of iconic documents and UK government records.
     <p>
 </header>
-</div>

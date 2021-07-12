@@ -1,4 +1,11 @@
 .tna-header {
+  padding: 1rem 3rem 0rem 3rem;
+
+  @media only screen and (max-width: $screen__md) {
+  padding: 1rem 1rem 0rem 1rem;
+
+  }
+
   &__home-link {
     width: 100%;
     max-width: 8.938rem;
