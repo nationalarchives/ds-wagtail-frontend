@@ -79,6 +79,19 @@
 
 .tna-header {
   padding: 1rem 3rem 0rem 3rem; }
+  .tna-header__home-link {
+    width: 100%;
+    max-width: 8.938rem; }
+  .tna-header__logo--beta {
+    max-width: 8.938rem; }
+  .tna-header__description {
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-top: 1rem; }
+    .tna-header__description-heading {
+      font-weight: bold; }
   @media only screen and (min-width: 48rem) {
     .tna-header {
       display: flex;
@@ -87,19 +100,7 @@
       .tna-header__description {
         padding-top: 0;
         padding-left: 5em;
-        max-width: 500px; } }
-  .tna-header__home-link {
-    width: 100%;
-    max-width: 8.938rem; }
-  .tna-header__logo--beta {
-    max-width: 8.938rem; }
-  .tna-header__description {
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: 0;
-    padding-top: 1rem; }
-    .tna-header__description-heading {
-      font-weight: bold; }
+        max-width: 700px; } }
 
 a {
   transition: background-color 0.5s, color 0.5s; }
@@ -292,7 +293,7 @@ h2 {
   margin: 0.5rem; }
 
 .results-options {
-  background-color: #f6f6f6;
+  background-color: #dde5d5;
   padding: 1em; }
   .results-options__count {
     margin-bottom: 0; }
