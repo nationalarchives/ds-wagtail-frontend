@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php require '../includes/analytics-json.php' ?>
+<?php require '../includes/details-analytics-json.php' ?>
 
 <?php require '../includes/head.php' ?>
 
