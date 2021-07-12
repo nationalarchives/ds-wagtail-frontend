@@ -78,9 +78,28 @@
       text-decoration: none; }
 
 .tna-header {
-  padding: 1rem 3rem; }
+  padding: 1rem 3rem 0rem 3rem; }
+  @media only screen and (min-width: 48rem) {
+    .tna-header {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1rem; }
+      .tna-header__description {
+        padding-top: 0;
+        padding-left: 5em;
+        max-width: 500px; } }
+  .tna-header__home-link {
+    width: 100%;
+    max-width: 8.938rem; }
   .tna-header__logo--beta {
     max-width: 8.938rem; }
+  .tna-header__description {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-top: 1rem; }
+    .tna-header__description-heading {
+      font-weight: bold; }
 
 a {
   transition: background-color 0.5s, color 0.5s; }
