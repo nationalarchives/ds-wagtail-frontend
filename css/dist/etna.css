@@ -1495,7 +1495,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   font-weight: bolder;
 }
 .insights-badge__bottom {
-  border-bottom: 3px solid #000000;
+  border-bottom: 0.1875rem solid #000000;
   background: #26262a;
   color: #ffffff;
   font-size: 1.5rem;
