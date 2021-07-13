@@ -4,11 +4,11 @@
             <h3 class="sr-only"><?= $card_title ?></h3>
             <div class="card-group-secondary-nav__image">
                 <picture>
-                    <source media="(max-width: 768px)" srcset="<?= $card_values["src_under_768"] ?>">
-                    <source media="(max-width: 991px)" srcset="<?= $card_values["src_768_to_991"] ?>">
-                    <source media="(max-width: 1199px)" srcset="<?= $card_values["src_992_to_1199"] ?>">
-                    <source media="(min-width: 1200px)" srcset="<?= $card_values["src_over_1199"] ?>">
-                    <img src="<?= $card_values["src_under_768"] ?>" alt="<?= $card_values["image_alt"] ?>" class="card-group-secondary-nav__image-fallback">
+                    <source media="(max-width: 768px)" srcset="https://via.placeholder.com/508x304">
+                    <source media="(max-width: 991px)" srcset="https://via.placeholder.com/328x196">
+                    <source media="(max-width: 1199px)" srcset="https://via.placeholder.com/288x172">
+                    <source media="(min-width: 1200px)" srcset="https://via.placeholder.com/348x208">
+                    <img src="https://via.placeholder.com/508x304" alt="<?= $card_values["image_alt"] ?>" class="card-group-secondary-nav__image-fallback">
                 </picture>
             </div>
             <div class="card-group-secondary-nav__body">
