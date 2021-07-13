@@ -2,7 +2,7 @@
 <div class="card-group-promo__card">
     <div class='row'>
         <div class='col-md-12 col-lg-7 col-xl-6'>
-            <a href="<?php echo $card_values['link'] ?>">
+            <a href="<?php echo $card_values['link'] ?>" class="card-group-promo__card-link">
                 <picture class="mt-auto">
                     <source media="(max-width: 576px)" srcset="<?= $card_values["src_under_576"] ?>">
                     <source media="(max-width: 768px)" srcset="<?= $card_values["src_576_to_767"] ?>">
