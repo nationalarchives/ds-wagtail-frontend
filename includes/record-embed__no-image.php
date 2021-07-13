@@ -6,11 +6,10 @@
 
     <h3 class="record-embed-no-image__heading">
         <?php echo $record_embed_no_image_values['heading'] ?>
+        <span class="sr-only">
+            <?php echo $record_embed_no_image_values['icon-label'] ?>
+        </span>
     </h3>
-
-    <p class="record-embed-no-image__icon-label sr-only" >
-        <?php echo $record_embed_no_image_values['icon-label'] ?>
-    </p>
 
     <p class="record-embed-no-image__text--inline">
         Reference: <?php echo $record_embed_no_image_values['reference'] ?>

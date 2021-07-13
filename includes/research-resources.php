@@ -6,11 +6,10 @@
 
     <h3 class="research-resources__heading">
         <?php echo $research_resources_values['heading'] ?>
+        <span class="sr-only" >
+            <?php echo $research_resources_values['icon-label'] ?>
+        </span>
     </h3>
-
-    <p class="research-resources__icon-label sr-only" >
-        <?php echo $research_resources_values['icon-label'] ?>
-    </p>
 
     <p class="research-resources__description">
         <?php echo $research_resources_values['description'] ?>

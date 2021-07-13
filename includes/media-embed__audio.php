@@ -8,10 +8,11 @@
 
         <h3 class="media-embed__heading">
             <?php echo $audio_embed_values['heading'] ?>
+            <span class="sr-only" >
+                <?php echo $audio_embed_values['icon-label'] ?>
+            </span>
         </h3>
-        <p class="media-embed__icon-label sr-only" >
-            <?php echo $audio_embed_values['icon-label'] ?>
-        </p>
+
         <p class="media-embed__date">
             <time datetime="<?php echo $audio_embed_values['datetime'] ?>"><?php echo $audio_embed_values['date'] ?></time>
         </p>

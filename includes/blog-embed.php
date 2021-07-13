@@ -6,6 +6,9 @@
 
     <h3 class="blog-embed__heading">
         <?php echo $blog_embed_values['heading'] ?>
+        <span class="sr-only" >
+            <?php echo $blog_embed_values['icon-label'] ?>
+        </span>
     </h3>
 
     <p class="blog-embed__date" >
@@ -15,10 +18,6 @@
     <div class="blog-embed__image-container">
         <img class="blog-embed__image" src="<?php echo $blog_embed_values['image'] ?>" alt="<?php echo $blog_embed_values['image-alt'] ?>" />
     </div>
-
-    <p class="blog-embed__icon-label sr-only" >
-        <?php echo $blog_embed_values['icon-label'] ?>
-    </p>
 
     <?php
     foreach ($blog_embed_values['text'] as $blog_embed_paragraphs => $blog_embed_paragraph) { ?>
