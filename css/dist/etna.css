@@ -82,7 +82,7 @@
   padding: 1rem 3rem 0rem 3rem; }
   @media only screen and (max-width: 48rem) {
     .tna-header {
-      padding: 1rem 1rem 0rem 1rem; } }
+      padding: 1rem 1rem 1rem 1rem; } }
   .tna-header__home-link {
     width: 100%;
     max-width: 8.938rem; }
