@@ -123,11 +123,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-@media only screen and (max-width: 48rem) {
-  .jumplinks__list {
-    column-count: 1;
-  }
-}
 a {
   transition: background-color 0.5s, color 0.5s;
 }

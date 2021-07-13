@@ -31,9 +31,3 @@
   color: #fff;
   font-family: $font__roboto;
 }
-
-@media only screen and (max-width: $screen__md)  {
-  .jumplinks__list {
-    column-count: 1;
-  }
-}
