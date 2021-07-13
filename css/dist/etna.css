@@ -1156,7 +1156,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .media-embed__heading {
   font-size: 2rem;
@@ -1283,7 +1283,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .record-embed-no-image__heading {
   font-size: 2rem;
@@ -1334,7 +1334,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .research-resources__heading {
   font-size: 2rem;
