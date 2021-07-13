@@ -2,8 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <?php require '../includes/breadcrumbs.php' ?>
-                <h1 class="generic-intro__title"><?= $generic_intro['heading'] ?></h1>
+                <h1 class="generic-intro__title">
+                <?php if(!empty($generic_intro['heading-prefix'])): ?>
+                    <span class="generic-intro__title-prefix"><?= $generic_intro['heading-prefix'] ?></span>
+                <?php endif; ?>
+                <?= $generic_intro['heading'] ?></h1>
                 <p><?= $generic_intro['text']  ?></p>
             </div>
         </div>
