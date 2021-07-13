@@ -119,6 +119,12 @@
         <br>
         details/index.php
     </li>
+    <li>
+        <span>3</span>
+        <a href="insights/insights_shakespeare.php">Collection Insights - Shakespeare</a>
+        <br>
+        insights/insights_shakespeare.php
+    </li>
 </ul>
 
 <h3>Collection Explorer</h3>
