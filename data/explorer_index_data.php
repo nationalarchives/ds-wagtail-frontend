@@ -6,6 +6,7 @@ $breadcrumbs = [
 
 $page = [
     "title" => "Explore the collection",
+    "promo_card_screen_reader_heading" => "Select a way to explore"
 ];
 
 $generic_intro = [

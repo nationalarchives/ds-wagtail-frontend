@@ -2,7 +2,8 @@
 
 $page = [
     "title" => "Explore by topic",
-    "other_filter_heading" => "More ways to explore"
+    "other_filter_heading" => "More ways to explore",
+    "screen_reader_h2" => "Select a topic"
 ];
 
 $generic_intro = [

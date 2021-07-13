@@ -2,7 +2,8 @@
 
 $page = [
     "title" => "Explore by time period",
-    "other_filter_heading" => "More ways to explore"
+    "other_filter_heading" => "More ways to explore",
+    "screen_reader_h2" => "Select a time period"
 ];
 
 $generic_intro = [

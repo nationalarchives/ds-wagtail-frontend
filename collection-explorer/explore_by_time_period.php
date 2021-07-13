@@ -16,6 +16,7 @@
         <div class="row">
             <div class="col-md-12" id="content">
                 <div class="row mt-4">
+                    <h2 class="sr-only"><?php echo $page['screen_reader_h2'] ?></h2>
                     <?php render_secondary_nav_cards($time_card_data); ?>
                 </div>
                 <div class="mt-4">

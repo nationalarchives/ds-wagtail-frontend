@@ -15,6 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" id="content">
+            <h2 class="sr-only"><?php echo $page['screen_reader_h2'] ?></h2>
                 <div class="row mt-4">
                     <?php render_secondary_nav_cards($collection_highlights_cards); ?>
                 </div>
