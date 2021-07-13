@@ -1472,4 +1472,33 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   padding: 3rem 0px;
 }
 
+.insights-badge {
+  width: 16rem;
+}
+.insights-badge__heading {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
+.insights-badge__top, .insights-badge__middle, .insights-badge__bottom {
+  border: 0.1875rem solid #000000;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.625rem;
+  background: #ffffff;
+  color: #26262a;
+}
+.insights-badge__middle {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.insights-badge__bottom {
+  border-bottom: 3px solid #000000;
+  background: #26262a;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=etna.css.map */
