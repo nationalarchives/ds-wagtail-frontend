@@ -16,7 +16,7 @@
 <?php }
 
     else { ?>
-        <div class="content-block__bordered">
+        <div class="content-block--bordered">
             <div class="container">
                 <div class="content-block__text">
                     <?php
