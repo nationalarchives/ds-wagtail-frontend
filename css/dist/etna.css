@@ -179,6 +179,8 @@ h2 {
     border: 0.0625rem solid #000000; }
     .card-group-secondary-nav__image-fallback {
       width: 100%; }
+  .card-group-secondary-nav__body {
+    padding-left: 0.3rem; }
   @media only screen and (min-width: 62rem) {
     .card-group-secondary-nav {
       display: block; } }
