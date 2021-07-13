@@ -1,5 +1,6 @@
 <div class="quote">
     <img class="quote__icon" src="<?= $quote_values['icon']?>" alt="" />
+    <h3 class="sr-only"><?php echo $quote_values['heading'] ?></h3>
     <?php
     if(!empty($quote_values['citation'])) { ?>
         <figure>
