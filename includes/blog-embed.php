@@ -5,10 +5,10 @@
     </p>
 
     <h3 class="blog-embed__heading">
-        <?php echo $blog_embed_values['heading'] ?>
         <span class="sr-only" >
-            <?php echo $blog_embed_values['icon-label'] ?>
+            <?php echo $blog_embed_values['icon-label'] ?>.
         </span>
+        <?php echo $blog_embed_values['heading'] ?>
     </h3>
 
     <p class="blog-embed__date" >

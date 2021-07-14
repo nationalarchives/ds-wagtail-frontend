@@ -7,10 +7,10 @@
         </p>
 
         <h3 class="media-embed__heading">
-            <?php echo $video_embed_values['heading'] ?>
             <span class="sr-only" >
-                <?php echo $video_embed_values['icon-label'] ?>
+                <?php echo $video_embed_values['icon-label'] ?>.
             </span>
+            <?php echo $video_embed_values['heading'] ?>
         </h3>
 
         <p class="media-embed__date">

@@ -166,7 +166,7 @@
 }
 
 .jumplinks__heading, .jumplinks__list-item, .jumplink, .jumplink:visited {
-  color: #fff;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -447,7 +447,6 @@ h2 {
 .tna-button--dark:focus, .tna-button--dark:visited:focus {
   outline: 0.312rem solid #1A67A2;
   outline-offset: 0.125rem;
-  z-index: 999;
 }
 
 .results-options {
@@ -1143,6 +1142,9 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 .content-block__text {
   font-size: 1.3rem;
 }
+.content-block__text p {
+  margin-bottom: 0;
+}
 .content-block--bordered {
   border-top: 0.3125rem solid #dddddd;
   border-bottom: 0.3125rem solid #dddddd;
@@ -1496,7 +1498,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .blog-embed__heading {
   font-size: 2rem;
@@ -1583,8 +1585,8 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   font-size: 2.5rem;
   color: #26262a;
   text-align: center;
-  margin-top: 0px;
-  padding: 3rem 0px;
+  margin-top: 0;
+  padding: 3rem 0;
 }
 
 .insights-badge {

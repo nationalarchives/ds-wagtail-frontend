@@ -21,7 +21,7 @@
                 <div class="content-block__text">
                     <?php
                     foreach ($content_block_values['text'] as $content_paragraphs => $content_paragraph) { ?>
-                        <p class="mb-0">
+                        <p>
                             <?php echo $content_paragraph ?>
                         </p>
                     <?php } ?>
