@@ -71,7 +71,7 @@ $callout_list = [
 
 $audio_embed_list = [
     "A tourist’s guide to Shakespeare’s London" => [
-        "icon" => "/images/insights/audio-icon.png",
+        "icon" => "/images/insights/headphones-white.svg",
         "icon-label" => "Podcast",
         "heading" => "A tourist’s guide to Shakespeare’s London",
         "date" => "Tuesday 13 September 2016",
@@ -105,7 +105,7 @@ $audio_embed_list = [
 
 $video_embed_list = [
     "A tourist’s guide to Shakespeare’s London" => [
-        "icon" => "/images/insights/play-icon.png",
+        "icon" => "/images/insights/video-white.svg",
         "icon-label" => "Video",
         "heading" => "Lorem Ipsum Dolor Sit Amet",
         "date" => "Tuesday 13 September 2016",
@@ -189,7 +189,7 @@ $record_embed_list = [
 $record_embed_no_image_list = [
     "Shakespeare and James I" => [
         "has-image" => "false",
-        "icon" => "/images/insights/explore-icon.png",
+        "icon" => "/images/insights/search-white.svg",
         "icon-label" => "Discover our records",
         "heading" => "Shakespeare and James I",
         "reference" => "LC 2/4/5",
@@ -209,7 +209,7 @@ $record_embed_no_image_list = [
 
 $blog_embed_list = [
     "Paying for the privilege: a new Shakespeare discovery" => [
-        "icon" => "/images/insights/read-icon.png",
+        "icon" => "/images/insights/comment-white.svg",
         "icon-label" => "Blog",
         "date" => "Saturday 23 April 2016",
         "datetime" => "2016-04-23",
@@ -273,7 +273,7 @@ $related_content_list = [
 
 $research_resources_list = [
     "Shakespeare research resources" => [
-        "icon" => "/images/insights/learn-icon.png",
+        "icon" => "/images/insights/book-open-white.svg",
         "icon-label" => "Research",
         "heading" => "Research resources",
         "description" => "These research resources may be a helpful way to continue your exploration of Shakespeare.",
