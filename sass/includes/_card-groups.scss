@@ -19,6 +19,7 @@
 
     &__body {
       padding-left: 0.3rem;
+      padding-right: 0.3rem;
     }
 
     @media only screen and (min-width: $screen__lg) {
@@ -47,7 +48,14 @@
     }
 
     &__body {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
       margin-top: 1rem;
+    }
+
+    &__heading {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
     }
 
   }
