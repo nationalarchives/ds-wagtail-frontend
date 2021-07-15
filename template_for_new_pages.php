@@ -5,8 +5,6 @@
 
 <?php require '../includes/head.php' ?>
 
-<body>
-
 <?php require '../includes/header.php' ?>
 
 <main id="maincontent">

@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<?php require '../includes/head.php' ?>
+<?php require '../includes/details-analytics-json.php' ?>
 
-<body>
+<?php require '../includes/head.php' ?>
 
 <?php require '../includes/header.php' ?>
 
