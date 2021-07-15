@@ -5,6 +5,7 @@
 <?php require '../functions.php' ?>
 
 <?php require '../includes/head.php' ?>
+<?php require '../includes/explorer-analytics-json.php' ?>
 
 <body>
 
@@ -24,6 +25,7 @@
                     <?php require '../includes/results-options.php' ?>
                     <div class="row">
                     <h3 class="sr-only">Items</h3>
+                    <?php include '../includes/card-group-record-summary--no-image.php' ?>
                     <?php render_record_summary_cards($results_cards) ?>
                     </div>
                 </div>

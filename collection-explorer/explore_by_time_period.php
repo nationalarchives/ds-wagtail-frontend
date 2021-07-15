@@ -5,6 +5,7 @@
 <html class="no-js" lang="en">
 
 <?php require '../includes/head.php' ?>
+<?php require '../includes/explorer-analytics-json.php' ?>
 
 <body>
 

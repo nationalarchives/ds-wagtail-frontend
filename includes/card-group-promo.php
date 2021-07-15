@@ -12,6 +12,7 @@ $promo_class = "card-group-promo";
 <div class="<?php echo $promo_class ?>">
 
     <?php if(!empty($promo["heading"])): ?>
+        <div data-container-name="<?php echo $promo["heading"] ?>">
         <h2 class="card-group-promo__heading"><?php echo $promo["heading"] ?></h2>
     <?php endif; ?>
         <?php 
@@ -23,6 +24,9 @@ $promo_class = "card-group-promo";
             }
         }
         ?>
+    <?php if(!empty($promo["heading"])): ?>
+    </div>
+    <?php endif; ?>
 </div>
 
 <?php 
