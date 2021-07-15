@@ -1,6 +1,6 @@
 <div class="col-sm-12 col-md-6 col-lg-4">
-    <div class="card-group-secondary-nav">
-        <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link">
+    <div class="card-group-secondary-nav" data-container-name="card-group-secondary-nav">
+        <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link" data-card-type="<?= $card_values['card-type'] ?>" data-card-position="<?= $card_values['index'] ?>" data-card-title="<?= $card_values['heading'] ?>">
             <h3 class="sr-only"><?= $card_values['heading'] ?></h3>
             <div class="card-group-secondary-nav__image">
                 <picture>

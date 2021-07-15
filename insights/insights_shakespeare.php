@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
+<?php require '../includes/insights-analytics-json.php' ?>
 <?php require '../data/insights_shakespeare_data.php' ?>
 <?php require '../functions.php' ?>
 
