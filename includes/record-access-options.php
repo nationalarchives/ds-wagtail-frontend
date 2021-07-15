@@ -9,8 +9,8 @@
     </details>
 
     <ul class="record-access__list">
-        <li><a class="tna-button" href="#" data-link="Book a visit to see it (free)">Book a visit to see it <span>(free)</span></a></li>
-        <li><a class="tna-button" href="#" data-link="Order a paper copy for delivery (£8)">Order a paper copy for delivery <span>(£8)</span></a></li>
+        <li><a class="record-access__button" href="#" data-link="Book a visit to see it (free)">Book a visit to see it <span>(free)</span></a></li>
+        <li><a class="record-access__button" href="#" data-link="Order a paper copy for delivery (£8)">Order a paper copy for delivery <span>(£8)</span></a></li>
     </ul>
 
 </div>

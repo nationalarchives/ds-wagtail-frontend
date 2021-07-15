@@ -17,6 +17,11 @@
       }
     }
 
+    &__body {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+    }
+
     @media only screen and (min-width: $screen__lg) {
       display: block;
     }
@@ -43,7 +48,14 @@
     }
 
     &__body {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
       margin-top: 1rem;
+    }
+
+    &__heading {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
     }
 
   }
@@ -51,6 +63,18 @@
   &-promo {
     padding: 1rem;
     margin-bottom: 1rem;
+
+    &--green {
+      @extend .card-group-promo;
+      background-color: $color__green;
+      color: $color__black;
+      padding: 1rem 2rem;
+
+      a, hr {
+        color: $color__black;
+      }
+
+    }
 
     &--dark {
       @extend .card-group-promo;
@@ -73,9 +97,25 @@
       }
 
       &-heading {
-        font-weight: 400;
-        font-size: 1.5rem;
+        font-weight: 800;
+        font-size: 1.6rem;
       }
+
+      &-paragraph {
+        margin-bottom: 1rem;
+      }
+
+      &-list {
+        padding-left: 1rem;
+        &-item {
+            list-style-type: '- ';
+        }
+      }
+
+      &-link {
+        display: block;
+      }
+      
     }
 
     &__heading {

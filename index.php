@@ -114,10 +114,44 @@
         image-viewer/browse.php
     </li>
     <li>
-        <span>4</span>
+        <span>3</span>
         <a href="details/index.php">Details page</a>
         <br>
         details/index.php
+    </li>
+    <li>
+        <span>3</span>
+        <a href="insights/insights_shakespeare.php">Collection Insights - Shakespeare</a>
+        <br>
+        insights/insights_shakespeare.php
+    </li>
+</ul>
+
+<h3>Collection Explorer</h3>
+<ul>
+<li>
+        <span>1</span>
+        <a href="collection-explorer/index.php">Index page</a>
+        <br>
+        collection-explorer/index.php
+    </li>
+    <li>
+        <span>2</span>
+        <a href="collection-explorer/explore_by_topic.php">Explore by topic page</a>
+        <br>
+        collection-explorer/explore_by_topic.php
+    </li>
+    <li>
+        <span>3</span>
+        <a href="collection-explorer/explore_by_time_period.php">Explore by time period</a>
+        <br>
+        collection-explorer/explore_by_topic.php
+    </li>
+    <li>
+        <span>4</span>
+        <a href="collection-explorer/results.php">Results page</a>
+        <br>
+        collection-explorer/results.php
     </li>
 </ul>
 
