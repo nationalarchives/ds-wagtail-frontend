@@ -27,10 +27,10 @@ function render_quotes($quotes)
     }
 }
 
-function render_callouts($callout_list)
+function render_box_outs($box_out_list)
 {
-    foreach ($callout_list as $callout_title => $callout_values) {
-        include "../includes/callout.php";
+    foreach ($box_out_list as $box_out_title => $box_out_values) {
+        include "../includes/box-out.php";
     }
 }
 

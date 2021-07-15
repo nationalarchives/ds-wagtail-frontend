@@ -48,7 +48,7 @@ $quote_list = [
     ]
 ];
 
-$callout_list = [
+$box_out_list = [
     "Legal cases relating to Shakespeare" => [
         "heading" => "Legal cases relating to Shakespeare",
         "standfirst-text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
