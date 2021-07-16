@@ -24,7 +24,9 @@
                     <?php require '../includes/results-options.php' ?>
                     <div class="row">
                     <h3 class="sr-only">Items</h3>
-                    <?php render_record_summary_cards($results_cards) ?>
+                    <ul class="card-group--list-style-none">
+                        <?php render_record_summary_cards($results_cards) ?>
+                    </ul>
                     </div>
                 </div>
                 <h3 class="sr-only">Pagination</h3>
