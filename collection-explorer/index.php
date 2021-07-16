@@ -17,7 +17,10 @@
        <div class="row">
         <h2 class="sr-only"><?php echo $page['promo_card_screen_reader_heading'] ?></h2>
             <ul class="card-group--no-flex">
-                <?php include "../includes/card-group-promo.php"; ?>
+            <?php foreach ($promos as $card_title => $card_values) {
+                     include "../includes/card-group-promo--green.php";
+                    }
+                    ?>
             </ul>
        </div>
     </div>

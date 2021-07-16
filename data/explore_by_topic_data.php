@@ -145,10 +145,8 @@ $collection_highlights_cards = [
 $promos =
 
 [
-    [
-        "modifier" => "--green",
-        "cards" => [
-            "Explore highlights by time period" => [
+
+        "Explore highlights by time period" => [
                 "description" => "Discover 1,000 years of British history through time periods including:
                 
                 <ul class='card-group-promo__card-list'>
@@ -167,6 +165,5 @@ $promos =
                 "src_under_576" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
                 "image_alt" => "Placeholder alt tag"
                 ]
-            ]
-    ],
-            ];
+            
+];

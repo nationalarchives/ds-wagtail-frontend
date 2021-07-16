@@ -24,7 +24,10 @@
             <div class="col-md-12" id="content">
                 <h2><?php echo $page['other_filter_heading'] ?></h2>
                 <ul class="card-group--no-flex">
-                    {<?php include "../includes/card-group-promo.php"; ?>
+                    <?php foreach ($promos as $card_title => $card_values) {
+                     include "../includes/card-group-promo--green.php";
+                    }
+                    ?>
                 </ul>
             </div>
         </div>

@@ -22,7 +22,10 @@
                         <?php render_secondary_nav_cards($collection_highlights_cards); ?>
                     </ul>
                 </div>
-                <?php require '../includes/card-group-promo.php' ?>
+                <?php foreach ($promos as $card_title => $card_values) {
+                     include "../includes/card-group-promo--dark.php";
+                    }
+                    ?>
                 <h2><?php echo $page['more_arts_and_culture_heading'] ?></h2>
                 <p><?php echo $page['more_arts_and_culture_description'] ?></p>
                 <div class="row">

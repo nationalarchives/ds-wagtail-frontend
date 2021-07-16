@@ -103,9 +103,6 @@ $time_card_data = [
 $promos =
 
 [
-    [
-        "modifier" => "--green",
-        "cards" => [
             "Explore highlights by topic" => [
                 "description" => "Browse highlights of the collection through topics including:
                 
@@ -125,6 +122,4 @@ $promos =
                 "src_under_576" => "/images/collection-explorer/promos/etna-topics-selection.png",
                 "image_alt" => "Placeholder alt tag"
                 ]
-            ]
-    ],
-            ];
+];

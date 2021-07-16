@@ -17,10 +17,7 @@ $generic_intro = [
 $promos =
 
 [
-    [
-        "modifier" => "--green",
-        "cards" => [
-            "Explore highlights by topic" => [
+        "Explore highlights by topic" => [
                 "description" => "Browse highlights of the collection through topics including:
                 
                 <ul class='card-group-promo__card-list'>
@@ -38,13 +35,8 @@ $promos =
                 "src_576_to_767" => "/images/collection-explorer/promos/etna-topics-selection-446.png",
                 "src_under_576" => "/images/collection-explorer/promos/etna-topics-selection-446.png",
                 "image_alt" => "Placeholder alt tag"
-                ]
-            ]
-    ],
+            ],
 
-    [
-        "modifier" => "--green",
-        "cards" => [
             "Explore highlights by time period" => [
                 "description" => "Discover 1,000 years of British history through time periods including:
                 
@@ -63,9 +55,6 @@ $promos =
                 "src_576_to_767" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
                 "src_under_576" => "/images/collection-explorer/promos/etna-time-periods-selection.png",
                 "image_alt" => "Placeholder alt tag"
-                ]
-            ]
-    ],
-        
+                ]        
 ];
 

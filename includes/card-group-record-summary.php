@@ -1,6 +1,6 @@
-<div class="col-sm-12 col-md-6 col-lg-4">
+<li class="col-sm-12 col-md-6 col-lg-4">
     <div class="card-group-record-summary">
-        <a href='<?= $card_values["url"] ?>' class="card-group-record-summary__link">
+        <a href="<?= $card_values["url"] ?>" class="card-group-record-summary__link">
             <h4 class="card-group-record-summary__heading"><?= $card_title ?></h4>
             <figure>
                 <div class="card-group-record-summary__image">
@@ -18,4 +18,4 @@
             </figure>
         </a>
     </div>
-</div>
+</li>
