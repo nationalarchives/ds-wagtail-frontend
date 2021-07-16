@@ -12,16 +12,16 @@
 
 <main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="content">
-                <div class="mt-4">
-                <h2 class="sr-only"><?php echo $page['promo_card_screen_reader_heading'] ?></h2>
-                    <?php include "../includes/card-group-promo.php"; ?>
-                </div>
-            </div>
-        </div>
+
+    <div class="container mt-4">
+       <div class="row">
+        <h2 class="sr-only"><?php echo $page['promo_card_screen_reader_heading'] ?></h2>
+            <ul class="card-group--no-flex">
+                <?php include "../includes/card-group-promo.php"; ?>
+            </ul>
+       </div>
     </div>
+
 </main>
 
 
