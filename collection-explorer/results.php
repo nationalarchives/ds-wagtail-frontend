@@ -9,7 +9,7 @@
 <body>
 
 <?php require '../includes/header.php' ?>
-
+<?php require '../includes/explorer-analytics-json.php' ?>
 <main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
     <div class="container">
@@ -25,6 +25,7 @@
                     <div class="row">
                     <h3 class="sr-only">Items</h3>
                     <ul class="card-group--list-style-none">
+                        <?php include '../includes/card-group-record-summary-no-image.php' ?>
                         <?php render_record_summary_cards($results_cards) ?>
                     </ul>
                     </div>

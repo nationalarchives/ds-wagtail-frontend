@@ -2,7 +2,8 @@
 <li class="card-group-promo--green">
 
     <?php if(!empty($promo_heading)): ?>
-    <h2 class="card-group-promo__heading"><?= $promo_heading ?></h2>
+        <div data-container-name="<?= $promo_heading ?>">
+            <h2 class="card-group-promo__heading"><?= $promo_heading ?></h2>
     <?php endif; ?>
 
     <div class="card-group-promo__card">
@@ -18,9 +19,12 @@
                     </picture>
             </div>
             <div class="col-md-12 col-lg-5 col-xl-6">
-                <h3 class="card-group-promo__card-heading"><a href="<?= $card_values['link'] ?>"><?= $card_title ?></a></h3>
+                <h3 class="card-group-promo__card-heading"><a href="<?= $card_values['link'] ?>" data-card-type="card-group-promo" data-card-position="<?= $card_values['data-card-position'] ?>" data-card-title="<?php echo $card_title?>"><?= $card_title ?></a></h3>
                 <p class="card-group-promo__card-paragraph"><?= $card_values["description"] ?></p>
             </div>
         </div>
     </div>
+    <?php if(!empty($promo_heading)): ?>
+        </div>
+    <?php endif; ?>
 </li>

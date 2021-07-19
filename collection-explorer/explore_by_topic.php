@@ -9,7 +9,7 @@
 <body>
 
 <?php require '../includes/header.php' ?>
-
+<?php require '../includes/explorer-analytics-json.php' ?>
 <main id="maincontent">
     <?php require '../includes/generic_intro.php' ?>
 
@@ -24,7 +24,13 @@
             <div class="col-md-12" id="content">
                 <h2><?php echo $page['other_filter_heading'] ?></h2>
                 <ul class="card-group--no-flex">
-                <?php foreach ($promos as $card_title => $card_values) {
+                <?php
+                
+                $promo_index = 0;
+            
+                foreach ($promos as $card_title => $card_values) {
+                    $card_values['data-card-position'] = $promo_index;
+                    $promo_index++;
                     include "../includes/card-group-promo--green.php";
                 } ?>
                 </ul>

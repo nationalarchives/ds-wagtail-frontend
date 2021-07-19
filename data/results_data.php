@@ -26,7 +26,7 @@ $results_cards = [
         "src_768_to_991" => "/images/collection-explorer/results_cards/328/earthenware.png",
         "src_992_to_1199" => "/images/collection-explorer/results_cards/288/earthenware.png",
         "src_over_1199" => "/images/collection-explorer/results_cards/348/earthenware.png",
-        "image_alt" => "Photograph of earthenware item"
+        "image_alt" => "Photograph of earthenware item",
     ],
     "Album Chess Board" => [
         "description" => "182701 - Alexander Wilson - 3 January 1865 - Album Chess Board",

@@ -1,6 +1,10 @@
 <li class="col-sm-12 col-md-6 col-lg-4 mb-3">
     <div class="card-group-secondary-nav">
-        <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link">
+        <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link"
+        data-card-type="card-group-secondary-nav"
+        data-card-position="<?= $card_values['data-card-position'] ?>"
+        data-card-title="<?= $card_title ?>"
+        >
             <div class="card-group-secondary-nav__body">
                 <h3 class="card-group-secondary-nav__heading">
                     
