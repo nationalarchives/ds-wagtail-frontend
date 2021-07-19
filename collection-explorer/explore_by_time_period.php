@@ -17,7 +17,9 @@
         <div class="row">
             <h2 class="sr-only"><?php echo $page['screen_reader_h2'] ?></h2>
             <ul class="card-group--list-style-none">
-                <?php render_secondary_nav_cards($time_card_data); ?>
+                <?php foreach ($time_card_data as $card_title => $card_values) {
+                 include "../includes/card-group-secondary-nav-time-period.php";
+                }?>
             </ul>
         </div>
         <div class="row">

@@ -2,7 +2,14 @@
     <div class="card-group-secondary-nav">
         <a href='<?= $card_values["url"] ?>' class="card-group-secondary-nav__link">
             <div class="card-group-secondary-nav__body">
-                <h3 class="card-group-secondary-nav__heading"><?= $card_title ?></h3>
+                <h3 class="card-group-secondary-nav__heading">
+                    
+                
+                <!-- {# Visible on screen but hidden from assistive technology #} -->
+                    <span aria-hidden="true"><?= $card_title ?> (<?= $card_values['start_year'] ?> - <?= $card_values['end_year'] ?>)</span>
+                    <!-- {# Available to assistive technology #} -->
+                    <span class="sr-only"><?= $card_title ?>. Covering years <time datetime="<?= $card_values['start_year'] ?>"><?= $card_values['start_year'] ?></time> to <time datetime="<?= $card_values['end_year'] ?>"><?= $card_values['end_year'] ?></time>.</span>
+            </h3>
                 <p class="card-group-secondary-nav__paragraph"><?= $card_values["description"] ?></p>
             </div>
             <div class="card-group-secondary-nav__image">
