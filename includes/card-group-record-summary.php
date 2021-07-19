@@ -1,6 +1,10 @@
-<div class="col-sm-12 col-md-6 col-lg-4">
-    <div class="card-group-record-summary">
-        <a href='<?= $card_values["url"] ?>' class="card-group-record-summary__link">
+<li class="col-sm-12 col-md-6 col-lg-4">
+    <div class="card-group-record-summary" data-container-name="card-group-record-summary">
+        <a href="<?= $card_values["url"] ?>" class="card-group-record-summary__link"
+        data-card-type="card-group-record-summary"
+        data-card-position="<?= $card_values['data-card-position'] ?>"
+        data-card-title="<?= $card_title ?>"
+        >
             <h4 class="card-group-record-summary__heading"><?= $card_title ?></h4>
             <figure>
                 <div class="card-group-record-summary__image">
@@ -18,4 +22,4 @@
             </figure>
         </a>
     </div>
-</div>
+</li>

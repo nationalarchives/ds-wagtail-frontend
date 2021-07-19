@@ -16,7 +16,9 @@ $breadcrumbs = [
 ];
 
 $time_card_data = [
-    "Medieval (974 - 1485)" => [
+    "Medieval" => [
+        "start_year" => "974",
+        "end_year" => "1485",
         "description" => "Domesday Book, Magna Carta and the first printed document in England.",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/medieval.png",
@@ -26,7 +28,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/medieval.png",
         "image_alt" => "Part of a medieval painting several figures with their arms raised in prayer. One figure is a king. Another is a monk"
     ],
-    "Early Modern (1485 - 1714)" => [
+    "Early Modern" => [
+        "start_year" => "1485",
+        "end_year" => "1714",
         "description" => "Elizabeth 1st’s seal, Drake’s letters and Shakespeare’s Will  ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/early-modern.png",
@@ -36,7 +40,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/early-modern.png",
         "image_alt" => "Photograph of golden carving depicting a person upon a throne"
     ],
-    "Georgians (1714 - 1837)" => [
+    "Georgians" => [
+        "start_year" => "1714",
+        "end_year" => "1837",
         "description" => "Dick Turpin’s indictment, Captain Cook’s journal and the US declaration of Independance ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/empire-and-industry.png",
@@ -46,7 +52,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/empire-and-industry.png",
         "image_alt" => "Paining of a sail ship in good weather. Full sails and bow wave suggest it is moving at good pace."
     ],
-    "Victorians (1837 - 1901)" => [
+    "Victorians" => [
+        "start_year" => "1837",
+        "end_year" => "1901",
         "description" => "The Great Exhibition, Nelson’s funeral  and the trials of Oscar Wilde. ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/victorians.png",
@@ -57,7 +65,9 @@ $time_card_data = [
         "image_alt" => "Colourful painting of the Great Exhibition. Several figures can be seen including a number of performers."
     ],
 
-    "Early 20th Century (1901 - 1918)" => [
+    "Early 20th Century" => [
+        "start_year" => "1901",
+        "end_year" => "1918",
         "description" => "SOS from the Titanic, Hitler’s passport and Windrush passenger lists.",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/20th-century.png",
@@ -67,7 +77,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/20th-century.png",
         "image_alt" => "Drawn portrait of a young woman wearing a elegant hat"
     ],
-    "Interwar (1918 - 1939)" => [
+    "Interwar" => [
+        "start_year" => "1918",
+        "end_year" => "1939",
         "description" => "Eden’s resignation, railway timetables and the home front.",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/interwar.png",
@@ -77,7 +89,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/interwar.png",
         "image_alt" => "Photograph of several women at work in a factory. Two are looking at the camera."
     ],
-    "Second World War (1939 - 1945)" => [
+    "Second World War" => [
+        "start_year" => "1939",
+        "end_year" => "1945",
         "description" => "Dambusters operational records, Enigma engine and peace treaties. ",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/wwii.png",
@@ -87,7 +101,9 @@ $time_card_data = [
         "src_over_1199" => "/images/collection-explorer/cards/348/wwii.png",
         "image_alt" => "A concerned looking woman walks through rubble and destruction. She is holding a small child and followed by two more."
     ],
-    "Postwar (1945 - 2000)" => [
+    "Postwar" => [
+        "start_year" => "1945",
+        "end_year" => "2000",
         "description" => "Cold war espionage, Poll tax riots and Brexit.",
         "url" => "/",
         "src" => "/images/collection-explorer/cards/postwar.png",
@@ -103,9 +119,6 @@ $time_card_data = [
 $promos =
 
 [
-    [
-        "modifier" => "--green",
-        "cards" => [
             "Explore highlights by topic" => [
                 "description" => "Browse highlights of the collection through topics including:
                 
@@ -125,6 +138,4 @@ $promos =
                 "src_under_576" => "/images/collection-explorer/promos/etna-topics-selection.png",
                 "image_alt" => "Placeholder alt tag"
                 ]
-            ]
-    ],
-            ];
+];

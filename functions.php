@@ -2,14 +2,20 @@
 
 function render_secondary_nav_cards($card_list)
 {
+    $secondary_nav_index = 0;
     foreach ($card_list as $card_title => $card_values) {
+        $card_values['data-card-position'] = $secondary_nav_index;
+        $secondary_nav_index++;
         include "../includes/card-group-secondary-nav.php";
     }
 }
 
 function render_record_summary_cards($card_list)
 {
+    $summary_cards_index = 1; // There is an record with no image hardcoded at position 0 so this starts from index 1
     foreach ($card_list as $card_title => $card_values) {
+        $card_values['data-card-position'] = $summary_cards_index;
+        $summary_cards_index++;
         include "../includes/card-group-record-summary.php";
     }
 }

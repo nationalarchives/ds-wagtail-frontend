@@ -149,6 +149,12 @@
     </li>
     <li>
         <span>4</span>
+        <a href="collection-explorer/arts_and_culture.php">Arts and culture</a>
+        <br>
+        collection-explorer/arts_and_culture.php
+    </li>
+    <li>
+        <span>5</span>
         <a href="collection-explorer/results.php">Results page</a>
         <br>
         collection-explorer/results.php

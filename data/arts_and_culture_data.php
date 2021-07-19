@@ -20,13 +20,10 @@ $breadcrumbs = [
     "Explore the collection" => "/collection-explorer/explore_the_collection.php"
 ];
 
+$promo_heading = "Arts and culture collection insights";
 $promos =
 
 [
-    [
-        "heading" => "Arts and culture collection insights",
-        "modifier" => "--dark",
-        "cards" => [
             "Victorian advertising and design" => [
                 "description" => "Among these records are one of the great British photography collections of the Victorian and Edwardian eras, with well over 100,000 individual images. There is also a huge and wonderful collection of British branding and advertising images from the late 19th and early 20th centuries.",
                 "link" => "/",
@@ -38,8 +35,6 @@ $promos =
                 "src_under_576" => "/images/collection-explorer/promos/cats-446.png",
                 "image_alt" => "An advertisement for Jacksons' Boots & Hats. Illustration of cats performing music on a stage."
             ]
-        ]
-    ],
 ];
 
 $collection_highlights_cards = [

@@ -1,17 +1,23 @@
 .results-options {
   background-color: $color__green;
-  padding: 1em;
+  padding: 1rem;
 
   &__count {
     margin-bottom: 0;
+  }
+
+  &__sort {
+    @media only screen and (min-width: $screen__sm) {
+     text-align: right;
+    }
   }
 
   &__select {
     padding: 0.2rem;
     border-radius: 0;
 
-    @media only screen and (max-width: 575px) {
-      margin-top: 1em;
+    @media only screen and (max-width: $screen__sm) {
+      margin-top: 1rem;
     }
 
     &:focus {
@@ -20,11 +26,18 @@
   }
 
   &__submit {
-    @extend .tna-button;
+    @extend .tna-button--dark;
+    border: none;
     cursor: pointer;
     &:focus {
       outline: 0.313rem solid $color__focus-blue-outline-light-bg;
     }
+    padding: 0.5rem;
+    margin-left: 0;
+    @media only screen and (max-width: $screen__md) {
+      margin-left: 0.3rem;
+    }
+    margin-top: 0.5rem;
   }
 
   &__loading-message {
