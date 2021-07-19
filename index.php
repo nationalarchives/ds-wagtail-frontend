@@ -148,13 +148,13 @@
         collection-explorer/explore_by_topic.php
     </li>
     <li>
-        <span>3</span>
-        <a href="collection-explorer/explore_by_time_period.php">Arts and culture</a>
+        <span>4</span>
+        <a href="collection-explorer/arts_and_culture.php">Arts and culture</a>
         <br>
         collection-explorer/arts_and_culture.php
     </li>
     <li>
-        <span>4</span>
+        <span>5</span>
         <a href="collection-explorer/results.php">Results page</a>
         <br>
         collection-explorer/results.php
