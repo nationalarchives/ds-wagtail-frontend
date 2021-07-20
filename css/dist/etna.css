@@ -912,8 +912,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   .content-block--bordered {
     border-top: 0.3125rem solid #dddddd;
     border-bottom: 0.3125rem solid #dddddd;
-    padding: 2rem 0;
-    position: relative; }
+    padding: 2rem 0; }
 
 .quote {
   position: relative;
@@ -946,8 +945,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 
 .box-out {
   background-color: #134571;
-  padding: 2rem 0;
-  position: relative; }
+  padding: 2rem 0; }
   .box-out__standfirst {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -1029,40 +1027,38 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 .media-embed__icon-label, .media-embed__heading, .media-embed__description, .media-embed__date {
   color: #ffffff; }
 
-.record-embed {
-  position: relative; }
-  .record-embed__image-container {
-    background-color: #000000;
-    text-align: center;
-    padding: 2rem 0; }
-  .record-embed__heading {
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: left;
-    border-bottom: 0.3125rem solid #6f777b;
-    padding-bottom: 0.625rem;
-    margin-bottom: 2rem; }
-  .record-embed__image {
-    max-width: 25rem; }
-  .record-embed__button {
-    display: inline-block;
-    margin: 0 1rem 1rem 0; }
-  .record-embed__description {
-    background-color: #26262a;
-    padding: 2rem 0; }
-  .record-embed__image-viewer-link, .record-embed__image-viewer-link:visited {
-    padding: 2rem 1rem 2rem 2.5rem;
-    display: inline-block;
-    color: #ffffff;
-    background: url("/images/fontawesome-svgs/search-plus-white.svg") no-repeat center left;
-    background-size: 1.75rem;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: top;
-    font-size: 1.1rem;
-    transition: none; }
-  .record-embed__image-viewer-link:hover {
-    color: #ffffff !important; }
+.record-embed__image-container {
+  background-color: #000000;
+  text-align: center;
+  padding: 2rem 0; }
+.record-embed__heading {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+  border-bottom: 0.3125rem solid #6f777b;
+  padding-bottom: 0.625rem;
+  margin-bottom: 2rem; }
+.record-embed__image {
+  max-width: 25rem; }
+.record-embed__button {
+  display: inline-block;
+  margin: 0 1rem 1rem 0; }
+.record-embed__description {
+  background-color: #26262a;
+  padding: 2rem 0; }
+.record-embed__image-viewer-link, .record-embed__image-viewer-link:visited {
+  padding: 2rem 1rem 2rem 2.5rem;
+  display: inline-block;
+  color: #ffffff;
+  background: url("/images/fontawesome-svgs/search-plus-white.svg") no-repeat center left;
+  background-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 1.1rem;
+  transition: none; }
+.record-embed__image-viewer-link:hover {
+  color: #ffffff !important; }
 
 .record-embed__text, .record-embed__text--roboto-mono {
   font-size: 1.1rem; }
@@ -1219,8 +1215,7 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 
 .key-facts__author {
   background-color: #dddddd;
-  padding: 2rem 0;
-  position: relative; }
+  padding: 2rem 0; }
   .key-facts__author-image-container {
     text-align: center; }
   .key-facts__author-info {
@@ -1239,14 +1234,12 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
   .key-facts__author-info--no-margin-left {
     margin-left: 0; }
 
-.section-separator {
-  position: relative; }
-  .section-separator__heading {
-    font-size: 2.5rem;
-    color: #26262a;
-    text-align: center;
-    margin-top: 0px;
-    padding: 3rem 0px; }
+.section-separator__heading {
+  font-size: 2.5rem;
+  color: #26262a;
+  text-align: center;
+  margin-top: 0px;
+  padding: 3rem 0px; }
 
 .insights-badge {
   width: 16rem; }
