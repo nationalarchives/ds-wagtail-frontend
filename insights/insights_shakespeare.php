@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
+<?php require '../includes/insights-analytics-json.php' ?>
 <?php require '../data/insights_shakespeare_data.php' ?>
 <?php require '../functions.php' ?>
 
@@ -20,7 +20,7 @@
                 <?php render_section_separator("Section 1: Lorem ipsum dolor sit amet", "section-1"); ?>
                 <?php render_content_blocks($content_block_list); ?>
                 <?php render_quotes($quote_list); ?>
-                <?php render_callouts($callout_list); ?>
+                <?php render_box_outs($box_out_list); ?>
                 <?php render_section_separator("Section 2: Lorem ipsum dolor sit amet", "section-2"); ?>
                 <?php render_record_embeds_no_image($record_embed_no_image_list); ?>
                 <?php render_audio_embeds($audio_embed_list); ?>

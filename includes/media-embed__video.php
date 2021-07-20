@@ -1,4 +1,4 @@
-<div class="media-embed" style="background: url(<?php echo $video_embed_values['image-background'] ?>)">
+<div class="media-embed" style="background: url(<?php echo $video_embed_values['image-background'] ?>)" data-container-name="audio-embed-video">
     <div class="media-embed__overlay"></div>
     <div class="media-embed__content-panel">
         <img class="media-embed__icon" src="<?php echo $video_embed_values['icon'] ?>" alt="" />

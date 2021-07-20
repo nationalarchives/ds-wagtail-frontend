@@ -24,15 +24,18 @@ $hero_image = [
 $jumplinks = [
     "Section 1" => [
         "heading" => "Section 1: Lorem ipsum dolor sit amet",
-        "id" => "section-1"
+        "id" => "section-1",
+        "index" => "0"
     ],
     "Section 2" => [
         "heading" => "Section 2: Lorem ipsum dolor sit amet",
-        "id" => "section-2"
+        "id" => "section-2",
+        "index" => "1"
     ],
     "Section 3" => [
         "heading" => "Section 3: Lorem ipsum dolor sit amet",
-        "id" => "section-3"
+        "id" => "section-3",
+        "index" => "2"
     ]
 ];
 
@@ -45,7 +48,7 @@ $quote_list = [
     ]
 ];
 
-$callout_list = [
+$box_out_list = [
     "Legal cases relating to Shakespeare" => [
         "heading" => "Legal cases relating to Shakespeare",
         "standfirst-text" => "Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving Shakespeare.",
@@ -53,17 +56,20 @@ $callout_list = [
             "1" => [
                 "heading" => "The case of Belott versus Mountjoy",
                 "text" => "This concerns a marriage dowry and contains Shakespeare’s signed deposition. The documents pinpoint his residence in 1604.",
-                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904894"
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904894",
+                "index" => "0"
             ],
             "2" => [
                 "heading" => "The case of Keysar versus Burbage and others",
                 "text" => "This describes the King’s Men acting company’s involvement in the Blackfriars Playhouse.",
-                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C2677795"
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C2677795",
+                "index" => "1"
             ],
             "3" => [
                 "heading" => "The case of Witter versus Heminges and Condell",
                 "text" => "This describes the way in which the shares in the syndicate that leased the Globe playhouse were distributed.",
-                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904893"
+                "link" => "http://discovery.nationalarchives.gov.uk/details/r/C5904893",
+                "index" => "2"
             ]
         ]
     ]
@@ -166,6 +172,7 @@ $record_embed_list = [
         "image" => "/images/insights/shakespeare.png",
         "image-alt" => "A portrait of Shakespeare",
         "image-viewer-link" => "/image-viewer/viewer.php",
+        "image-viewer-button-text" => "Open in our image viewer",
         "reference" => "PRO 30/25/205",
         "date-created" => "1958",
         "datetime" => "1958",
@@ -230,6 +237,8 @@ $blog_embed_list = [
 
 $related_content_list = [
     "Blog" => [
+        "card-type" => "Blog",
+        "index" => "0",
         "heading" => "Blog - Kidnapped to order: child actors in Shakespeare’s day",
         "date" => "Saturday 23 April 2016",
         "datetime" => "2016-04-23",
@@ -243,6 +252,8 @@ $related_content_list = [
         "image_alt" => "Decorative pattern from the design registers"
     ],
     "Podcast" => [
+        "card-type" => "Podcast",
+        "index" => "1",
         "heading" => "Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare",
         "date" => "Tuesday 5 April 2016",
         "datetime" => "2016-04-05",
@@ -256,6 +267,8 @@ $related_content_list = [
         "image_alt" => "Decorative pattern from the design registers"
     ],
     "Event" => [
+        "card-type" => "Event",
+        "index" => "2",
         "heading" => "Event - ‘Before Shakespeare’ at The National Archives",
         "date" => "Wednesday 1 August 2018",
         "datetime" => "2018-08-01",
@@ -281,12 +294,14 @@ $research_resources_list = [
             "Tudor Entertainment" => [
                 "link" => "https://www.nationalarchives.gov.uk/education/resources/tudor-entertainment/",
                 "heading" => "Tudor Entertainment",
-                "text" => "What was the effect of the early playhouses?"
+                "text" => "What was the effect of the early playhouses?",
+                "index" => "0"
             ],
             "James I" => [
                 "link" => "https://www.nationalarchives.gov.uk/education/resources/james-i/",
                 "heading" => "James I",
-                "text" => "What were the key areas of dispute?"
+                "text" => "What were the key areas of dispute?",
+                "index" => "1"
             ]
         ]
     ]

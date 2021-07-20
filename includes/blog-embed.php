@@ -1,4 +1,4 @@
-<div class="blog-embed">
+<div class="blog-embed" data-container-name="blog-embed">
     <img class="blog-embed__icon" src="<?php echo $blog_embed_values['icon'] ?>" alt="" />
     <p class="blog-embed__icon-label" role="presentation" aria-hidden="true">
         <?php echo $blog_embed_values['icon-label'] ?>
@@ -28,7 +28,7 @@
 
     <?php
     foreach ($blog_embed_values['buttons'] as $blog_embed_buttons => $blog_embed_button) { ?>
-        <a class="tna-button--dark" href="<?php echo $blog_embed_button['link'] ?>"><?php echo $blog_embed_button['button-text'] ?></a>
+        <a class="tna-button--dark" href="<?php echo $blog_embed_button['link'] ?>" data-link="<?php echo $blog_embed_button['button-text'] ?>"><?php echo $blog_embed_button['button-text'] ?></a>
     <?php } ?>
 
 </div>

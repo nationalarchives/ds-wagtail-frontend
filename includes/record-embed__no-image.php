@@ -1,4 +1,4 @@
-<div class="record-embed-no-image">
+<div class="record-embed-no-image" data-container-name="record-embed-no-image">
     <img class="record-embed-no-image__icon" src="<?php echo $record_embed_no_image_values['icon'] ?>" alt="" />
     <p class="record-embed-no-image__icon-label" role="presentation" aria-hidden="true">
         <?php echo $record_embed_no_image_values['icon-label'] ?>
@@ -28,7 +28,7 @@
 
     <?php
     foreach ($record_embed_no_image_values['buttons'] as $record_embed_buttons => $record_embed_button) { ?>
-        <a class="tna-button--dark" href="<?php echo $record_embed_button['link'] ?>"><?php echo $record_embed_button['button-text'] ?></a>
+        <a class="tna-button--dark" href="<?php echo $record_embed_button['link'] ?>" data-link="<?php echo $record_embed_button['button-text'] ?>"><?php echo $record_embed_button['button-text'] ?></a>
     <?php } ?>
 
 </div>
