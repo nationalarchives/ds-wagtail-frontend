@@ -1,8 +1,10 @@
 <script>
 
+    // This variable needs to be included in the head element before the GTM script tag
+
     // Most properties are the same as for the corresponding details page. See comments below for differences
 
-    var analytics_data = {
+    dataLayer = [{
         'contentGroup1': 'Image viewer', // This is for both image viewer and browse
         'readerType': 'offsite',
         'userType': '',
@@ -22,5 +24,5 @@
         'catalogueDataSource': 'TNA catalogue',
         'availabilityConditionCategory': '', // This will not have a value but should be sent through
         'availabilityCondition': '' // This will not have a value but should be sent through
-    }
+    }]
 </script>

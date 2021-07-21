@@ -1,5 +1,8 @@
 <script>
-    var analytics_data = {
+
+    // This variable needs to be included in the head element before the GTM script tag
+
+    dataLayer = [{
         'contentGroup1': 'TNA catalogue',
         'readerType': 'offsite', // Reflects the 'type' of reader are 'offsite', 'onsite_public', 'onsite_staff', 'subscription'
         'userType': '', // Private beta specific - the user ID for participants. Left blank in this example because format unknown.
@@ -18,5 +21,5 @@
         'catalogueDataSource': 'TNA catalogue', // The originating database source (i.e. DRI, NRA, A2A, TNA catalogue)
         'availabilityConditionCategory': 'Not viewable online', // Where applicable, one of three options: 'Not viewable online', 'Viewable online' , 'Available from 3rd party', 'Viewable online and via 3rd party'. Empty string where not applicable (HO has list of associations between AvailabilityConditions and AvailabilityConditionCategory)
         'availabilityCondition': 'Order original' // Name of the relevant delivery option (where applicable). Empty string if not applicable.
-    }
+    }]
 </script>
