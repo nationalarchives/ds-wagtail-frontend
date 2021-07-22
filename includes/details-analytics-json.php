@@ -6,7 +6,7 @@
         'contentGroup1': 'TNA catalogue', // The name of the content group - [Always has a value]
         'customDimension1': 'offsite', // This is the reader type (options are 'offsite', 'onsite_public', 'onsite_staff', 'subscription')
         'customDimension2': '', // This is the user type and is private beta specific - the user ID for participants. Left blank in this example because format unknown.
-        'customDimension3': 'TNA catalogue record detail', // Three options: 'TNA catalogue record detail', 'TNA catalogue digitised record detail', 'TNA catalogue [Department | Division | Sub-division | Series | Sub-series | Sub-sub-series | Piece | Item ]' - the last of these will have the relevant level
+        'customDimension3': 'TNA catalogue record description', // Three options: 'TNA catalogue record description', 'TNA catalogue digitised record detail', 'TNA catalogue [Department | Division | Sub-division | Series | Sub-series | Sub-sub-series | Piece | Item ]' - the last of these will have the relevant level
         'customDimension4': 'Crime, courts and Justice; Family and identity', // Taxonomy topics for the page, delineated by semi-colons. Empty string if no value.
         'customDimension5': '', // This is the taxonomy sub topic where applicable. Empty string if not applicable.
         'customDimension6': '' // This is the taxonomy term where applicable. Empty string if not applicable.
