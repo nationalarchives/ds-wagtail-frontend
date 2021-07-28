@@ -123,12 +123,12 @@ $promos =
                 "description" => "Browse highlights of the collection through topics including:
                 
                 <ul class='card-group-promo__card-list'>
-                    <li class='card-group-promo__card-list-item'><a href='#'>Military and war</a></li>
-                    <li class='card-group-promo__card-list-item'><a href='#'>Family and identity</a></li>
-                    <li class='card-group-promo__card-list-item'><a href='#'>Crime, courts and justice</a></li>
+                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Military and war'>Military and war</a></li>
+                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Family and identity'>Family and identity</a></li>
+                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Crime, courts and justice'>Crime, courts and justice</a></li>
                 </ul>
                 
-                <a href='/collection-explorer/explore_by_topic.php'>View all topics</a>
+                <a href='/collection-explorer/explore_by_topic.php' data-link='View all topics'>View all topics</a>
                 ",
                 "link" => "/collection-explorer/explore_by_topic.php",
                 "src_over_1199" => "/images/collection-explorer/promos/etna-topics-selection.png",

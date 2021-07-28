@@ -42,9 +42,9 @@ $promos =
                 "description" => "Discover 1,000 years of British history through time periods including:
                 
                 <ul class='card-group-promo__card-list'>
-                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Early 20th Century (1901-1918)'>Early 20th Century (1901-1918)</a></li>
-                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Family and identity (1939-1945)'>Family and identity (1939-1945)</a></li>
-                    <li class='card-group-promo__card-list-item'><a href='#' data-link='Crime, courts and justice (947-1485)'>Crime, courts and justice (947-1485)</a></li>
+                <li class='card-group-promo__card-list-item'><a href='#' data-link='Early 20th Century (1901-1918)'>Early 20th Century (1901-1918)</a></li>
+                <li class='card-group-promo__card-list-item'><a href='#' data-link='Second World War (1939-1945)'>Second World War (1939-1945)</a></li>
+                <li class='card-group-promo__card-list-item'><a href='#' data-link='Medieval (947-1485)'>Medieval (947-1485)</a></li>
                 </ul>
                 
                 <a href='/collection-explorer/explore_by_time_period.php' data-link='View all time periods'>View all time periods</a>
