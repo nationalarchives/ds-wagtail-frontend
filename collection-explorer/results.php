@@ -40,7 +40,7 @@
 
 <?php require '../includes/footer.php' ?>
 
-<script src="/scripts/explorer-results.js"></script>
+<!-- <script src="/scripts/explorer-results.js"></script> -->
 
 </body>
 </html>
