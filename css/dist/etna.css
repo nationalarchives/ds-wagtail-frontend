@@ -224,6 +224,13 @@ h2 {
   display: inline-block;
   width: 100%;
 }
+.card-group-secondary-nav__event-type {
+  display: inline-block;
+  background-color: #26262a;
+  color: #ffffff;
+  padding: 0.5rem;
+  transition: background-color 0.5s, color 0.5s;
+}
 .card-group-secondary-nav__link {
   color: #000000;
   display: table;
@@ -244,6 +251,10 @@ h2 {
 }
 .card-group-secondary-nav__link:hover, .card-group-secondary-nav__link:focus {
   color: #ffffff;
+}
+.card-group-secondary-nav__link:hover .card-group-secondary-nav__event-type, .card-group-secondary-nav__link:focus .card-group-secondary-nav__event-type {
+  background-color: #ffffff;
+  color: #26262a;
 }
 .card-group-secondary-nav__image {
   border: 0.0625rem solid #000000;
@@ -1580,11 +1591,6 @@ When adding a style, ensure it is within the pre-pended with 'specific' class to
 }
 .blog-embed__link-heading, .blog-embed__link-text {
   color: #ffffff;
-}
-
-.related-content__heading {
-  font-size: 2rem;
-  font-weight: 400;
 }
 
 .key-facts__author {
