@@ -22,5 +22,5 @@
         'customDimension16': '' // This is the availability condition category where applicable. Empty string if not applicable.
         'customDimension17': '' // This is the availability condition where applicable. Empty string if not applicable.
         'customDimension18': '' // The number of images shown in browse where applicable. Empty string if not applicable.
-
+    }]
 </script>
