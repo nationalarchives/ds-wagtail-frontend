@@ -51,9 +51,9 @@
     };
 
     // Prevent the details element from closing at 1200px or above
-    var details_element = document.getElementById('js-hierarchy-global');
+    var summary_element = document.querySelector('#js-hierarchy-global summary');
 
-    details_element.addEventListener('click', function(e) {
+    summary_element.addEventListener('click', function(e) {
 
         if(window.innerWidth < 1200) {
             return;
