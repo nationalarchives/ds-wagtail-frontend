@@ -37,6 +37,14 @@
                 <h2>Topics covered in this record</h2>
 
                 <?php require '../includes/taxonomy-tags.php' ?>
+
+                <h2>Related records</h2>
+
+                <?php require '../includes/details-related-records.php' ?>
+
+                <h2>Related content</h2>
+
+                <?php require '../includes/details-related-content.php' ?>
             </div>
         </div>
     </div>
