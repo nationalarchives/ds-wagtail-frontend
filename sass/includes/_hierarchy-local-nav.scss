@@ -36,7 +36,8 @@
     display: none;
 
     @media only screen and (min-width: $screen__lg) {
-      display: inline;
+      font-weight: bold;
+      display: block;
     }
   }
 }
