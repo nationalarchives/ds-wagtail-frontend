@@ -4,7 +4,7 @@
             <p class="hierarchy-local__nav-item">
                 <span class="hierarchy-local__nav-indicator hierarchy-local__nav-indicator--left"></span>
                 <a href="#" data-link="Previous"><span class="hierarchy-local__nav-label">Previous record</span>
-                C 5/139/34</a>
+                C 5/139/33</a>
             </p>
         </div>
         <div class="col-4 col-md-8">
@@ -20,7 +20,7 @@
             <p class="hierarchy-local__nav-item">
                 <span class="hierarchy-local__nav-indicator hierarchy-local__nav-indicator--right"></span>
                 <a href="#" data-link="Next"><span class="hierarchy-local__nav-label">Next record</span>
-                C 5/139/36</a>
+                C 5/139/35</a>
             </p>
         </div>
     </div>
