@@ -3,13 +3,7 @@
 // font size of the default heading for variable record title lengths and also to move the reference number above the title.
 ?>
 
-<div class="record-title record-title--dark">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p>Reference: C 5/139/35</p>
-                <h1><?= $generic_intro['heading'] ?></h1>
-            </div>
-        </div>
-    </div>
+<div class="record-title">
+    <p class="record-title__description">You are viewing the catalogue description of the following item:</p>
+    <h1 class="record-title__heading"><?= $generic_intro['heading'] ?></h1>
 </div>

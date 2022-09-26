@@ -19,15 +19,15 @@
     margin: 0 auto 1rem;
 
     &--left {
-      background: url($chevron_left) no-repeat;
+      background: url($fa_chevron_left) no-repeat;
     }
 
     &--up {
-      background: url($chevron_up) no-repeat;
+      background: url($fa_chevron_up) no-repeat;
     }
 
     &--right {
-      background: url($chevron_right) no-repeat;
+      background: url($fa_chevron_right) no-repeat;
     }
   }
 

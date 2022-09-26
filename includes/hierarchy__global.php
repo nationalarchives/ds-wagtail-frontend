@@ -1,15 +1,124 @@
-<nav class="hierarchy-global" data-container-name="hierarchy-global">
+<nav class="hierarchy" data-container-name="hierarchy-global">
+    <div class="hierarchy__container">
 
-    <details id="js-hierarchy-global" open>
-        <summary>
-            <div class="hierarchy-global__heading">
-                <h2>Where am I in the catalogue?</h2>
+    <div class="hierarchy-short-panel">
+        <h2 class="hierarchy-short-panel__heading sr-only">Catalogue location at a glance</h2>
+        <p class="hierarchy-short-panel__label">You are here:</p>
+        <ul class="hierarchy-short-panel__list">
+            <li class="hierarchy-short-panel__list-item hierarchy-short-panel__list-item--more">
+                <span class="hierarchy-short-panel__level">
+                    <a href="#">Department</a>
+                </span>(DSIR)
+            </li>
+            <li class="hierarchy-short-panel__list-item">
+                <span class="hierarchy-short-panel__level">
+                    <a class="hierarchy-short-panel__link" href="#">Series</a>
+                </span>(DSIR 27)
+            </li>
+            <li class="hierarchy-short-panel__list-item hierarchy--short-panel__list-item--current">
+                <span class="hierarchy-short-panel__level">This item</span>(DSIR 27/6/ADM171)
+            </li>
+        </ul>
+        <p class="hierarchy-short-panel__toggle-link"><a href="#">Show detailed view</a></p>
+    </div>
+
+    <!-- data-link attributes reflect the index within the list, from 0 to n, and the catalogue level  -->
+    <div class="hierarchy-full-panel" id="hierarchy-togglee">
+        <h2 class="hierarchy-full-panel__heading">Detailed catalogue location:</h2>
+
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-1">
+                <p><span class="hierarchy-full-panel__bar-number">3 million</span>
+                <span class="hierarchy-full-panel__bar-label">records</span></p>
             </div>
-        </summary>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">This record is held at: <a href="">The National Archives</a></p>
+                <p class="hierarchy-full-panel__text-title">Located at Kew, Surrey</p>
+            </div>
+        </div>
 
-        <!-- data-link attributes reflect the index within the list, from 0 to n, and the catalogue level  -->
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-2">
+                <p><span class="hierarchy-full-panel__bar-number">200,000</span>
+               <span class="hierarchy-full-panel__bar-label">records</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">In the department: <a href="">DSIR</a></p>
+                <p class="hierarchy-full-panel__text-title">Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</p>
+            </div>
+        </div>
 
-        <ul class="hierarchy-global__list">
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-3">
+                <p><span class="hierarchy-full-panel__bar-number">20,000</span>
+                <span class="hierarchy-full-panel__bar-label">records</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">Within the division: <a href="">Division within DSIR</a></p>
+                <p class="hierarchy-full-panel__text-title">Records of the Road Research Laboratory and Successor</p>
+            </div>
+        </div>
+
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-4">
+                <p><span class="hierarchy-full-panel__bar-number">500</span>
+                <span class="hierarchy-full-panel__bar-label">records</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">Within the series: <a href="">DSIR 27</a></p>
+                <p class="hierarchy-full-panel__text-title">Department of Scientific and Industrial Research: Road Research Laboratory Reports</p>
+            </div>
+        </div>
+
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-5">
+                <p><span class="hierarchy-full-panel__bar-number">20</span>
+                <span class="hierarchy-full-panel__bar-label">records</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">Within the sub-series: <a href="">Subseries within DSIR 27</a></p>
+                <p class="hierarchy-full-panel__text-title">REPORTS TO ADMIRALTY</p>
+            </div>
+        </div>
+
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-6">
+                <p><span class="hierarchy-full-panel__bar-number">10</span>
+                    <span class="hierarchy-full-panel__bar-label">records</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">Within the piece: <a href="">DSIR 27/6</a></p>
+                <p class="hierarchy-full-panel__text-title">ADM 157 - 185</p>
+            </div>
+        </div>
+
+        <!-- Level -->
+        <div class="hierarchy-full-panel__bar-container-outer hierarchy-full-panel__bar-container-outer--active">
+            <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--active hierarchy-full-panel__bar-container-inner--level-7">
+                <p><span class="hierarchy-full-panel__bar-number">1</span>
+                    <span class="hierarchy-full-panel__bar-label">record</span></p>
+            </div>
+            <div class="hierarchy-full-panel__text-container">
+                <p class="hierarchy-full-panel__text-level">You are currently looking at: <a href="">DSIR 27/6/ADM171</a></p>
+                <p class="hierarchy-full-panel__text-title">The pressures produced by explosions underwater of 1-oz. solid cone charges of P.E. By..</p>
+            </div>
+        </div>
+
+        <div class="hierarchy-local-nav">
+            <ul class="hierarchy-local-nav__list">
+                <li class="hierarchy-local-nav__list-item">Previous in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--left">DSIR 27/6/ADM170</a></li>
+                <li class="hierarchy-local-nav__list-item">You are looking at <span class="hierarchy-local-nav__list-link">DSIR 27/6/ADM171</span></li>
+                <li class="hierarchy-local-nav__list-item">Next in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--right">DSIR 27/6/ADM172</a></li>
+            </ul>
+        </div>
+    </div>
+        <!-- <ul class="hierarchy-global__list">
             <li class="hierarchy-global__list-item">
                 <span class="hierarchy-global__reference">C</span>
                 <a href="/journey/record/C" data-link="0: Department">Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</a>
@@ -26,8 +135,8 @@
                 <span class="hierarchy-global__location">You are here:</span>
                 <span class="hierarchy-global__reference hierarchy-global__reference--white">C 5/139/35</span> Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and
             </li>
-        </ul>
-    </details>
+        </ul> -->
+    </div>
 </nav>
 
 <script>

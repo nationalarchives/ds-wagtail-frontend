@@ -7,6 +7,7 @@ $screen__xl: 75rem;
 /* Fonts */
 $font__open-sans: 'Open Sans', sans-serif;
 $font__roboto: 'Roboto', sans-serif;
+$font__supria-sans: supria-sans-condensed, sans-serif;
 $font__body: $font__open-sans;
 $font__heading: $font__roboto;
 
@@ -18,6 +19,10 @@ $color__black: #000000;
 $color__dark: #26262a;
 $color__white: #ffffff;
 $color__yellow: #fbe2bc;
+$color__yellow_2: #FFCC00;
+$color__yellow_3: #F9F7E2;
+$color__yellow_4: #ffcc002b;
+$color__yellow_5: #faf6e0;
 $color__green: #dde5d5;
 $color__pink: #fad3d4;
 $color__blue_2: #1e1e2a;
@@ -25,16 +30,22 @@ $color__blue_3: #134571;
 $color__blue_4: #1A67A2;
 $color__blue_5: #8EC0EC;
 $color__purple: #4c2c92;
+$color__red: #A72916;
+$color__brown: #e4dec6;
+$color__brown_2: #d0c9aa;
 
+$color__grey-8: #4E5A5A;
+$color__grey-7: #cccccc;
 $color__grey-6: #333333;
 $color__grey-5: #efefef;
 $color__grey-4: #dddddd;
 $color__grey-3: #6f777b;
 $color__grey-2: #26262a;
+$color__grey-1: #F1F1F1;
 
 $color__alert: $color__yellow;
 $color__success: $color__green;
-$color__error: $color__pink;
+$color__error: $color__red;
 
 $color__link: $color__blue_4;
 $color__link-hover: $color__blue_3;
@@ -45,17 +56,35 @@ $color__card-hover: $color__dark;
 $color__focus-blue-outline-light-bg: $color__link;
 $color__focus-blue-outline-dark-bg: $color__blue_5;
 
+// Borders
 $default__border: 0.125rem solid $color__black;
 
+// Transitions
 $transition_duration: 0.5s;
 
+// Paths
+$fa_path: '/images/fontawesome-svgs/';
+
 /* Background images */
-$chevron_left: '/images/fontawesome-svgs/chevron-left.svg';
-$chevron_up: '/images/fontawesome-svgs/chevron-up.svg';
-$chevron_right: '/images/fontawesome-svgs/chevron-right.svg';
-$chevron_down: '/images/fontawesome-svgs/chevron-down.svg';
+$fa_chevron_up: '#{$fa_path}chevron-up.svg';
+$fa_chevron_right: '#{$fa_path}chevron-right.svg';
+$fa_chevron_right_white: '#{$fa_path}chevron-right-white.svg';
+$fa_chevron_right_disabled: '#{$fa_path}chevron-right-disabled.svg';
+$fa_chevron_down: '#{$fa_path}chevron-down.svg';
+$fa_chevron_left: '#{$fa_path}chevron-left.svg';
+$fa_chevron_left_white: '#{$fa_path}chevron-left-white.svg';
+$fa_chevron_left_disabled: '#{$fa_path}chevron-left-disabled.svg';
+$fa_chevron_double_right_yellow: '#{$fa_path}chevron-double-right-yellow.svg';
 
-$arrow_down: '/images/fontawesome-svgs/arrow-down.svg';
-$arrow_right: '/images/fontawesome-svgs/arrow-right.svg';
+$fa_arrow_down: '#{$fa_path}arrow-down.svg';
+$fa_arrow_right: '#{$fa_path}arrow-right.svg';
 
-$search_plus: '/images/fontawesome-svgs/search-plus-white.svg';
+$fa_search_plus: '#{$fa_path}search-plus-white.svg';
+
+$fa_download_white: '#{$fa_path}download-white.svg';
+
+$fa_diagram: '#{$fa_path}diagram-3.svg';
+$fa_list_blue: '#{$fa_path}list-ul-blue.svg';
+
+$fa_folder: '#{$fa_path}folder.svg';
+
