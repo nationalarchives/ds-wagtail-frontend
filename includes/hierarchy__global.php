@@ -115,7 +115,7 @@
                 <p>Previous in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--left" rel="prev">DSIR 27/6/ADM170</a></p>
             </div>
             <div class="hierarchy-local-nav__container hierarchy-local-nav__container--current">
-                <p>You are looking at <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--current" rel="current" aria-current="page">DSIR 27/6/ADM171</a></p>
+                <p>You are looking at <span class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--current" rel="current" aria-current="page">DSIR 27/6/ADM171</span></p>
             </div>
             <div class="hierarchy-local-nav__container hierarchy-local-nav__container--next">
                 <p>Next in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--right" rel="next">DSIR 27/6/ADM172</a></p>
