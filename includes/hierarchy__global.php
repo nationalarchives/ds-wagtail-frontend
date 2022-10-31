@@ -110,13 +110,17 @@
             </div>
         </div>
 
-        <div class="hierarchy-local-nav">
-            <ul class="hierarchy-local-nav__list">
-                <li class="hierarchy-local-nav__list-item">Previous in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--left">DSIR 27/6/ADM170</a></li>
-                <li class="hierarchy-local-nav__list-item">You are looking at <span class="hierarchy-local-nav__list-link">DSIR 27/6/ADM171</span></li>
-                <li class="hierarchy-local-nav__list-item">Next in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--right">DSIR 27/6/ADM172</a></li>
-            </ul>
-        </div>
+        <nav class="hierarchy-local-nav" role="navigation" aria-label="Next and previous records">
+            <div class="hierarchy-local-nav__container hierarchy-local-nav__container--previous">
+                <p>Previous in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--left" rel="prev">DSIR 27/6/ADM170</a></p>
+            </div>
+            <div class="hierarchy-local-nav__container hierarchy-local-nav__container--current">
+                <p>You are looking at <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--current" rel="current" aria-current="page">DSIR 27/6/ADM171</a></p>
+            </div>
+            <div class="hierarchy-local-nav__container hierarchy-local-nav__container--next">
+                <p>Next in series <a href="#" class="hierarchy-local-nav__list-link hierarchy-local-nav__list-link--right" rel="next">DSIR 27/6/ADM172</a></p>
+            </div>
+        </nav>
     </div>
         <!-- <ul class="hierarchy-global__list">
             <li class="hierarchy-global__list-item">

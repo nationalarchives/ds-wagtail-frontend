@@ -1441,49 +1441,33 @@ h2 {
 
 .hierarchy-local-nav {
   vertical-align: middle;
-  margin: 0.5rem 0 1rem;
-  font-size: 0.9rem;
-}
-@media screen and (min-width: 62rem) {
-  .hierarchy-local-nav {
-    margin: 1.5rem 0 1rem;
-  }
-}
-.hierarchy-local-nav__list {
+  margin: 1rem;
   font-family: supria-sans-condensed, sans-serif;
-  padding: 0;
-  margin: 1rem 1rem;
-  list-style-type: none;
+  text-align: center;
 }
 @media screen and (min-width: 48rem) {
-  .hierarchy-local-nav__list {
-    display: flex;
-    justify-content: center;
+  .hierarchy-local-nav {
+    margin: 2rem 0 0.5rem;
   }
 }
-.hierarchy-local-nav__list-item {
-  background: none;
-  padding: 0;
-  margin: 0 0 0.5rem 0;
-}
 @media screen and (min-width: 48rem) {
-  .hierarchy-local-nav__list-item {
+  .hierarchy-local-nav__container {
+    display: inline-block;
     text-align: center;
+    min-width: 20%;
   }
 }
 @media screen and (min-width: 48rem) {
-  .hierarchy-local-nav__list-item:first-child {
+  .hierarchy-local-nav__container--previous {
     margin: 0 2rem;
     padding-right: 2rem;
-    border-right: 1px dotted #FFCC00;
     text-align: right;
   }
 }
 @media screen and (min-width: 48rem) {
-  .hierarchy-local-nav__list-item:last-child {
+  .hierarchy-local-nav__container--next {
     margin: 0 2rem;
     padding-left: 2rem;
-    border-left: 1px dotted #FFCC00;
     text-align: left;
   }
 }
@@ -1682,8 +1666,7 @@ h2 {
 }
 
 .record-title {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 .record-title__description {
   font-family: supria-sans-condensed, sans-serif;
