@@ -120,7 +120,19 @@
         details/index.php
     </li>
     <li>
-        <span>3</span>
+        <span>4</span>
+        <a href="details/archive.php">Archive page</a>
+        <br>
+        details/archive.php
+    </li>
+    <li>
+        <span>5</span>
+        <a href="details/record-creator.php">Record creator page</a>
+        <br>
+        details/record-creator.php
+    </li>
+    <li>
+        <span>6</span>
         <a href="insights/insights_shakespeare.php">Collection Insights - Shakespeare</a>
         <br>
         insights/insights_shakespeare.php
